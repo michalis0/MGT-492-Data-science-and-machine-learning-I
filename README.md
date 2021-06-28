@@ -2,7 +2,7 @@
 
 Use this repository to view the code and assignments for the course.
 
-- Week 1: [Introduction to Wolfram Language 1](week1_introduction)
+- Week 1: [Introduction to Wolfram Language 1](week1)
 - Week 2: [Introduction to Wolfram Language 2](week2)
 - Week 3: [Data Cleaning](week3)
 - Week 4: [Visualization](week4)
