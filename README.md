@@ -4,7 +4,7 @@ Use this repository to view the code and assignments for the course.
 
 - Week 1: [Introduction to Wolfram Language 1](1.Introduction_1)
 - Week 2: [Introduction to Wolfram Language 2](2.%20Introduction_2)
-- Week 3: [Data Acquisition and Data Cleaning](3. Data Acquisition and Data Cleaning)
+- Week 3: [Data Acquisition and Data Cleaning](3.%20Data%20Acquisition%20and%20Data%20Cleaning)
 - Week 4: [Visualization](week4)
 - Week 5: [Regression 1](week5)
 - Week 6: [Regression 2](week6)
