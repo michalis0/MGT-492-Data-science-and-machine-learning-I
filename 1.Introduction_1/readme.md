@@ -11,7 +11,8 @@
 
 ### Goals:
 
-- Install Mathematica
 - Get Wolfram Cloud account
+- Try out Wolfram Cloud
 - Demonstration of the Wolfram Language
 - Introduction to the Wolfram Language 1
+- [optional] Install Mathematica
