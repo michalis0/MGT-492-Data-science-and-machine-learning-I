@@ -1,0 +1,897 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+TextData[{"Data"," ","Science"," ","and"," ","Machine"," ","Learning"}],
+"Title",ExpressionUUID -> "48c4ef4c-9562-4570-b813-89f93fcf1e42"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Help"," ","notebook",StyleBox[RowBox[{":"," "}]],"lists"}],"Subtitle",
+ExpressionUUID -> "44a823fd-471a-4f96-8544-3983bb7679d8"],Cell[
+CellGroupData[{Cell[
+TextData[
+{"What"," ","is"," ","a"," ","list","?"}],"Section",ExpressionUUID -> "b2906aa2-4fbb-4c40-9c29-923a326aa7fa"],Cell[
+TextData[
+{"In"," ","most"," ","cases",StyleBox[RowBox[{","," "}]],"you"," ","are"," ","not"," ","working"," ","with"," ","one"," ","single"," ","output"," ","and"," ","one"," ","single"," ","output",StyleBox[
+RowBox[{","," "}]],"and"," ","require"," ","some"," ","sort"," ","of"," ","structure"," ","for"," ","your"," ","data"," ","and"," ","calculations",StyleBox[
+RowBox[{"."," "}]],"In"," ","Wolfram"," ","Language",StyleBox[RowBox[{","," "}]],"this"," ","construct"," ","is"," ","called"," ","the"," ",ButtonBox[
+StyleBox["List",FontWeight -> Bold],BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL[
+"https://reference.wolframcloud.com/language/ref/List.html"],None},ButtonNote -> "https://reference.wolframcloud.com/language/ref/List.html"],StyleBox[
+" ",FontWeight -> Bold],"and"," ","is"," ","represented"," ","with"," ","curly"," ","braces",StyleBox[
+RowBox[{"."," "}]],"\n","Lists"," ","are"," ","very"," ","general"," ","objects"," ","that"," ","represent"," ","collection"," ","of"," ","expressions",".","\n","Lists"," ","can"," ","be"," ","used"," ","on"," ","their"," ","own",StyleBox[
+RowBox[{","," "}]],"they"," ","can"," ","be"," ","inputs"," ","of"," ","functions",StyleBox[
+RowBox[{","," "}]],"and"," ","they"," ","can"," ","be"," ","outputs"," ","of"," ","functions","."}],
+"Text",ExpressionUUID -> "611e7b4f-5237-4491-adb1-a9bfd1db4331"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{"List","[",RowBox[{"2",",","5",",","3",",","5",",","8"}],"]"}],"\n",RowBox[
+{"{",RowBox[{"1",",","2",",","3",",","4",",","5",",","6",",","7"}],"}"}]}],"Input",
+CellLabel -> "In[36]:= ",ExpressionUUID -> "3a447775-c70d-4bea-9ec5-929a2c459990"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"2",",","5",",","3",",","5",",","8"}],"}"}],StandardForm],"Output",
+CellLabel -> "Out[36]= ",ExpressionUUID -> "430f85b5-9701-4626-a1c9-4e50564dd45d"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"1",",","2",",","3",",","4",",","5",",","6",",","7"}],"}"}],StandardForm],
+"Output",CellLabel -> "Out[37]= ",ExpressionUUID -> "ef9ffd2a-97f4-47b7-abba-9b21af07c511"]},
+Open],ExpressionUUID -> "d0932b45-f79b-46f3-89d4-07b39d5f999b"],Cell[
+TextData[{"Lists"," ","can"," ","be"," ","nested",":"}],
+"Text",ExpressionUUID -> "ac1654e1-ade2-4473-8ace-913429d0aad0"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"{",RowBox[{RowBox[{"{",RowBox[{"1",",","2",",","3"}],"}"}],",",RowBox[
+{"{",RowBox[{"4",",","5",",","6"}],"}"}],",",RowBox[{"{",RowBox[{"7",",","8",",","9"}],"}"}]}],"}"}]],
+"Input",CellLabel -> "In[38]:= ",ExpressionUUID -> "335f0804-a6d6-497d-ab24-0f985ef3476e"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{RowBox[{"{",RowBox[{"1",",","2",",","3"}],"}"}],",",RowBox[{"{",RowBox[
+{"4",",","5",",","6"}],"}"}],",",RowBox[{"{",RowBox[{"7",",","8",",","9"}],"}"}]}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[38]= ",ExpressionUUID -> "47189504-d920-4c6c-91da-f97c40c59840"]},
+Open],ExpressionUUID -> "b7b1842d-7e01-42d7-bb12-ab986e73c3fe"],Cell[
+TextData[{"You"," ","can"," ","display"," ","the"," ",ButtonBox[
+"MatrixForm",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/MatrixForm.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/MatrixForm.html"]," ","of"," ","a"," ","list",StyleBox[
+RowBox[{"."," "}]],"\n","Note"," ","that"," ","you"," ","cannot"," ","perform"," ","list"," ","operations"," ","when"," ","you"," ","use"," ","MatrixForm",StyleBox[
+RowBox[{"."," "}]],"This"," ","function"," ","only"," ","serves"," ","to"," ","display"," ","a"," ","matrix"," ","in"," ","a"," ","more"," ","visual"," ","form","."}],
+"Text",ExpressionUUID -> "3e08cd55-0c2c-4eea-8f6d-1cc95c17eb74"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"MatrixForm","[",RowBox[{"{",RowBox[{RowBox[{"{",RowBox[{"1",",","2",",","3"}],"}"}],",",RowBox[
+{"{",RowBox[{"4",",","5",",","6"}],"}"}],",",RowBox[{"{",RowBox[{"7",",","8",",","9"}],"}"}]}],"}"}],"]"}]],
+"Input",CellLabel -> "In[39]:= ",ExpressionUUID -> "496c9c0f-0fec-4841-9520-d03cbf135d88"],Cell[
+BoxData[
+TagBox[RowBox[{"(","\[NoBreak]",GridBox[{{"1","2","3"},{"4","5","6"},{"7","8","9"}},
+RowSpacings -> 1,ColumnSpacings -> 1,RowAlignments -> Baseline,ColumnAlignments -> Center],"\[NoBreak]",")"}],
+Function[BoxForm`e$,MatrixForm[BoxForm`e$]]],StandardForm],"Output",CellLabel -> "Out[39]//MatrixForm= ",
+ExpressionUUID -> "f8698faa-a70b-45e2-8e07-e8fc3b49fbc4"]},Open],ExpressionUUID -> "9b702aa5-baa1-44bd-9da4-37f4e665e9e4"],Cell[
+TextData[
+{"Lists"," ","need"," ","not"," ","be"," ","rectangular","!"}],"Text",ExpressionUUID -> "60d351a3-df06-4343-b787-b39e46cd2aad"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"MatrixForm","[",RowBox[{"{",RowBox[{"1",","," ",RowBox[{"{",RowBox[
+{"2",",","3"}],"}"}],","," ",RowBox[{"{",RowBox[{RowBox[{"{",RowBox[{"4",",","5",",","6"}],"}"}],","," ","7"}],"}"}]}],"}"}],"]"}]],
+"Input",CellLabel -> "In[40]:= ",ExpressionUUID -> "f44e916d-5cc2-4af3-a9ed-a82d261cd421"],Cell[
+BoxData[
+TagBox[RowBox[{"(","\[NoBreak]",TagBox[GridBox[{{"1"},{RowBox[{"{",RowBox[{"2",",","3"}],"}"}]},{RowBox[
+{"{",RowBox[{RowBox[{"{",RowBox[{"4",",","5",",","6"}],"}"}],",","7"}],"}"}]}},RowSpacings -> 1,
+ColumnAlignments -> Center,ColumnAlignments -> Left],Column],"\[NoBreak]",")"}],Function[
+BoxForm`e$,MatrixForm[BoxForm`e$]]],StandardForm],"Output",CellLabel -> "Out[40]//MatrixForm= ",
+ExpressionUUID -> "b60dae9e-a8ae-4ec4-915c-fc2fe749a239"]},Open],ExpressionUUID -> "32989432-74cb-455f-ae8d-4a3f9332a44b"],Cell[
+TextData[
+{"Any"," ","type"," ","of"," ","elements"," ","can"," ","be"," ","used"," ","in"," ","a"," ","list",":"}],
+"Text",ExpressionUUID -> "a03ba21e-437e-4077-aebe-927a1858088a"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Alphabet","[","\"Greek\"","]"}]],"Input",CellLabel -> "In[41]:= ",
+ExpressionUUID -> "078a15fc-1262-49f1-99f0-12eca8d833e9"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{"\"\[Alpha]\"",",","\"\[Beta]\"",",","\"\[Gamma]\"",",","\"\[Delta]\"",",","\"\[CurlyEpsilon]\"",",","\"\[Zeta]\"",",","\"\[Eta]\"",",","\"\[Theta]\"",",","\"\[Iota]\"",",","\"\[Kappa]\"",",","\"\[Lambda]\"",",","\"\[Mu]\"",",","\"\[Nu]\"",",","\"\[Xi]\"",",","\"\[Omicron]\"",",","\"\[Pi]\"",",","\"\[Rho]\"",",","\"\[Sigma]\"",",","\"\[Tau]\"",",","\"\[Upsilon]\"",",","\"\[CurlyPhi]\"",",","\"\[Chi]\"",",","\"\[Psi]\"",",","\"\[Omega]\""}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[41]= ",ExpressionUUID -> "3065148a-9038-4421-af07-05cefe92c4ae"]},
+Open],ExpressionUUID -> "85130e4a-eef2-44f7-92e4-cf548ec7e20e"],Cell[
+TextData[{"A"," ","list"," ","can"," ","contain"," ","any"," ","combination"," ","of"," ","types"," ","of"," ","elements","!"}],
+"Text",ExpressionUUID -> "b599e32e-ba3f-4775-a05a-a2f9bdfc0904"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"{",RowBox[{"1",","," ","3.74",",",RowBox[{"f","[","x","]"}],",",RowBox[
+{"Plot","[",RowBox[{RowBox[{"Sin","[","x","]"}],",",RowBox[{"{",RowBox[{"x",",","0",",",RowBox[
+{"2"," ","Pi"}]}],"}"}]}],"]"}],","," ","\"Hello\""}]," ","}"}]],"Input",CellLabel -> "In[42]:= ",
+ExpressionUUID -> "502ce1d2-6026-41e8-83c6-d9427e167bc5"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{"1",",","3.74`",",",RowBox[{"f","[","x","]"}],",",GraphicsBox[{{{{},{},TagBox[{Directive[
+Opacity[1.0],RGBColor[0.368417,0.506779,0.709798],AbsoluteThickness[1.6]],LineBox[
+CompressedData["1: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"]]},
+Function[Annotation[Slot[1],"Charting`Private`Tag$59943#1"]]]}},{}},{DisplayFunction -> Identity,Ticks -> {Automatic,Automatic},AxesOrigin -> {0,0},FrameTicks -> {{Automatic,Automatic},{Automatic,Automatic}},GridLines -> {None,None},DisplayFunction -> Identity,PlotRangePadding -> {{Scaled[
+0.02],Scaled[0.02]},{Scaled[0.05],Scaled[0.05]}},PlotRangeClipping -> True,ImagePadding -> All,DisplayFunction -> Identity,AspectRatio -> NCache[
+Power[GoldenRatio,-1],0.6180339887498948],Axes -> {True,True},AxesLabel -> {None,None},AxesOrigin -> {0,0},RuleDelayed[
+DisplayFunction,Identity],Frame -> {{False,False},{False,False}},FrameLabel -> {{None,None},{None,None}},FrameTicks -> {{Automatic,Automatic},{Automatic,Automatic}},GridLines -> {None,None},GridLinesStyle -> Directive[
+GrayLevel[0.5,0.4]],Method -> CompressedData["1:eJzlUstOwzAQbMv7wlscuPENfAAqLYVKFKqm6t1N1u0K1xt5bYnw2/wAtqs+CbkgTkRKtPbuzuxM9mZMA7lXq9V413+eka1sLE4DpyC59EEbpHDK3pPTmTBFYgsFfOQTTWdpJiymW03Xq6ZHI/IpptzVFoxILZKWOxV8Bz4YgWFfZ27j83m3VXLug6HHeuuRY+gTY0RtrKPGYGgccBDXEYqhhOhBSkgtVw4UdD7hZKr8a2W9ojIwGe8GYbjfSh6vw/QJ9S+wwkhtQ7lCDbypu8QqaQAkmVnLGSbTowyW5pTg5kqkMANtK3HD6O9JsK2pVEmuSMLxhfQ2xelqM3rA07hKcyPOAtiYSTkL0Z8EPwD3v6sPEEkqvPhJx+m4Ucw/0F35oEVkMtTCAg+J1GseOyrlnYQpkb0XxYJiPuRhWKbFzSZCyJcULW+6mTcVbbH67Ykii/UNgX1hbEkBLsH/jKFkzS6ieTlCNhLKwX9y4gucBRzd"],PlotRange -> NCache[
+{{0,Times[2,Pi]},{-0.9999998592131705,0.9999998782112116}},{{0,6.283185307179586},{-0.9999998592131705,0.9999998782112116}}],PlotRangeClipping -> True,PlotRangePadding -> {{Scaled[
+0.02],Scaled[0.02]},{Scaled[0.02],Scaled[0.02]}},Ticks -> {Automatic,Automatic}},
+ExpressionUUID -> "014440d2-c9b2-4192-b263-e50bba89b5c3"],",","\"Hello\""}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[42]= ",ExpressionUUID -> "34ac3528-9ad1-4d73-8437-32ed3db0a35f"]},
+Open],ExpressionUUID -> "e763789f-a1d6-4d7f-bdbb-d846b6ffc62a"]},{1}],ExpressionUUID -> "c94b5c71-c5b0-4910-b9cf-56a783c2c8e3"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Extracting"," ","elements"," ","from"," ","a"," ","list"}],"Section",
+ExpressionUUID -> "371cc127-6896-4488-90b5-455b9cdaf58d"],Cell[
+CellGroupData[{Cell[
+TextData[
+{"Extract"," ","distinct"," ","elements"}],"Subsection",ExpressionUUID -> "46f2785a-c754-427a-96aa-2f2c829bf141"],Cell[
+TextData[
+{"Elements"," ","of"," ","the"," ","list"," ","can"," ","be"," ","indexed"," ","using"," ","double"," ","square"," ","brackets",StyleBox[
+RowBox[{","," "}]],"which"," ","are"," ","shorthand"," ","for"," ",ButtonBox["Part",
+BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/Part.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/Part.html"],"\n",StyleBox[
+"The",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox["first",FontWeight -> Plain],StyleBox[
+" ",FontWeight -> Plain],StyleBox["element",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox[
+"of",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox["a",FontWeight -> Plain],StyleBox[
+" ",FontWeight -> Plain],StyleBox["list",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox[
+"corresponds",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox["to",
+FontWeight -> Plain],StyleBox[RowBox[{StyleBox[":",FontWeight -> Plain],StyleBox[
+" ",FontWeight -> Plain]}]],StyleBox["1",FontWeight -> Plain]}],"Text",ExpressionUUID -> "dc3ad500-17d3-4bf9-b439-3f2f530b42b8"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{RowBox[{"{",RowBox[{"1",",","7",",","9",",","4",",","5",",","8",",","2",",","3"}],"}"}],"[",RowBox[
+{"[","3","]"}],"]"}],"\n",RowBox[{"Part","[",RowBox[{RowBox[{"{",RowBox[{"1",",","7",",","9",",","4",",","5",",","8",",","2",",","3"}],"}"}],",","3"}],"]"}]}],
+"Input",CellLabel -> "In[43]:= ",ExpressionUUID -> "a25a2494-555c-495f-ba3b-f4819b5abf87"],Cell[
+BoxData[
+"9",StandardForm],"Output",CellLabel -> "Out[43]= ",ExpressionUUID -> "4314bf67-49f5-4396-a826-a1d9d84393f6"],Cell[
+BoxData[
+"9",StandardForm],"Output",CellLabel -> "Out[44]= ",ExpressionUUID -> "786f0390-b81d-4dd3-b4e7-be333f23d0b7"]},
+Open],ExpressionUUID -> "0290b483-b0ef-4264-8ec8-dc64935c5e3a"],Cell[
+TextData[{"You"," ","can"," ","index"," ","lists"," ","starting"," ","from"," ","their"," ","ends"," ","by"," ","using"," ","negative"," ","indices",":"}],
+"Text",ExpressionUUID -> "afbddcf7-daed-4141-88df-7306c18a6794"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{RowBox[{"{",RowBox[{"1",",","7",",","9",",","4",",","5",",","8",",","2",",","3"}],"}"}],"[",RowBox[
+{"[",RowBox[{"-","1"}],"]"}],"]"}],"\n",RowBox[{RowBox[{"{",RowBox[{"1",",","7",",","9",",","4",",","5",",","8",",","2",",","3"}],"}"}],"[",RowBox[
+{"[",RowBox[{"-","5"}],"]"}],"]"}]}],"Input",CellLabel -> "In[46]:= ",ExpressionUUID -> "dbc29e62-7a44-40db-9cd2-786ffdd926d0"],Cell[
+BoxData[
+"3",StandardForm],"Output",CellLabel -> "Out[46]= ",ExpressionUUID -> "2b30503b-4390-490a-85bb-5fe2c969c443"],Cell[
+BoxData[
+"4",StandardForm],"Output",CellLabel -> "Out[47]= ",ExpressionUUID -> "ce04e52b-4ef5-4ff7-baba-ffd38f671feb"]},
+Open],ExpressionUUID -> "e542cd1d-72ed-40b8-b217-6498ea7a21ee"],Cell[
+TextData[{"To"," ","extract"," ","the"," ","first"," ","or"," ","last"," ","element"," ","of"," ","a"," ","list",StyleBox[
+RowBox[{","," "}]],"you"," ","can"," ","also"," ","use"," ",ButtonBox[RowBox[{"First"," "}],
+BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/First.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/First.html"],"and"," ",ButtonBox[
+"Last",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/Last.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/Last.html"],StyleBox[
+RowBox[{"."," "}]],"These"," ","are"," ","marginally"," ","more"," ","efficient","."}],
+"Text",ExpressionUUID -> "b724a075-6935-472a-9f42-ebd1b02ebdda"],Cell[
+TextData[{"Braces"," ","allow"," ","for"," ","the"," ","extraction"," ","of"," ","specific",StyleBox[
+RowBox[{","," "}]],"disparate"," ","elements",":"}],"Text",ExpressionUUID -> "6d17f803-bcba-4c08-a379-f1b2213daee9"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"{",RowBox[{"1",",","7",",","9",",","4",",","5",",","8",",","2",",","3"}],"}"}],"[",RowBox[
+{"[",RowBox[{"{",RowBox[{"2",",","3",",","7",",",RowBox[{"-","4"}]}],"}"}],"]"}],"]"}]],
+"Input",CellLabel -> "In[50]:= ",ExpressionUUID -> "a151bba1-e2ad-4e68-86cd-a9cc410959de"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"7",",","9",",","2",",","5"}],"}"}],StandardForm],"Output",CellLabel -> "Out[50]= ",
+ExpressionUUID -> "d482a63a-8c85-4248-84e9-aa0fdfbe48e2"]},Open],ExpressionUUID -> "4443c494-edd4-4d24-a228-4aa9e530d373"]},
+{1}],ExpressionUUID -> "3f41d391-26c4-412d-ac0d-0629d46a586e"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Extract"," ","ranges"," ","from"," ","a"," ","list"}],"Subsection",
+ExpressionUUID -> "b2db8e3a-ef1f-480c-86f9-29b8e96f72ab"],Cell[
+TextData[{"Semicolons"," ","allow"," ","for"," ","extracting"," ","ranges"," ","from"," ","a"," ","list",":"}],
+"Text",ExpressionUUID -> "7770e89e-7024-4aa8-ab8a-4be8bdb29621"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"{",RowBox[{"1",",","7",",","9",",","4",",","5",",","8",",","2",",","3"}],"}"}],"[",RowBox[
+{"[",RowBox[{"3",";;","6"}],"]"}],"]"}]],"Input",CellLabel -> "In[48]:= ",ExpressionUUID -> "9d585aa3-5321-4d4b-8f3b-686f62ad9850"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"9",",","4",",","5",",","8"}],"}"}],StandardForm],"Output",CellLabel -> "Out[48]= ",
+ExpressionUUID -> "d960e12a-29e5-4544-a6db-11ef36d059cf"]},Open],ExpressionUUID -> "b20ae502-87b9-4047-8528-4c62989151db"],Cell[
+TextData[
+{"Alternatively",StyleBox[RowBox[{","," "}]],"you"," ","could"," ","also"," ","use"," ",ButtonBox[
+"Take",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/Take.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/Take.html"]}],"Text",
+ExpressionUUID -> "df597514-7417-4d8e-8aea-34d09f62bf94"],Cell[
+CellGroupData[{Cell[
+BoxData[
+{RowBox[{RowBox[{"Take","[",RowBox[{RowBox[{"{",RowBox[{"1",",","7",",","9",",","4",",","5",",","8",",","2",",","3"}],"}"}],","," ","4"}],"]"}]," ",RowBox[
+{"(*",RowBox[{"Extract"," ","first"," ","four"," ","elements"}]," ","*)"}]}],"\n",RowBox[
+{RowBox[{"Take","[",RowBox[{RowBox[{"{",RowBox[{"1",",","7",",","9",",","4",",","5",",","8",",","2",",","3"}],"}"}],","," ",RowBox[
+{"-","5"}]}],"]"}]," ",RowBox[{"(*",RowBox[{"Extract"," ","last"," ","five"," ","elements"}]," ","*)"}]}],"\n",RowBox[
+{RowBox[{"Take","[",RowBox[{RowBox[{"{",RowBox[{"1",",","7",",","9",",","4",",","5",",","8",",","2",",","3"}],"}"}],","," ",RowBox[
+{"{",RowBox[{"3",",","6"}],"}"}]}],"]"}]," ",RowBox[{"(*",RowBox[{"Extract"," ","from"," ","element"," ","3"," ","to"," ","6"}]," ","*)"}]}]}],
+"Input",CellLabel -> "In[51]:= ",ExpressionUUID -> "d20bf7a2-40d4-43ae-9dda-cf71d4915d02"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"1",",","7",",","9",",","4"}],"}"}],StandardForm],"Output",CellLabel -> "Out[51]= ",
+ExpressionUUID -> "66d7ca01-b4c5-40e4-8f84-c420b4d0ac37"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{"4",",","5",",","8",",","2",",","3"}],"}"}],StandardForm],"Output",CellLabel -> "Out[52]= ",
+ExpressionUUID -> "64949bb6-d28d-4453-b714-fb2b07d722c2"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{"9",",","4",",","5",",","8"}],"}"}],StandardForm],"Output",CellLabel -> "Out[53]= ",
+ExpressionUUID -> "f96cc8f1-1323-4eea-acb5-a9c211f71875"]},Open],ExpressionUUID -> "ce752ba8-0ea7-4ee5-94bb-0e11296362bc"],Cell[
+TextData[
+{"Lists"," ","can"," ","be"," ","indexed"," ","from"," ","point"," ",StyleBox["a",
+FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],"to"," ","point"," ",StyleBox[
+"b",FontWeight -> Bold]," ","in"," ","steps"," ","of"," ",StyleBox["m",FontWeight -> Bold]," ","by"," ","using"," ","the"," ","syntax",StyleBox[
+RowBox[{":"," "}]],StyleBox["list",FontWeight -> Bold],StyleBox["[[",FontWeight -> Bold],StyleBox[
+"a",FontWeight -> Bold],StyleBox[RowBox[{StyleBox[" ",FontWeight -> Bold],StyleBox[
+";;",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold]}]],StyleBox["b",FontWeight -> Bold],StyleBox[
+RowBox[{StyleBox[" ",FontWeight -> Bold],StyleBox[";;",FontWeight -> Bold],StyleBox[
+" ",FontWeight -> Bold]}]],StyleBox["m",FontWeight -> Bold],StyleBox["]]",FontWeight -> Bold],"\n","\t","If"," ","you"," ","do"," ","not"," ","specify"," ",StyleBox[
+"a",FontWeight -> Bold],StyleBox[RowBox[{","," "}]],"a"," ","value"," ","of"," ",StyleBox[
+"1",FontWeight -> Bold]," ","will"," ","be"," ","assumed",StyleBox[RowBox[{" ","("}]],"first"," ","element",").","\n","\t","If"," ","you"," ","do"," ","not"," ","specify"," ",StyleBox[
+"b",FontWeight -> Bold],StyleBox[RowBox[{","," "}]],"a"," ","value"," ","of",StyleBox[
+RowBox[{" ",StyleBox["-",FontWeight -> Bold]}]],StyleBox["1",FontWeight -> Bold]," ","will"," ","be"," ","assumed",StyleBox[
+RowBox[{" ","("}]],"last"," ","element",")."}],"Text",ExpressionUUID -> "f4d8b5b2-348b-48df-986e-5b1211070860"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"{",RowBox[{"1",",","7",",","9",",","4",",","5",",","8",",","2",",","3"}],"}"}],"[",RowBox[
+{"[",RowBox[{";;",";;","2"}],"]"}],"]"}]],"Input",CellLabel -> "In[49]:= ",ExpressionUUID -> "d3c0ac2d-1df2-4a1e-accb-973749264013"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"1",",","9",",","5",",","2"}],"}"}],StandardForm],"Output",CellLabel -> "Out[49]= ",
+ExpressionUUID -> "3d225780-8726-4b1f-b513-c64f0f752847"]},Open],ExpressionUUID -> "7b452222-c860-483b-b870-d1371e543f41"]},
+{1}],ExpressionUUID -> "b825e58d-c54d-427b-8b21-da07a06e5d18"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Extract"," ","elements"," ","from"," ","nested"," ","lists"}],"Subsection",
+ExpressionUUID -> "9937b938-b7e9-4de0-b62d-1791d3b10d19"],Cell[
+TextData[{"For"," ","lists"," ","with"," ","more"," ","than"," ","one"," ","level",StyleBox[
+RowBox[{","," "}]],"using"," ","only"," ","one"," ","index"," ","will"," ","work"," ","only"," ","at"," ","the"," ","top"," ","level",":"}],
+"Text",ExpressionUUID -> "1ece8a19-1843-4f6b-b895-ab165b7889d5"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"{",RowBox[{RowBox[{"{",RowBox[{"1",",","2",",","3"}],"}"}],",",RowBox[
+{"{",RowBox[{"4",",","5",",","6"}],"}"}],",",RowBox[{"{",RowBox[{"7",",","8",",","9"}],"}"}]}],"}"}],"[",RowBox[
+{"[","1","]"}],"]"}]],"Input",CellLabel -> "In[54]:= ",ExpressionUUID -> "5a6fc5f0-103c-4b41-8ab3-4425fab6ad7f"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"1",",","2",",","3"}],"}"}],StandardForm],"Output",CellLabel -> "Out[54]= ",
+ExpressionUUID -> "191cc692-8d27-44c5-9bd2-06db649e7278"]},Open],ExpressionUUID -> "c856e2c1-90c0-4075-8de7-43b0b483a82c"],Cell[
+TextData[
+{"Using"," ","two"," ","indices"," ","allows"," ","you"," ","to"," ","access"," ","the"," ","second"," ","level"," ","of"," ","the"," ","list",":"}],
+"Text",ExpressionUUID -> "6c07d1f0-aa15-46ca-b06a-1473ee742271"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{RowBox[{"{",RowBox[{RowBox[{"{",RowBox[{"1",",","2",",","3"}],"}"}],",",RowBox[
+{"{",RowBox[{"4",",","5",",","6"}],"}"}],",",RowBox[{"{",RowBox[{"7",",","8",",","9"}],"}"}]}],"}"}],"[",RowBox[
+{"[",RowBox[{"3",",","1"}],"]"}],"]"}],"\n",RowBox[{RowBox[{RowBox[{"{",RowBox[{RowBox[
+{"{",RowBox[{"1",",","2",",","3"}],"}"}],",",RowBox[{"{",RowBox[{"4",",","5",",","6"}],"}"}],",",RowBox[
+{"{",RowBox[{"7",",","8",",","9"}],"}"}]}],"}"}],"[",RowBox[{"[","2","]"}],"]"}],"[",RowBox[
+{"[","1","]"}],"]"}]}],"Input",CellLabel -> "In[56]:= ",ExpressionUUID -> "e52d9fdd-3aa7-482b-bf57-7ca0b37e20a9"],Cell[
+BoxData[
+"7",StandardForm],"Output",CellLabel -> "Out[56]= ",ExpressionUUID -> "6b6c188d-6f82-4eba-bfa1-cbbe03f6fb0a"],Cell[
+BoxData[
+"4",StandardForm],"Output",CellLabel -> "Out[57]= ",ExpressionUUID -> "b1e582ae-4d6f-4b1c-b73a-e4522621663f"]},
+Open],ExpressionUUID -> "6478fca5-e23b-406d-92f9-ed649b4fbdad"]},{1}],ExpressionUUID -> "65934e0f-702b-44bb-868a-a60a159103fe"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Extract"," ","a"," ","random"," ","element"," ","or"," ","sample"," ","from"," ","a"," ","list"}],
+"Subsection",ExpressionUUID -> "fbafc2a0-11a6-4ac9-839e-c69f12a9238a"],Cell[
+TextData[
+{ButtonBox["RandomChoice",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/RandomChoice.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/RandomChoice.html"],StyleBox[
+RowBox[{" "," "}]],"extracts"," ","one"," ","or"," ","several"," ","elements",StyleBox[
+RowBox[{" ","\""}]],"pseudorandomly","\""}],"Text",ExpressionUUID -> "3e55d9df-2beb-4da3-b581-4cc13eca6df9"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{"RandomChoice","[",RowBox[{"{",RowBox[{"1",",","2",",","3",",","4",",","5"}],"}"}],"]"}],"\n",RowBox[
+{"RandomChoice","[",RowBox[{RowBox[{"{",RowBox[{"1",",","2",",","3",",","4",",","5"}],"}"}],","," ","2"}],"]"}]}],
+"Input",CellLabel -> "In[61]:= ",ExpressionUUID -> "b95b3e10-7181-40e4-b5b1-56cf67f3486a"],Cell[
+BoxData[
+"1",StandardForm],"Output",CellLabel -> "Out[61]= ",ExpressionUUID -> "55b38cf4-5556-474d-8e69-c30febadeffa"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"5",",","4"}],"}"}],StandardForm],"Output",CellLabel -> "Out[62]= ",
+ExpressionUUID -> "8d47d154-49ce-4c7f-abe5-74c59d9a19ca"]},Open],ExpressionUUID -> "e668f9ce-f018-47a8-a178-241b54bd611b"],Cell[
+TextData[
+{ButtonBox["RandomSample",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/RandomSample.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/RandomSample.html"]," ","gives"," ","a"," ","pseudorandom"," ","sample"," ","of"," ","a"," ","list"}],
+"Text",ExpressionUUID -> "ff4a3c45-cfa9-4c07-b13a-9c5d8660eff6"],Cell[
+BoxData[{RowBox[
+{"RandomSample","[",RowBox[{"{",RowBox[{"1",",","2",",","3",",","4",",","5"}],"}"}],"]"}],"\n",RowBox[
+{"RandomSample","[",RowBox[{RowBox[{"{",RowBox[{"1",",","2",",","3",",","4",",","5"}],"}"}],",","3"}],"]"}]}],
+"Input",ExpressionUUID -> "6f14c4e5-1651-4407-96e2-4b101ec241c4"]},{1}],ExpressionUUID -> "82d9285b-47f0-4e78-9658-fd6382c3265f"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Extract"," ","largest",StyleBox[RowBox[{","," "}]],"smallest"," ","and"," ","nearest"," ","elements"}],
+"Subsection",ExpressionUUID -> "2112c2f8-f0d3-452e-9222-9bc2e22f183a"],Cell[
+TextData[
+{ButtonBox["TakeLargest",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/TakeLargest.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/TakeLargest.html"]," ","allows"," ","to"," ","extract"," ","the"," ",StyleBox[
+"n",FontSlant -> Italic]," ","largest"," ","elements"," ","of"," ","a"," ","list",StyleBox[
+RowBox[{","," "}]],"sorted"," ","in"," ","descending"," ","order",":"}],"Text",ExpressionUUID -> "715fd3fd-22df-416b-b244-c3aa426561dc"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"TakeLargest","[",RowBox[{RowBox[{"{",RowBox[{"4",",","1",",","9",",","3",",","7",","," ","5"}],"}"}],","," ","2"}],"]"}]],
+"Input",CellLabel -> "In[185]:= ",ExpressionUUID -> "13c9fed3-9a41-4571-b783-a0e7ccc4f9bf"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"9",",","7"}],"}"}],StandardForm],"Output",CellLabel -> "Out[185]= ",
+ExpressionUUID -> "b576dc9c-c420-4ae0-ba64-27be924bd246"]},Open],ExpressionUUID -> "17e642a9-3079-4222-92d5-8a5bd8009644"],Cell[
+TextData[
+{"On"," ","the"," ","opposite",StyleBox[RowBox[{","," "}]],ButtonBox["TakeSmallest",
+BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/TakeSmallest.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/TakeSmallest.html"]," ","enables"," ","to"," ","extract"," ","the"," ",StyleBox[
+"n",FontSlant -> Italic]," ","smallest"," ","elements"," ","of"," ","a"," ","list",StyleBox[
+RowBox[{","," "}]],"sorted"," ","in"," ","ascending"," ","order",":"}],"Text",ExpressionUUID -> "221681a8-8ea9-4331-8daf-04c988e1a9ee"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"TakeSmallest","[",RowBox[{RowBox[{"{",RowBox[{"4",",","1",",","9",",","3",",","7",","," ","5"}],"}"}],","," ","3"}],"]"}]],
+"Input",CellLabel -> "In[186]:= ",ExpressionUUID -> "a1c0baac-2d7d-46a8-8d96-6318defe0f72"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"1",",","3",",","4"}],"}"}],StandardForm],"Output",CellLabel -> "Out[186]= ",
+ExpressionUUID -> "98a03ce1-84a4-48a2-a0ab-3097662c3869"]},Open],ExpressionUUID -> "b5456bcf-cb9f-425e-bdad-eb73f667d6a6"],Cell[
+TextData[
+{ButtonBox["Nearest",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/Nearest.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/Nearest.html"]," ","gives"," ","the"," ",StyleBox[
+"n",FontSlant -> Italic]," ","nearest"," ","element"," ","to"," ","a"," ","given"," ","expression",":"}],
+"Text",ExpressionUUID -> "1ea3acd5-ec5b-4c3e-a903-207650295388"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{"Nearest","[",RowBox[{RowBox[{"{",RowBox[{"1",","," ","2",","," ","4",","," ","8",","," ","16",","," ","32"}],"}"}],","," ","20"}],"]"}],"\n",RowBox[
+{"Nearest","[",RowBox[{RowBox[{"{",RowBox[{"1",","," ","2",","," ","4",","," ","8",","," ","16",","," ","32"}],"}"}],","," ","20",","," ","3"}],"]"}]}],
+"Input",CellLabel -> "In[187]:= ",ExpressionUUID -> "d2c9f6da-c39f-46a6-9d32-8373e3a364c3"],Cell[
+BoxData[
+RowBox[{"{","16","}"}],StandardForm],"Output",CellLabel -> "Out[187]= ",ExpressionUUID -> "ad601eab-c426-4acf-a075-16135e1e1f81"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"16",",","8",",","32"}],"}"}],StandardForm],"Output",CellLabel -> "Out[188]= ",
+ExpressionUUID -> "f02f9293-4ce5-4fef-9e55-567a1142c486"]},Open],ExpressionUUID -> "548bcedb-d79a-4645-a5fa-03b44659b9d0"],Cell[
+TextData[
+{"Nearest"," ","works"," ","for"," ","a"," ","variety"," ","of"," ","data",StyleBox[
+RowBox[{","," "}]],"including"," ","numerical",StyleBox[RowBox[{","," "}]],"geospatial",StyleBox[
+RowBox[{","," "}]],"textual",StyleBox[RowBox[{","," "}]],"and"," ","visual",StyleBox[
+RowBox[{","," "}]],"as"," ","well"," ","as"," ","dates"," ","and"," ","times","."}],
+"Text",ExpressionUUID -> "3c173fad-9c50-4da3-af1a-eaedd79d674b"],Cell[
+TextData[{"Nearest"," ","automatically"," ","selects"," ","the"," ","appropriate"," ","method"," ","or",StyleBox[
+RowBox[{" ","("}]],"machine"," ","learning",StyleBox[RowBox[{")"," "}]],"algorithm",StyleBox[
+RowBox[{","," "}]],"but"," ","you"," ","can"," ","specify"," ","it"," ","if"," ","you"," ","wish",StyleBox[
+RowBox[{"."," "}]],"Check"," ","the"," ","documentation","!"}],"Text",ExpressionUUID -> "b729a68a-a4b8-4950-859b-3cd48a9c0eaf"]},
+{1}],ExpressionUUID -> "30aaffc7-9c39-44d5-bc0e-f369dd5cba3b"]},{1}],ExpressionUUID -> "a4e61612-429b-4593-9a86-702b6470692b"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Constructing"," ","lists"}],"Section",ExpressionUUID -> "469227a0-5979-448e-bf6e-8c5a4f2446ab"],Cell[
+TextData[
+{"Check"," ","the"," ","documentation",StyleBox[RowBox[{":"," "}]],Cell[
+BoxData[
+Cell[
+Cell[
+ButtonBox["Constructing Lists",BaseStyle -> "Link",ButtonData -> "paclet:guide/ConstructingLists"],
+ExpressionUUID -> "f13ac6ac-ff90-41bc-98a9-8abdcf61083c"]]]]}],"Text",ExpressionUUID -> "283b015c-5c45-4610-8322-e968d79f8c50"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Basic"," ","list"," ","creation"}],"Subsection",ExpressionUUID -> "a63fea83-c731-43f2-a1b9-e392b601725d"],Cell[
+TextData[
+{ButtonBox["Range",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/Range.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/Range.html"]," ","generates"," ","list"," ","from"," ","a"," ","range"," ","of"," ","numbers",StyleBox[
+RowBox[{"."," "}]],"The"," ","default"," ","increment"," ","is"," ","1",StyleBox[
+RowBox[{","," "}]],"but"," ","the"," ","step"," ","can"," ","be"," ","specified",StyleBox[
+RowBox[{"."," "}]]}],"Text",ExpressionUUID -> "9d099605-7036-4623-a783-9a8c51f9f01a"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{RowBox[{"Range","[","19","]"}],"                      ",RowBox[
+{"(*"," ",RowBox[{"List"," ","of"," ","integers"," ","from"," ","1"," ","to"," ","19"}]," ","*)"}]}],"\n",RowBox[
+{RowBox[{"Range","[",RowBox[{"6",",","14"}],"]"}],"               ",RowBox[{"(*"," ",RowBox[
+{"List"," ","of"," ","integers"," ","from"," ","6"," ","to"," ","14"}]," ","*)"}]}],"\n",RowBox[
+{RowBox[{"Range","[",RowBox[{"0",",","7",",","0.5"}],"]"}],"      ",RowBox[{"(*"," ",RowBox[
+{"List"," ","from"," ","0"," ","to"," ","7"," ","with"," ","step"," ","0.5"}]," ","*)"}]}]}],
+"Input",CellLabel -> "In[63]:= ",ExpressionUUID -> "320e8a4f-8f7a-4156-b196-f044a65524d3"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"1",",","2",",","3",",","4",",","5",",","6",",","7",",","8",",","9",",","10",",","11",",","12",",","13",",","14",",","15",",","16",",","17",",","18",",","19"}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[63]= ",ExpressionUUID -> "b65c9577-9b1c-40a2-bbcc-9ee2ff3db16b"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"6",",","7",",","8",",","9",",","10",",","11",",","12",",","13",",","14"}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[64]= ",ExpressionUUID -> "5e17718e-d429-447d-8d8a-cb91cf2ab085"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"0.`",",","0.5`",",","1.`",",","1.5`",",","2.`",",","2.5`",",","3.`",",","3.5`",",","4.`",",","4.5`",",","5.`",",","5.5`",",","6.`",",","6.5`",",","7.`"}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[65]= ",ExpressionUUID -> "0a79dae5-2bca-4e43-812e-c53dc1b97d80"]},
+Open],ExpressionUUID -> "dfb4f296-94d0-4437-8905-4461d9e2a7df"],Cell[
+TextData[{ButtonBox[
+"Table",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/Table.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/Table.html"]," ","is"," ","also"," ","a"," ","convenient"," ","function"," ","to"," ","generate"," ","lists"}],
+"Text",ExpressionUUID -> "7db8afba-a32c-4c7b-8762-ee907771d41b"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{RowBox[{"Table","[",RowBox[{"a",","," ","4"}],"]"}],"                                               ",RowBox[
+{"(*"," ",RowBox[{"List"," ","of"," ","4"," ","copies"," ","of"," ","\"a\""}]," ","*)"}]}],"\n",RowBox[
+{RowBox[{"Table","[",RowBox[{RowBox[{"i","^","2"}],","," ",RowBox[{"{",RowBox[{"i",",","7"}],"}"}]}],"]"}],"                             ",RowBox[
+{"(*"," ",RowBox[{RowBox[{"List"," ","of"," ",RowBox[{"i","^","2"}]}],","," ",RowBox[
+{"i"," ","running"," ","from"," ","1"," ","to"," ","7"}]}]," ","*)"}]}],"\n",RowBox[
+{RowBox[{"Table","[",RowBox[{RowBox[{"i","^","3"}],","," ",RowBox[{"{",RowBox[{"i",","," ",RowBox[
+{"-","3"}],",","4"}],"}"}]}],"]"}],"                    ",RowBox[{"(*"," ",RowBox[
+{RowBox[{"List"," ","of"," ",RowBox[{"i","^","3"}]}],","," ",RowBox[{RowBox[{"i"," ","running"," ","from"}]," ","-",RowBox[
+{"3"," ","to"," ","4"}]}]}]," ","*)"}]}],"\n",RowBox[{RowBox[{"Table","[",RowBox[
+{RowBox[{"Exp","[","i","]"}],","," ",RowBox[{"{",RowBox[{"i",","," ","0",",","1",",","0.1"}],"}"}]}],"]"}],"  ",RowBox[
+{"(*"," ",RowBox[{RowBox[{"List"," ","of"," ","exp",RowBox[{"(","i",")"}]}],","," ",RowBox[
+{"i"," ","running"," ","from"," ","0"," ","to"," ","1"," ","with"," ","step"," ","0.1"}]}]," ","*)"}]}]}],
+"Input",CellLabel -> "In[75]:= ",ExpressionUUID -> "9ca21f4f-b41e-41b3-9d84-f203c2a5de5d"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"a",",","a",",","a",",","a"}],"}"}],StandardForm],"Output",CellLabel -> "Out[75]= ",
+ExpressionUUID -> "a158e7d9-1e35-46ef-b49c-4e7a21c2e586"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{"1",",","4",",","9",",","16",",","25",",","36",",","49"}],"}"}],StandardForm],"Output",
+CellLabel -> "Out[76]= ",ExpressionUUID -> "45d16376-60a3-4198-93fc-3ef002941ed4"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{RowBox[{"-","27"}],",",RowBox[{"-","8"}],",",RowBox[{"-","1"}],",","0",",","1",",","8",",","27",",","64"}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[77]= ",ExpressionUUID -> "457a6552-440f-4c3b-a1d5-f0f24fb4f92e"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"1.`",",","1.1051709180756477`",",","1.2214027581601699`",",","1.3498588075760032`",",","1.4918246976412703`",",","1.6487212707001282`",",","1.822118800390509`",",","2.0137527074704766`",",","2.225540928492468`",",","2.45960311115695`",",","2.718281828459045`"}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[78]= ",ExpressionUUID -> "1e8559d7-ca96-4f68-8251-32fe58b8651e"]},
+Open],ExpressionUUID -> "826517e7-ae14-4c13-be34-2e61a1308774"],Cell[
+TextData[{"Similarly",StyleBox[
+RowBox[{","," "}]],ButtonBox["Array",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL[
+"https://reference.wolframcloud.com/cloudplatform/ref/Array.html"],None},ButtonNote -> "https://reference.wolframcloud.com/cloudplatform/ref/Array.html"]," ","generates"," ","a"," ","list"," ","by"," ","applying"," ","a"," ","function"," ","to"," ","successive"," ","indices",":"}],
+"Text",ExpressionUUID -> "d5ff884f-3cf6-4c5c-926e-f349efb72283"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{"Array","[",RowBox[{"f",",","5"}],"]"}],"\n",RowBox[{"Array","[",RowBox[
+{RowBox[{RowBox[{"#","^","2"}]," ","&"}],","," ","3"}],"]"}]}],"Input",CellLabel -> "In[210]:= ",
+ExpressionUUID -> "99c0a1cd-7596-4742-9d5e-81424ccc043b"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{RowBox[{"f","[","1","]"}],",",RowBox[{"f","[","2","]"}],",",RowBox[{"f","[","3","]"}],",",RowBox[
+{"f","[","4","]"}],",",RowBox[{"f","[","5","]"}]}],"}"}],StandardForm],"Output",CellLabel -> "Out[210]= ",
+ExpressionUUID -> "a4b77d95-d78f-4bdd-bd32-0d2953f49223"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{"1",",","4",",","9"}],"}"}],StandardForm],"Output",CellLabel -> "Out[211]= ",ExpressionUUID -> "56ca9c8a-fa2e-42fd-87af-c822544a4b58"]},
+Open],ExpressionUUID -> "267f4bac-9c4a-4c67-a3e3-d9fdf5c3a8ab"]},{1}],ExpressionUUID -> "c80df12a-805a-48e3-bef7-f388a3a0abf2"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Standard"," ","vector"," ","and"," ","matrices"}],"Subsection",
+ExpressionUUID -> "d770bf92-5afc-4a34-81bd-07529322864b"],Cell[
+TextData[{ButtonBox[
+"ConstantArray",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/cloudplatform/ref/ConstantArray.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/cloudplatform/ref/ConstantArray.html"]," ","generates"," ","a"," ","list"," ","of"," ",StyleBox[
+"n",FontSlant -> Italic]," ","copies"," ","of"," ","the"," ","element"," ",StyleBox[
+"c",FontSlant -> Italic]}],"Text",ExpressionUUID -> "7a42f97d-e00f-4490-a442-129d1c97730d"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"ConstantArray","[",RowBox[{"3",",","10"}],"]"}]],"Input",
+CellLabel -> "In[208]:= ",ExpressionUUID -> "ed9fcdc6-1371-47c0-b44d-a9e282b21638"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"3",",","3",",","3",",","3",",","3",",","3",",","3",",","3",",","3",",","3"}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[208]= ",ExpressionUUID -> "9e93e43d-8712-4f0d-877f-23c626bd6c8c"]},
+Open],ExpressionUUID -> "c71b7c1a-ad3f-4a28-9944-8fea07b02ec0"],Cell[
+TextData[{ButtonBox[
+"CenterArray",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolfram.com/language/ref/CenterArray.html"],None},
+ButtonNote -> "https://reference.wolfram.com/language/ref/CenterArray.html"]," ","creates"," ","a"," ","list"," ","with"," ","one"," ","element"," ","at"," ","the"," ","center"," ","and"," ","zeros"," ","elsewhere"}],
+"Text",ExpressionUUID -> "18802201-86ff-4aec-bfdc-4a2e9bcd8eca"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"CenterArray","[",RowBox[{"1",",","5"}],"]"}]],"Input",CellLabel -> "In[86]:= ",
+ExpressionUUID -> "2b4ca2f2-de42-441c-8f61-7989474d0048"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{"0",",","0",",","1",",","0",",","0"}],"}"}],StandardForm],"Output",CellLabel -> "Out[86]= ",
+ExpressionUUID -> "73cd6412-fa4c-400b-bc1a-f1980114cf12"]},Open],ExpressionUUID -> "66b0b757-f8d2-40ea-8546-37f8c572cf00"],Cell[
+TextData[
+{ButtonBox["IdentityMatrix",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL[
+"https://reference.wolframcloud.com/language/ref/IdentityMatrix.html"],None},ButtonNote -> "https://reference.wolframcloud.com/language/ref/IdentityMatrix.html"]," ","gives"," ","the"," ",StyleBox[
+"nxn",FontSlant -> Italic],StyleBox[" ",FontSlant -> Italic],StyleBox["identity",
+FontSlant -> Plain],StyleBox[" ",FontSlant -> Plain],StyleBox["matrix",FontSlant -> Plain]}],
+"Text",ExpressionUUID -> "ff877c79-ee0d-4538-9b9e-f6dbb31aa44b"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"IdentityMatrix","[","3","]"}]," ","//"," ","MatrixForm"}]],
+"Input",CellLabel -> "In[80]:= ",ExpressionUUID -> "933f6416-4a61-4606-be39-516c2f8cdc76"],Cell[
+BoxData[
+TagBox[RowBox[{"(","\[NoBreak]",GridBox[{{"1","0","0"},{"0","1","0"},{"0","0","1"}},
+RowSpacings -> 1,ColumnSpacings -> 1,RowAlignments -> Baseline,ColumnAlignments -> Center],"\[NoBreak]",")"}],
+Function[BoxForm`e$,MatrixForm[BoxForm`e$]]],StandardForm],"Output",CellLabel -> "Out[80]//MatrixForm= ",
+ExpressionUUID -> "3915065d-0156-4aa5-8e07-157a25996d89"]},Open],ExpressionUUID -> "ec848379-dd61-435c-91a2-cf3c4c691260"],Cell[
+TextData[
+{ButtonBox["DiagonalMatrix",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL[
+"https://reference.wolframcloud.com/cloudplatform/ref/DiagonalMatrix.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/cloudplatform/ref/DiagonalMatrix.html"]," ","allows"," ","to"," ","construct"," ","diagonal"," ","matrices"}],
+"Text",ExpressionUUID -> "e5948b00-ffa1-4acd-8310-4b9231f809dd"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"DiagonalMatrix","[",RowBox[{"{",RowBox[{"a",",","b",",","c"}],"}"}],"]"}]," ","//"," ","MatrixForm"}]],
+"Input",CellLabel -> "In[81]:= ",ExpressionUUID -> "a89adc73-9227-4e96-bf1e-66670698ffde"],Cell[
+BoxData[
+TagBox[RowBox[{"(","\[NoBreak]",GridBox[{{"a","0","0"},{"0","b","0"},{"0","0","c"}},
+RowSpacings -> 1,ColumnSpacings -> 1,RowAlignments -> Baseline,ColumnAlignments -> Center],"\[NoBreak]",")"}],
+Function[BoxForm`e$,MatrixForm[BoxForm`e$]]],StandardForm],"Output",CellLabel -> "Out[81]//MatrixForm= ",
+ExpressionUUID -> "051a176d-1281-4776-ab56-486f88c9a42c"]},Open],ExpressionUUID -> "4de93521-6a10-40ef-a3d7-a75acf79e1b5"]},
+{1}],ExpressionUUID -> "e86e4165-3a58-49f2-b3a1-b1acf944f538"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"List"," ","of"," ","random"," ","numbers"}],"Subsection",ExpressionUUID -> "360a896e-1c38-4dd4-9221-7d096f910e4d"],Cell[
+TextData[
+{ButtonBox["RandomInteger",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/RandomInteger.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/RandomInteger.html"]," ","and"," ",ButtonBox[
+"RandomReal",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/RandomReal.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/RandomReal.html"]," ","allow"," ","to"," ","create"," ","lists"," ","of"," ","pseudorandom"," ","integer"," ","and"," ","real"," ","numbers","."}],
+"Text",ExpressionUUID -> "277c45ab-1b09-4fa3-a937-4459efa204de"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{RowBox[{"RandomInteger","[",RowBox[{RowBox[{"{",RowBox[{"0",",","9"}],"}"}],",",RowBox[
+{"{",RowBox[{"2",",","3"}],"}"}]}],"]"}],"     ",RowBox[{"(*"," ",RowBox[{"First"," ","argument"," ","is"," ","the"," ","range"}]," ","*)"}]}],"\n",RowBox[
+{RowBox[{"RandomReal","[",RowBox[{RowBox[{"{",RowBox[{"0",",","10"}],"}"}],",",RowBox[
+{"{",RowBox[{"3",",","2"}],"}"}]}],"]"}],"           ",RowBox[{"(*"," ",RowBox[{"Second"," ","argument"," ","is"," ","the"," ","structure"," ","of"," ","the"," ","list"}]," ","*)"}]}]}],
+"Input",CellLabel -> "In[84]:= ",ExpressionUUID -> "ac480402-2dbf-4069-8e32-0dbe610ce3c0"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{RowBox[{"{",RowBox[{"4",",","7",",","1"}],"}"}],",",RowBox[{"{",RowBox[
+{"4",",","9",",","6"}],"}"}]}],"}"}],StandardForm],"Output",CellLabel -> "Out[84]= ",
+ExpressionUUID -> "afb72d86-ec59-4593-96b8-97fbb73d8a07"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{RowBox[{"{",RowBox[{"5.386706695773814`",",","6.109101718135921`"}],"}"}],",",RowBox[
+{"{",RowBox[{"9.633741207243126`",",","0.5466230148725089`"}],"}"}],",",RowBox[{"{",RowBox[
+{"7.448305982715915`",",","2.9698907096359513`"}],"}"}]}],"}"}],StandardForm],"Output",
+CellLabel -> "Out[85]= ",ExpressionUUID -> "189452b9-0d5d-4fea-9a03-40f175fee3c6"]},
+Open],ExpressionUUID -> "bc28d8f9-6208-4621-99e3-85b3f19d2408"]},{1}],ExpressionUUID -> "e3897cda-f4a7-4631-b61f-16f86204f516"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"List"," ","of"," ","strings"}],"Subsection",ExpressionUUID -> "6898f9bc-5e43-4ebf-842e-78feedd6a3bd"],Cell[
+TextData[
+{ButtonBox["Characters",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/cloudplatform/ref/Characters.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/cloudplatform/ref/Characters.html"]," ","makes"," ","a"," ","list"," ","from"," ","the"," ","characters"," ","in"," ","a"," ","string","."}],
+"Text",ExpressionUUID -> "8fa062bd-f434-463b-882d-9618ea99706d"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Characters","[","\"Climate Change\"","]"}]],"Input",CellLabel -> "In[212]:= ",
+ExpressionUUID -> "08a6ad9f-7e3d-4d56-bca6-10ef45042756"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{"\"C\"",",","\"l\"",",","\"i\"",",","\"m\"",",","\"a\"",",","\"t\"",",","\"e\"",",","\" \"",",","\"C\"",",","\"h\"",",","\"a\"",",","\"n\"",",","\"g\"",",","\"e\""}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[212]= ",ExpressionUUID -> "ad37a053-3746-40e8-8149-21c24483d47c"]},
+Open],ExpressionUUID -> "80a88c88-66cb-440e-90d6-f2c3b19362fa"],Cell[
+TextData[{ButtonBox[
+"CharacterRanger",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/CharacterRange.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/CharacterRange.html"]," ","yields"," ","a"," ","list"," ","of"," ","a"," ","range"," ","of"," ","characters","."}],
+"Text",ExpressionUUID -> "2c03ae3f-7e53-4c3f-a27a-e14933810359"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"CharacterRange","[",RowBox[{"\"b\"",",","\"s\""}],"]"}]],
+"Input",CellLabel -> "In[213]:= ",ExpressionUUID -> "2e231e97-02ba-4a3c-965b-e294670ad580"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"\"b\"",",","\"c\"",",","\"d\"",",","\"e\"",",","\"f\"",",","\"g\"",",","\"h\"",",","\"i\"",",","\"j\"",",","\"k\"",",","\"l\"",",","\"m\"",",","\"n\"",",","\"o\"",",","\"p\"",",","\"q\"",",","\"r\"",",","\"s\""}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[213]= ",ExpressionUUID -> "94f057e7-86e7-4af5-bb94-c615164d2d98"]},
+Open],ExpressionUUID -> "51e6ee37-63cc-4166-a655-af4cb860bacb"],Cell[
+TextData[{ButtonBox[
+"Alphabet",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/Alphabet.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/Alphabet.html"]," ","gives"," ","a"," ","given"," ","alphabet","."}],
+"Text",ExpressionUUID -> "3b4e94e7-b842-473f-bf0e-fa716b9fac80"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{"Alphabet","[","]"}],"\n",RowBox[{"Alphabet","[","\"Greek\"","]"}],"\n",RowBox[
+{"Alphabet","[","\"Cyrillic\"","]"}]}],"Input",CellLabel -> "In[214]:= ",ExpressionUUID -> "2b9620b9-4e4f-4880-aed8-93b244a1551e"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"\"a\"",",","\"b\"",",","\"c\"",",","\"d\"",",","\"e\"",",","\"f\"",",","\"g\"",",","\"h\"",",","\"i\"",",","\"j\"",",","\"k\"",",","\"l\"",",","\"m\"",",","\"n\"",",","\"o\"",",","\"p\"",",","\"q\"",",","\"r\"",",","\"s\"",",","\"t\"",",","\"u\"",",","\"v\"",",","\"w\"",",","\"x\"",",","\"y\"",",","\"z\""}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[214]= ",ExpressionUUID -> "0aa7b07a-ca6f-4a55-8471-5b6317355195"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"\"\[Alpha]\"",",","\"\[Beta]\"",",","\"\[Gamma]\"",",","\"\[Delta]\"",",","\"\[CurlyEpsilon]\"",",","\"\[Zeta]\"",",","\"\[Eta]\"",",","\"\[Theta]\"",",","\"\[Iota]\"",",","\"\[Kappa]\"",",","\"\[Lambda]\"",",","\"\[Mu]\"",",","\"\[Nu]\"",",","\"\[Xi]\"",",","\"\[Omicron]\"",",","\"\[Pi]\"",",","\"\[Rho]\"",",","\"\[Sigma]\"",",","\"\[Tau]\"",",","\"\[Upsilon]\"",",","\"\[CurlyPhi]\"",",","\"\[Chi]\"",",","\"\[Psi]\"",",","\"\[Omega]\""}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[215]= ",ExpressionUUID -> "be5f0729-0f6a-4eaa-ac89-99e4870360e4"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"\"\:0430\"",",","\"\:0431\"",",","\"\:0432\"",",","\"\:0433\"",",","\"\:0491\"",",","\"\:0434\"",",","\"\:0452\"",",","\"\:0453\"",",","\"\:0435\"",",","\"\:0451\"",",","\"\:0454\"",",","\"\:0436\"",",","\"\:0437\"",",","\"\:0437\:0301\"",",","\"\:0455\"",",","\"\:0438\"",",","\"\:0456\"",",","\"\:0457\"",",","\"\:0439\"",",","\"\:0458\"",",","\"\:043a\"",",","\"\:043b\"",",","\"\:0459\"",",","\"\:043c\"",",","\"\:043d\"",",","\"\:045a\"",",","\"\:043e\"",",","\"\:043f\"",",","\"\:0440\"",",","\"\:0441\"",",","\"\:0441\:0301\"",",","\"\:0442\"",",","\"\:045b\"",",","\"\:045c\"",",","\"\:0443\"",",","\"\:045e\"",",","\"\:0444\"",",","\"\:0445\"",",","\"\:0446\"",",","\"\:0447\"",",","\"\:045f\"",",","\"\:0448\"",",","\"\:0449\"",",","\"\:044a\"",",","\"\:044b\"",",","\"\:044c\"",",","\"\:044d\"",",","\"\:044e\"",",","\"\:044f\""}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[216]= ",ExpressionUUID -> "fb93170e-6552-41c2-8152-c149848af7a8"]},
+Open],ExpressionUUID -> "50c27944-2879-48e8-ad35-ba2f5b773c84"]},{1}],ExpressionUUID -> "ec90f9b9-7f93-4e55-ae16-22491bb351d5"]},
+{1}],ExpressionUUID -> "655c962a-4db0-417a-95c8-dc19a2d139c3"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Common"," ","list"," ","operations"}],"Section",ExpressionUUID -> "9b9faa69-6eb1-4dfa-bec4-9197014283e7"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Basic"," ","operations"}],"Subsection",ExpressionUUID -> "0c92f9c3-4f77-4bc2-a7a7-2d2cf564eac7"],Cell[
+TextData[
+{"You"," ","can"," ","simply"," ","add"," ","numbers"," ","to"," ","a"," ","list",StyleBox[
+RowBox[{","," "}]],"multiply"," ","a"," ","list"," ","by"," ","a"," ","given"," ","number",StyleBox[
+RowBox[{","," "}]],"power"," ","a"," ","list",StyleBox[RowBox[{","," "}]],"etc","."}],
+"Text",ExpressionUUID -> "189ccdd7-01d2-48ed-964d-ba5a18d3cd85"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{RowBox[{"{",RowBox[{"1",",","2",",","3"}],"}"}],"+","4"}],"\n",RowBox[
+{RowBox[{"{",RowBox[{"1",",","2",",","3"}],"}"}],"*","5"}],"\n",RowBox[{RowBox[{"{",RowBox[
+{"1",",","2",",","3"}],"}"}],"^","2"}],"\n",RowBox[{RowBox[{"{",RowBox[{"1",",","2",",","3"}],"}"}],"/","2"}]}],
+"Input",CellLabel -> "In[87]:= ",ExpressionUUID -> "1f335e50-1f97-4402-bb62-f02448fa4a81"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"5",",","6",",","7"}],"}"}],StandardForm],"Output",CellLabel -> "Out[87]= ",
+ExpressionUUID -> "14ac4684-2ab8-471c-9be3-12a7bc604d7a"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{"5",",","10",",","15"}],"}"}],StandardForm],"Output",CellLabel -> "Out[88]= ",ExpressionUUID -> "367a5a46-9519-4e46-ac35-59c811f2527d"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"1",",","4",",","9"}],"}"}],StandardForm],"Output",CellLabel -> "Out[89]= ",
+ExpressionUUID -> "d72e5f3d-d18b-4b1a-a141-d025ffceeb31"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{FractionBox["1","2"],",","1",",",FractionBox["3","2"]}],"}"}],StandardForm],"Output",
+CellLabel -> "Out[90]= ",ExpressionUUID -> "a445b85a-2c3d-4d4a-a0a7-627db7a807dc"]},
+Open],ExpressionUUID -> "1b59a6ac-9e1e-4a7c-9d48-2ecbff52c195"],Cell[
+TextData[{"Similarly",StyleBox[
+RowBox[{","," "}]],"you"," ","can"," ","conduct"," ","the"," ","same"," ","operations"," ","between"," ","lists",StyleBox[
+RowBox[{"."," "}]],"\n","The"," ","operations"," ","will"," ","be"," ","conducted"," ","elements"," ","by"," ","elements","."}],
+"Text",ExpressionUUID -> "0b7343a2-47ac-4b39-97e9-3616ce3acf0e"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{RowBox[{"{",RowBox[{"1",",","2",",","3"}],"}"}],"+",RowBox[
+{"{",RowBox[{"a",",","b",",","c"}],"}"}]}],"\n",RowBox[{RowBox[{"{",RowBox[{"1",",","2",",","3"}],"}"}],"*",RowBox[
+{"{",RowBox[{"a",",","b",",","c"}],"}"}]}],"\n",RowBox[{RowBox[{"{",RowBox[{"1",",","2",",","3"}],"}"}],"^",RowBox[
+{"{",RowBox[{"a",",","b",",","c"}],"}"}]}],"\n",RowBox[{RowBox[{"{",RowBox[{"1",",","2",",","3"}],"}"}],"/",RowBox[
+{"{",RowBox[{"a",",","b",",","c"}],"}"}]}]}],"Input",CellLabel -> "In[91]:= ",ExpressionUUID -> "cf86f573-7892-4bd1-ab5a-5d4e6c42fe39"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{RowBox[{"1","+","a"}],",",RowBox[{"2","+","b"}],",",RowBox[{"3","+","c"}]}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[91]= ",ExpressionUUID -> "02b80b7c-c2ae-4f93-a004-2245e3b3321e"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"a",",",RowBox[{"2"," ","b"}],",",RowBox[{"3"," ","c"}]}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[92]= ",ExpressionUUID -> "b17d514f-e964-422e-8398-139729e8c020"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"1",",",SuperscriptBox["2","b"],",",SuperscriptBox["3","c"]}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[93]= ",ExpressionUUID -> "170723f4-8341-4a0f-ba4c-dc7edb072304"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{FractionBox["1","a"],",",FractionBox["2","b"],",",FractionBox[
+"3","c"]}],"}"}],StandardForm],"Output",CellLabel -> "Out[94]= ",ExpressionUUID -> "2f19cf78-ac0b-4f56-b722-3171c553fe71"]},
+Open],ExpressionUUID -> "34ff79d1-4d1c-42be-8140-abf872b67cba"]},{1}],ExpressionUUID -> "41d322d6-54c6-4afc-a878-a53c62b10105"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Basic"," ","statistics"}],"Subsection",ExpressionUUID -> "360adf66-9cad-496f-982e-2a369c7c3555"],Cell[
+TextData[
+{"You"," ","can"," ","compute"," ","the"," ",ButtonBox["Mean",BaseStyle -> "HyperlinkActionNew",
+ButtonData -> {URL["https://reference.wolframcloud.com/cloudplatform/ref/Mean.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/cloudplatform/ref/Mean.html"],StyleBox[
+RowBox[{","," "}]],ButtonBox["Median",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL[
+"https://reference.wolframcloud.com/cloudplatform/ref/Median.html"],None},ButtonNote -> "https://reference.wolframcloud.com/cloudplatform/ref/Median.html"],StyleBox[
+RowBox[{","," "}]],ButtonBox["Total",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL[
+"https://reference.wolframcloud.com/cloudplatform/ref/Total.html"],None},ButtonNote -> "https://reference.wolframcloud.com/cloudplatform/ref/Total.html"],StyleBox[
+RowBox[{" ","(="," "}]],"sum"," ","of"," ","the"," ","elements"," ","of"," ","a"," ","list",StyleBox[
+RowBox[{"),"," "}]],ButtonBox["Max",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL[
+"https://reference.wolframcloud.com/cloudplatform/ref/Max.html"],None},ButtonNote -> "https://reference.wolframcloud.com/cloudplatform/ref/Max.html"],StyleBox[
+RowBox[{","," "}]],ButtonBox["Min",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL[
+"https://reference.wolframcloud.com/cloudplatform/ref/Min.html"],None},ButtonNote -> "https://reference.wolframcloud.com/cloudplatform/ref/Min.html"],StyleBox[
+RowBox[{","," "}]],ButtonBox["Variance",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL[
+"https://reference.wolframcloud.com/language/ref/Variance.html"],None},ButtonNote -> "https://reference.wolframcloud.com/language/ref/Variance.html"],StyleBox[
+RowBox[{","," "}]],"or"," ",ButtonBox["Quantile",BaseStyle -> "HyperlinkActionNew",
+ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/Quantile.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/Quantile.html"]," ","of"," ","a"," ","list",":"}],
+"Text",ExpressionUUID -> "de6768c1-b8f6-4924-889b-83ad1022be6a"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{"Mean","[",RowBox[{"{",RowBox[{"1",",","2",",","3",",","4",",","5",",","6"}],"}"}],"]"}],"\n",RowBox[
+{RowBox[{"Median","[",RowBox[{"{",RowBox[{"1",",","2",",","3",",","4",",","5",",","6"}],"}"}],"]"}],"  "}],"\n",RowBox[
+{"Total","[",RowBox[{"{",RowBox[{"1",",","2",",","3",",","4",",","5",",","6"}],"}"}],"]"}],"\n",RowBox[
+{"Max","[",RowBox[{"{",RowBox[{"3",",","1",",","7",",","9",",","2",",","5"}],"}"}],"]"}],"\n",RowBox[
+{"Min","[",RowBox[{"{",RowBox[{"3",",","1",",","7",",","9",",","2",",","5"}],"}"}],"]"}],"\n",RowBox[
+{RowBox[{"Variance","[",RowBox[{"{",RowBox[{"1.5",",","3.2",",","4.1",",","2.7",",","6.4",",","9.5",",","8.6"}],"}"}],"]"}]," "}],"\n",RowBox[
+{"Quantile","[",RowBox[{RowBox[{"{",RowBox[{"1.5",",","3.2",",","4.1",",","2.7",",","6.4",",","9.5",",","8.6"}],"}"}],","," ",RowBox[
+{"{",RowBox[{RowBox[{"1","/","4"}],",",RowBox[{"3","/","4"}]}],"}"}]}],"]"}]}],"Input",
+CellLabel -> "In[189]:= ",ExpressionUUID -> "1b75e6d6-bb1e-4ece-bd0b-cb17cc3f7212"],Cell[
+BoxData[
+FractionBox["7","2"],StandardForm],"Output",CellLabel -> "Out[189]= ",ExpressionUUID -> "cb258ad6-24b3-4102-80e3-220f2b0cf315"],Cell[
+BoxData[
+FractionBox["7","2"],StandardForm],"Output",CellLabel -> "Out[190]= ",ExpressionUUID -> "99fb078f-fc96-4322-98f2-fe8945d77c8f"],Cell[
+BoxData[
+"21",StandardForm],"Output",CellLabel -> "Out[191]= ",ExpressionUUID -> "393f0e97-7384-4683-80bb-195142ddb515"],Cell[
+BoxData[
+"9",StandardForm],"Output",CellLabel -> "Out[192]= ",ExpressionUUID -> "d72a5888-c632-4426-bda8-34c38e3d3984"],Cell[
+BoxData[
+"1",StandardForm],"Output",CellLabel -> "Out[193]= ",ExpressionUUID -> "72aeece8-4ef3-4362-9d14-5b12894b989c"],Cell[
+BoxData[
+"9.436190476190475`",StandardForm],"Output",CellLabel -> "Out[194]= ",ExpressionUUID -> "41bcbd78-0c20-4628-b850-3d0e781cb286"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"2.7`",",","8.6`"}],"}"}],StandardForm],"Output",CellLabel -> "Out[195]= ",
+ExpressionUUID -> "f30dab75-83df-4250-8244-2a5589ccc967"]},Open],ExpressionUUID -> "209a0053-428e-49db-87cd-2c1b314e2bee"],Cell[
+TextData[
+{"Note"," ","that"," ",ButtonBox["Sum",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL[
+"https://reference.wolframcloud.com/cloudplatform/ref/Sum.html"],None},ButtonNote -> "https://reference.wolframcloud.com/cloudplatform/ref/Sum.html"]," ","allows"," ","to"," ","compute"," ","the"," ","sum"," ","of"," ","the"," ","elements"," ","of"," ","a"," ","list"," ","evaluated"," ","with"," ","a"," ","function",":"}],
+"Text",ExpressionUUID -> "e97f77fc-8a27-45e8-b44c-32b1920c34b0"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"Sum","[",RowBox[{RowBox[{"i","^","2"}],","," ",RowBox[
+{"{",RowBox[{"i",","," ","4"}],"}"}]}],"]"}]," "," "," "," "," "," ",RowBox[{"(*"," ",RowBox[
+{RowBox[{"Sum"," ","of"," ","1"}],","," ",RowBox[{"2","^","2"}],","," ",RowBox[{"3","^","2"}],","," ",RowBox[
+{"4","^","2"}]}]," ","*)"}]}]],"Input",CellLabel -> "In[109]:= ",ExpressionUUID -> "2758c602-83f0-4f2e-8b5f-775b29add407"],Cell[
+BoxData[
+"30",StandardForm],"Output",CellLabel -> "Out[109]= ",ExpressionUUID -> "05ed5ad3-15d8-4591-87e1-e2bb40082df0"]},
+Open],ExpressionUUID -> "0df6e599-f6b8-4ea1-83c7-551c9f7011d3"]},{1}],ExpressionUUID -> "8a8c9634-8ba3-4629-9957-076807bcae97"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Size"," ","of"," ","a"," ","list"}],"Subsection",ExpressionUUID -> "27cd2c55-d47b-44ef-9bad-e7783cdac0ab"],Cell[
+TextData[
+{ButtonBox["Length",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/Length.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/Length.html"]," ","gives"," ","the"," ","number"," ","of"," ","element"," ","of"," ","a"," ","list"}],
+"Text",ExpressionUUID -> "71d92d4c-f760-4da0-ab7a-43b83fff10b0"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Length","[",RowBox[{"{",RowBox[{"1",",","2",",","3",",","4"}],"}"}],"]"}]],
+"Input",CellLabel -> "In[141]:= ",ExpressionUUID -> "0c29a516-b9eb-4624-93b0-75065abaf89c"],Cell[
+BoxData[
+"4",StandardForm],"Output",CellLabel -> "Out[141]= ",ExpressionUUID -> "cc22a9b5-6ef8-4462-b06c-3393808b7ab7"]},
+Open],ExpressionUUID -> "39cc3e72-df12-4acf-ba09-a1566459d525"],Cell[
+TextData[{ButtonBox[
+"Dimensions",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/Dimensions.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/Dimensions.html"]," ","gives"," ","a"," ","list"," ","of"," ","the"," ","dimensions"," ","of"," ","a",StyleBox[
+RowBox[{" ","("}]],"nested",StyleBox[RowBox[{")"," "}]],"list",StyleBox[RowBox[{":"," "}]]}],
+"Text",ExpressionUUID -> "2bebb5b6-3f76-481d-b587-242d991c3651"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{"Dimensions","[",RowBox[{"{",RowBox[{RowBox[{"{",RowBox[{"1",",","2",",","3"}],"}"}],",",RowBox[
+{"{",RowBox[{"4",",","5",",","6"}],"}"}]}],"}"}],"]"}],"\n",RowBox[{RowBox[{"Dimensions","[",RowBox[
+{RowBox[{"{",RowBox[{RowBox[{"{",RowBox[{"1",",","2",",","3"}],"}"}],",",RowBox[{"{",RowBox[
+{"4",",","5",",","6"}],"}"}]}],"}"}],","," ","1"}],"]"}],"   ",RowBox[{"(*",RowBox[
+{"Specify"," ","the"," ","level"}]," ","*)"}]}],"\n",RowBox[{RowBox[{"MatrixForm","[",RowBox[
+{"{",RowBox[{RowBox[{"{",RowBox[{"1",",","2",",","3"}],"}"}],",",RowBox[{"{",RowBox[
+{"4",",","5",",","6"}],"}"}]}],"}"}],"]"}]," "}]}],"Input",CellLabel -> "In[149]:= ",
+ExpressionUUID -> "0d205716-2cbe-4037-83e3-4fd6f4493df9"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{"2",",","3"}],"}"}],StandardForm],"Output",CellLabel -> "Out[149]= ",ExpressionUUID -> "d34cf714-ebb3-4e38-a215-d3b7a1b12ca5"],Cell[
+BoxData[
+RowBox[{"{","2","}"}],StandardForm],"Output",CellLabel -> "Out[150]= ",ExpressionUUID -> "ed8aced4-7251-46b2-8ddd-1ab43e95505a"],Cell[
+BoxData[
+TagBox[RowBox[{"(","\[NoBreak]",GridBox[{{"1","2","3"},{"4","5","6"}},RowSpacings -> 1,
+ColumnSpacings -> 1,RowAlignments -> Baseline,ColumnAlignments -> Center],"\[NoBreak]",")"}],
+Function[BoxForm`e$,MatrixForm[BoxForm`e$]]],StandardForm],"Output",CellLabel -> "Out[151]//MatrixForm= ",
+ExpressionUUID -> "ce261a62-cbfa-451c-99db-7c37f9a363a5"]},Open],ExpressionUUID -> "e42eb9dd-939e-472e-9b94-4448a5f19be8"]},
+{1}],ExpressionUUID -> "27397e02-0fb9-4db4-a3dd-ab1692ed94be"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Reshape"," ","lists"}],"Subsection",ExpressionUUID -> "afe6e8a6-0692-4e7d-977e-3ee9aeb98c0d"],Cell[
+TextData[
+{ButtonBox["Flatten",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/Flatten.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/Flatten.html"]," ","a"," ","list",":"}],
+"Text",ExpressionUUID -> "83048e30-e4d1-489e-a098-0acc95aa2c31"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"Flatten","[",RowBox[{"{",RowBox[{RowBox[{"{",RowBox[
+{"a",","," ","b"}],"}"}],","," ",RowBox[{"{",RowBox[{"c",","," ","d"}],"}"}],","," ",RowBox[
+{"{","e","}"}]}],"}"}],"]"}]," "}]],"Input",CellLabel -> "In[152]:= ",ExpressionUUID -> "14f81c8e-fe86-490c-b53b-2ad8ea3dc268"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"a",",","b",",","c",",","d",",","e"}],"}"}],StandardForm],"Output",
+CellLabel -> "Out[152]= ",ExpressionUUID -> "93033890-62ab-4e0f-a7df-428c69bc85db"]},
+Open],ExpressionUUID -> "3fab09ca-132f-441e-becf-4056586b1234"],Cell[
+TextData[{"You"," ","can"," ","reshape"," ","lists"," ","with"," ",ButtonBox[
+StyleBox["ArrayReshape",FontWeight -> Plain],BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL[
+"https://reference.wolframcloud.com/language/ref/ArrayReshape.html?q=ArrayReshape"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/ArrayReshape.html?q=ArrayReshape"],StyleBox[
+".",FontWeight -> Plain],"\n",StyleBox["First",FontWeight -> Plain],StyleBox[" ",
+FontWeight -> Plain],StyleBox["argument",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox[
+"is",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox["your",FontWeight -> Plain],StyleBox[
+" ",FontWeight -> Plain],StyleBox["list",FontWeight -> Plain],StyleBox[RowBox[{StyleBox[
+",",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain]}]],StyleBox["second",FontWeight -> Plain],StyleBox[
+" ",FontWeight -> Plain],StyleBox["is",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox[
+"the",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox["dimensions",
+FontWeight -> Plain],StyleBox[".",FontWeight -> Plain]}],"Text",ExpressionUUID -> "963168cc-a7f3-402f-a7b3-32b74f18c93d"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"ArrayReshape","[",RowBox[{RowBox[{"{",RowBox[{RowBox[{"{",RowBox[
+{"1",",","2",",","3",",","4"}],"}"}],",",RowBox[{"{",RowBox[{"5",",","6",",","7",",","8"}],"}"}],",",RowBox[
+{"{",RowBox[{"9",",","10",",","11",",","12"}],"}"}]}],"}"}],",",RowBox[{"{",RowBox[
+{"2",",","6"}],"}"}]}],"]"}]],"Input",CellLabel -> "In[153]:= ",ExpressionUUID -> "68bb479f-9a2c-4965-a261-d6a9ae90d39d"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{RowBox[{"{",RowBox[{"1",",","2",",","3",",","4",",","5",",","6"}],"}"}],",",RowBox[
+{"{",RowBox[{"7",",","8",",","9",",","10",",","11",",","12"}],"}"}]}],"}"}],StandardForm],
+"Output",CellLabel -> "Out[153]= ",ExpressionUUID -> "e0d2a2c6-454d-4a88-b359-305379933049"]},
+Open],ExpressionUUID -> "3d1759cc-9f11-43f7-978a-5faaa8f5384b"],Cell[
+TextData[{"You"," ","can"," ",ButtonBox[
+"Sort",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/Sort.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/Sort.html"]," ","the"," ","elements"," ","of"," ","a"," ","list",".","\n","See"," ","also"," ",ButtonBox[
+"NumericalSort",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/NumericalSort.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/NumericalSort.html"]}],
+"Text",ExpressionUUID -> "95cafcb2-967a-4440-86d9-5a0fc7e9f8e8"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{"Sort","[",RowBox[{"{",RowBox[{"3",",","1",",","2",",","5",",","4"}],"}"}],"]"}],"\n",RowBox[
+{"Sort","[",RowBox[{"{",RowBox[{"e",",","b",",","d",",","a",",","c"}],"}"}],"]"}]}],
+"Input",CellLabel -> "In[155]:= ",ExpressionUUID -> "059f2f46-2eb6-4e5b-8af3-6193ac4f6254"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"1",",","2",",","3",",","4",",","5"}],"}"}],StandardForm],"Output",
+CellLabel -> "Out[155]= ",ExpressionUUID -> "a4cccbeb-cf05-4703-a6e6-113dd335ced5"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"a",",","b",",","c",",","d",",","e"}],"}"}],StandardForm],"Output",
+CellLabel -> "Out[156]= ",ExpressionUUID -> "0a8cba0e-9f2a-4184-9fbe-88c25a268d72"]},
+Open],ExpressionUUID -> "5b3017bd-1094-4573-be5c-4320b2ea73ef"],Cell[
+TextData[{"Similarly",StyleBox[
+RowBox[{","," "}]],"you"," ","can"," ",ButtonBox["ReverseSort",BaseStyle -> "HyperlinkActionNew",
+ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/ReverseSort.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/ReverseSort.html"],":"}],
+"Text",ExpressionUUID -> "912c0c03-a6c9-4348-bafb-59056a698b60"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{"ReverseSort","[",RowBox[{"{",RowBox[{"3",",","1",",","2",",","5",",","4"}],"}"}],"]"}],"\n",RowBox[
+{"ReverseSort","[",RowBox[{"{",RowBox[{"e",",","b",",","d",",","a",",","c"}],"}"}],"]"}]}],
+"Input",CellLabel -> "In[157]:= ",ExpressionUUID -> "46d54384-5c69-4395-8cae-1863d354abb9"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"5",",","4",",","3",",","2",",","1"}],"}"}],StandardForm],"Output",
+CellLabel -> "Out[157]= ",ExpressionUUID -> "955a0c4d-f4b7-43b3-af7b-ea0b0cebccc4"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"e",",","d",",","c",",","b",",","a"}],"}"}],StandardForm],"Output",
+CellLabel -> "Out[158]= ",ExpressionUUID -> "4137800a-2faf-404f-8e6e-eec7e957f20a"]},
+Open],ExpressionUUID -> "ee8c7620-fa78-4e6a-a561-3008e7372b25"],Cell[
+TextData[{"Finally",StyleBox[
+RowBox[{","," "}]],"you"," ","can"," ","also"," ","sort"," ","the"," ","elements"," ","of"," ","a"," ","list"," ","in"," ","the"," ","order"," ","defined"," ","when"," ","applying"," ","a"," ","function"," ","to"," ","each"," ","of"," ","them"," ","using"," ",ButtonBox[
+"SortBy",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/SortBy.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/SortBy.html"],StyleBox[
+RowBox[{"."," "}]],"Similarly",StyleBox[RowBox[{","," "}]],"reverse"," ","sort"," ","with"," ",ButtonBox[
+"ReverseSortBy",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/ReverseSortBy.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/ReverseSortBy.html"]}],
+"Text",ExpressionUUID -> "caa05c26-e167-4f76-b8bf-b31cf0d31944"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{"SortBy","[",RowBox[{RowBox[{"{",RowBox[{"0",",",RowBox[{"Pi","/","2"}],",",RowBox[
+{"3",RowBox[{"Pi","/","2"}]}]}],"}"}],","," ","Sin"}],"]"}],"\n",RowBox[{"ReverseSortBy","[",RowBox[
+{RowBox[{"{",RowBox[{"0",",",RowBox[{"Pi","/","2"}],",",RowBox[{"3"," ",RowBox[{"Pi","/","2"}]}]}],"}"}],","," ","Sin"}],"]"}],"\n",RowBox[
+{"Sin","[",RowBox[{"{",RowBox[{"0",",",RowBox[{"Pi","/","2"}],",",RowBox[{"3"," ",RowBox[
+{"Pi","/","2"}]}]}],"}"}],"]"}]}],"Input",CellLabel -> "In[180]:= ",ExpressionUUID -> "f4649cce-f7b3-4ecd-8751-e5573cc6c747"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{FractionBox[RowBox[{"3"," ","\[Pi]"}],"2"],",","0",",",FractionBox[
+"\[Pi]","2"]}],"}"}],StandardForm],"Output",CellLabel -> "Out[180]= ",ExpressionUUID -> "fff96864-69c3-4f7f-8ad2-b16c1a7ebd09"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{FractionBox["\[Pi]","2"],",","0",",",FractionBox[RowBox[{"3"," ","\[Pi]"}],
+"2"]}],"}"}],StandardForm],"Output",CellLabel -> "Out[181]= ",ExpressionUUID -> "47212d86-693c-4b3a-8529-e3920688c306"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"0",",","1",",",RowBox[{"-","1"}]}],"}"}],StandardForm],"Output",
+CellLabel -> "Out[182]= ",ExpressionUUID -> "7d716077-fb25-4ae6-8606-626b7e616ff1"]},
+Open],ExpressionUUID -> "653e58d9-54fd-4dd0-a680-104658bc278a"]},{1}],ExpressionUUID -> "938e78a9-dcb5-4706-8ff5-b6f6ecde1c45"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Subsets"," ","and"," ","permutations"," ","of"," ","list"}],"Subsection",
+ExpressionUUID -> "65eda39c-3c89-4688-b662-c8135cba6e4d"],Cell[
+TextData[{ButtonBox[
+"Subsets",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/Subsets.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/Subsets.html"]," ","returns"," ","a"," ","list"," ","of"," ","all"," ","possible"," ","subsets"," ","of"," ","a"," ","given"," ","list",StyleBox[
+RowBox[{"."," "}]],"You"," ","can"," ","also"," ","specify"," ","the"," ","number"," ","of"," ","elements"," ","of"," ","the"," ","subset"," ","lists",":"}],
+"Text",ExpressionUUID -> "84b6c2b3-972b-45ea-a1fc-957de8959f6f"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{RowBox[{"Subsets","[",RowBox[{"{",RowBox[{"1",",","2",",","3",",","4",",","5"}],"}"}],"]"}],"                        ",RowBox[
+{"(*"," ",RowBox[{"All"," ","subsets"}]," ","*)"}]}],"\n",RowBox[{RowBox[{"Subsets","[",RowBox[
+{RowBox[{"{",RowBox[{"1",",","2",",","3",",","4",",","5"}],"}"}],",","2"}],"]"}],"                 ",RowBox[
+{"(*"," ",RowBox[{"At"," ","most"," ","2"," ","elements"}]," ","*)"}]}],"\n",RowBox[
+{RowBox[{"Subsets","[",RowBox[{RowBox[{"{",RowBox[{"1",",","2",",","3",",","4",",","5"}],"}"}],",",RowBox[
+{"{","3","}"}]}],"]"}],"            ",RowBox[{"(*"," ",RowBox[{"Exactly"," ","3"," ","elements"}]," ","*)"}]}]}],
+"Input",CellLabel -> "In[202]:= ",ExpressionUUID -> "fff5d003-de9f-40ae-a318-cd34fe4167b9"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{RowBox[{"{","}"}],",",RowBox[{"{","1","}"}],",",RowBox[{"{","2","}"}],",",RowBox[
+{"{","3","}"}],",",RowBox[{"{","4","}"}],",",RowBox[{"{","5","}"}],",",RowBox[{"{",RowBox[
+{"1",",","2"}],"}"}],",",RowBox[{"{",RowBox[{"1",",","3"}],"}"}],",",RowBox[{"{",RowBox[
+{"1",",","4"}],"}"}],",",RowBox[{"{",RowBox[{"1",",","5"}],"}"}],",",RowBox[{"{",RowBox[
+{"2",",","3"}],"}"}],",",RowBox[{"{",RowBox[{"2",",","4"}],"}"}],",",RowBox[{"{",RowBox[
+{"2",",","5"}],"}"}],",",RowBox[{"{",RowBox[{"3",",","4"}],"}"}],",",RowBox[{"{",RowBox[
+{"3",",","5"}],"}"}],",",RowBox[{"{",RowBox[{"4",",","5"}],"}"}],",",RowBox[{"{",RowBox[
+{"1",",","2",",","3"}],"}"}],",",RowBox[{"{",RowBox[{"1",",","2",",","4"}],"}"}],",",RowBox[
+{"{",RowBox[{"1",",","2",",","5"}],"}"}],",",RowBox[{"{",RowBox[{"1",",","3",",","4"}],"}"}],",",RowBox[
+{"{",RowBox[{"1",",","3",",","5"}],"}"}],",",RowBox[{"{",RowBox[{"1",",","4",",","5"}],"}"}],",",RowBox[
+{"{",RowBox[{"2",",","3",",","4"}],"}"}],",",RowBox[{"{",RowBox[{"2",",","3",",","5"}],"}"}],",",RowBox[
+{"{",RowBox[{"2",",","4",",","5"}],"}"}],",",RowBox[{"{",RowBox[{"3",",","4",",","5"}],"}"}],",",RowBox[
+{"{",RowBox[{"1",",","2",",","3",",","4"}],"}"}],",",RowBox[{"{",RowBox[{"1",",","2",",","3",",","5"}],"}"}],",",RowBox[
+{"{",RowBox[{"1",",","2",",","4",",","5"}],"}"}],",",RowBox[{"{",RowBox[{"1",",","3",",","4",",","5"}],"}"}],",",RowBox[
+{"{",RowBox[{"2",",","3",",","4",",","5"}],"}"}],",",RowBox[{"{",RowBox[{"1",",","2",",","3",",","4",",","5"}],"}"}]}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[202]= ",ExpressionUUID -> "7f1969b1-cb70-43df-90c9-13685cb332eb"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{RowBox[{"{","}"}],",",RowBox[{"{","1","}"}],",",RowBox[{"{","2","}"}],",",RowBox[
+{"{","3","}"}],",",RowBox[{"{","4","}"}],",",RowBox[{"{","5","}"}],",",RowBox[{"{",RowBox[
+{"1",",","2"}],"}"}],",",RowBox[{"{",RowBox[{"1",",","3"}],"}"}],",",RowBox[{"{",RowBox[
+{"1",",","4"}],"}"}],",",RowBox[{"{",RowBox[{"1",",","5"}],"}"}],",",RowBox[{"{",RowBox[
+{"2",",","3"}],"}"}],",",RowBox[{"{",RowBox[{"2",",","4"}],"}"}],",",RowBox[{"{",RowBox[
+{"2",",","5"}],"}"}],",",RowBox[{"{",RowBox[{"3",",","4"}],"}"}],",",RowBox[{"{",RowBox[
+{"3",",","5"}],"}"}],",",RowBox[{"{",RowBox[{"4",",","5"}],"}"}]}],"}"}],StandardForm],
+"Output",CellLabel -> "Out[203]= ",ExpressionUUID -> "38ac5ee7-81bf-4306-a11d-d05f0eb6d7d9"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{RowBox[{"{",RowBox[{"1",",","2",",","3"}],"}"}],",",RowBox[{"{",RowBox[
+{"1",",","2",",","4"}],"}"}],",",RowBox[{"{",RowBox[{"1",",","2",",","5"}],"}"}],",",RowBox[
+{"{",RowBox[{"1",",","3",",","4"}],"}"}],",",RowBox[{"{",RowBox[{"1",",","3",",","5"}],"}"}],",",RowBox[
+{"{",RowBox[{"1",",","4",",","5"}],"}"}],",",RowBox[{"{",RowBox[{"2",",","3",",","4"}],"}"}],",",RowBox[
+{"{",RowBox[{"2",",","3",",","5"}],"}"}],",",RowBox[{"{",RowBox[{"2",",","4",",","5"}],"}"}],",",RowBox[
+{"{",RowBox[{"3",",","4",",","5"}],"}"}]}],"}"}],StandardForm],"Output",CellLabel -> "Out[204]= ",
+ExpressionUUID -> "eae265e5-4de1-42cc-98bf-dc611da24119"]},Open],ExpressionUUID -> "fe2a9933-f5c1-4986-94c9-93c0a56d91b9"],Cell[
+TextData[
+{ButtonBox["Permutations",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/Permutations.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/Permutations.html"]," ","generates"," ","a"," ","list"," ","of"," ","all"," ","possible"," ","permutations"," ","of"," ","a"," ","given"," ","list",StyleBox[
+RowBox[{"."," "," "}]],"You"," ","can"," ","also"," ","specify"," ","the"," ","number"," ","of"," ","elements"," ","of"," ","the"," ","permuted"," ","lists",":"}],
+"Text",ExpressionUUID -> "a23ca3ed-aff1-48e3-9e4a-a619eb1585ef"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{RowBox[{"Permutations","[",RowBox[{"{",RowBox[{"a",",","b",",","c"}],"}"}],"]"}],"                        ",RowBox[
+{"(*"," ",RowBox[{"All"," ","subsets"}]," ","*)"}]}],"\n",RowBox[{RowBox[{"Permutations","[",RowBox[
+{RowBox[{"{",RowBox[{"a",",","b",",","c"}],"}"}],",","2"}],"]"}],"                 ",RowBox[
+{"(*"," ",RowBox[{"At"," ","most"," ","2"," ","elements"}]," ","*)"}]}],"\n",RowBox[
+{RowBox[{"Permutations","[",RowBox[{RowBox[{"{",RowBox[{"a",",","b",",","c"}],"}"}],",",RowBox[
+{"{","2","}"}]}],"]"}],"            ",RowBox[{"(*"," ",RowBox[{"Exactly"," ","2"," ","elements"}]," ","*)"}]}]}],
+"Input",CellLabel -> "In[205]:= ",ExpressionUUID -> "f5d12149-48f2-4f40-ab0e-da02c949de6b"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{RowBox[{"{",RowBox[{"a",",","b",",","c"}],"}"}],",",RowBox[{"{",RowBox[
+{"a",",","c",",","b"}],"}"}],",",RowBox[{"{",RowBox[{"b",",","a",",","c"}],"}"}],",",RowBox[
+{"{",RowBox[{"b",",","c",",","a"}],"}"}],",",RowBox[{"{",RowBox[{"c",",","a",",","b"}],"}"}],",",RowBox[
+{"{",RowBox[{"c",",","b",",","a"}],"}"}]}],"}"}],StandardForm],"Output",CellLabel -> "Out[205]= ",
+ExpressionUUID -> "90ba071c-e8c5-4d7b-b717-9891ba573673"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{RowBox[{"{","}"}],",",RowBox[{"{","a","}"}],",",RowBox[{"{","b","}"}],",",RowBox[
+{"{","c","}"}],",",RowBox[{"{",RowBox[{"a",",","b"}],"}"}],",",RowBox[{"{",RowBox[
+{"a",",","c"}],"}"}],",",RowBox[{"{",RowBox[{"b",",","a"}],"}"}],",",RowBox[{"{",RowBox[
+{"b",",","c"}],"}"}],",",RowBox[{"{",RowBox[{"c",",","a"}],"}"}],",",RowBox[{"{",RowBox[
+{"c",",","b"}],"}"}]}],"}"}],StandardForm],"Output",CellLabel -> "Out[206]= ",ExpressionUUID -> "fba52315-91d9-47a5-80c5-33d7da2e263e"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{RowBox[{"{",RowBox[{"a",",","b"}],"}"}],",",RowBox[{"{",RowBox[
+{"a",",","c"}],"}"}],",",RowBox[{"{",RowBox[{"b",",","a"}],"}"}],",",RowBox[{"{",RowBox[
+{"b",",","c"}],"}"}],",",RowBox[{"{",RowBox[{"c",",","a"}],"}"}],",",RowBox[{"{",RowBox[
+{"c",",","b"}],"}"}]}],"}"}],StandardForm],"Output",CellLabel -> "Out[207]= ",ExpressionUUID -> "d22a0541-cbed-4d92-9b01-e4d28f932db0"]},
+Open],ExpressionUUID -> "c365b270-7e57-4a15-a979-46e64ad3b095"]},{1}],ExpressionUUID -> "6b63e396-ee78-456d-95cf-5eb27ec052f3"]},
+{1}],ExpressionUUID -> "56a174e1-d0e2-4636-9273-0d7843a94a36"],Cell[
+TextData[{"And"," ","many"," ","more",StyleBox[
+RowBox[{"..."," "}]],"Explore"," ","the"," ","documentation","!"}],"Section",ExpressionUUID -> "c1acba30-234e-4a3f-8be4-7f54ba8bf461"]},
+Open],ExpressionUUID -> "994eb017-5e8a-4462-b202-4b0a0ea9f9d2"]},Open],ExpressionUUID -> "8c2c72e9-65fc-4699-98f0-3b490187bd48"]},
+StyleDefinitions -> "Default.nb",FrontEndVersion -> "12.3 for Wolfram Cloud 1.59.0.1 (July 26, 2021)",
+TaggingRules -> {"TryRealOnly" -> False}]
