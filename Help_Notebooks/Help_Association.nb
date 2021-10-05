@@ -1,0 +1,302 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+TextData[{"Data"," ","Science"," ","and"," ","Machine"," ","Learning"}],
+"Title",ExpressionUUID -> "48c4ef4c-9562-4570-b813-89f93fcf1e42"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Help"," ","notebook",StyleBox[RowBox[{":"," "}]],"Association"}],
+"Subtitle",ExpressionUUID -> "44a823fd-471a-4f96-8544-3983bb7679d8"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"What"," ","is"," ","an"," ","Association","?"}],"Section",ExpressionUUID -> "377f4b22-08e1-4900-a33d-86eda7a1d0cd"],Cell[
+TextData[
+{ButtonBox["Associations",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolfram.com/language/guide/Associations.html"],None},
+ButtonNote -> "https://reference.wolfram.com/language/guide/Associations.html"]," ","are"," ","fundamental"," ","constructs"," ","that"," ","associate"," ","keys"," ","with"," ","values",".","\n",ButtonBox[
+StyleBox[StyleBox["Association",FontSize -> 13],FontFamily -> "Consolas"],BaseStyle -> "HyperlinkActionNew",
+ButtonData -> {URL["https://reference.wolfram.com/language/ref/Association.html"],None},
+ButtonNote -> "https://reference.wolfram.com/language/ref/Association.html"],StyleBox[
+RowBox[{StyleBox[StyleBox["[",FontSize -> 13],FontFamily -> "Consolas"],StyleBox[
+StyleBox[" ",FontSize -> 13],FontFamily -> "Consolas"]}]],StyleBox[StyleBox["key1",
+FontSize -> 13],FontFamily -> "Consolas"],StyleBox[RowBox[{StyleBox[StyleBox[" ",
+FontSize -> 13],FontFamily -> "Consolas"],StyleBox[StyleBox["\[Rule]",FontSize -> 13],
+FontFamily -> "Consolas"],StyleBox[StyleBox[" ",FontSize -> 13],FontFamily -> "Consolas"]}]],StyleBox[
+StyleBox["value1",FontSize -> 13],FontFamily -> "Consolas"],StyleBox[RowBox[{StyleBox[
+StyleBox[",",FontSize -> 13],FontFamily -> "Consolas"],StyleBox[StyleBox[" ",FontSize -> 13],
+FontFamily -> "Consolas"]}]],StyleBox[StyleBox["key2",FontSize -> 13],FontFamily -> "Consolas"],StyleBox[
+RowBox[{StyleBox[StyleBox[" ",FontSize -> 13],FontFamily -> "Consolas"],StyleBox[
+StyleBox["\[Rule]",FontSize -> 13],FontFamily -> "Consolas"],StyleBox[StyleBox[" ",
+FontSize -> 13],FontFamily -> "Consolas"]}]],StyleBox[StyleBox["val2",FontSize -> 13],
+FontFamily -> "Consolas"],StyleBox[RowBox[{StyleBox[StyleBox[",",FontSize -> 13],
+FontFamily -> "Consolas"],StyleBox[StyleBox[" ",FontSize -> 13],FontFamily -> "Consolas"]}]],StyleBox[
+StyleBox["key3",FontSize -> 13],FontFamily -> "Consolas"],StyleBox[RowBox[{StyleBox[
+StyleBox[" ",FontSize -> 13],FontFamily -> "Consolas"],StyleBox[StyleBox["\[Rule]",
+FontSize -> 13],FontFamily -> "Consolas"],StyleBox[StyleBox[" ",FontSize -> 13],FontFamily -> "Consolas"]}]],StyleBox[
+StyleBox["val3",FontSize -> 13],FontFamily -> "Consolas"],StyleBox[RowBox[{StyleBox[
+StyleBox[" ",FontSize -> 13],FontFamily -> "Consolas"],StyleBox[StyleBox["]",FontSize -> 13],
+FontFamily -> "Consolas"]," "}]],"allows"," ","to"," ","create"," ","an"," ","association"," ","starting",StyleBox[
+RowBox[{"."," "}]],"\n","Note",StyleBox[RowBox[{":"," ","\"\[Rule]\""," "}]],"is"," ","called"," ","a"," ",ButtonBox[
+"Rule",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/Rule.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/Rule.html"],"."}],
+"Text",ExpressionUUID -> "f0eb3f00-8a53-4eeb-b6bb-aef02c75e641"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"assoc"," ","="," ",RowBox[{"Association","[",RowBox[{RowBox[
+{"\"a\""," ","\[Rule]"," ","1"}],","," ",RowBox[{"\"b\""," ","\[Rule]"," ","2"}],","," ",RowBox[
+{"\"c\""," ","\[Rule]"," ","3"}]}],"]"}]}]],"Input",CellLabel -> "In[56]:= ",ExpressionUUID -> "c11ff30c-e69b-4e7f-ac53-8075e1310eb1"],Cell[
+BoxData[
+RowBox[{"\[LeftAssociation]",RowBox[{RowBox[{"\"a\"","\[Rule]","1"}],",",RowBox[{"\"b\"","\[Rule]","2"}],",",RowBox[
+{"\"c\"","\[Rule]","3"}]}],"\[RightAssociation]"}],StandardForm],"Output",CellLabel -> "Out[56]= ",
+ExpressionUUID -> "d5eee4de-521e-4944-894a-abf0c1cca89b"]},Open],ExpressionUUID -> "8ba9c3b3-677d-4c27-b95a-e671e4117de2"],Cell[
+TextData[
+{"This"," ","structure"," ","is"," ","equivalent"," ","to",StyleBox[RowBox[{":"," "}]]}],
+"Text",ExpressionUUID -> "5197c609-2fec-4d52-b330-5bb72402bcd6"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"\[LeftAssociation]",RowBox[{RowBox[{"\"a\"","\[Rule]","1"}],",",RowBox[
+{"\"b\"","\[Rule]","2"}],",",RowBox[{"\"c\"","\[Rule]","3"}]}],"\[RightAssociation]"}]],
+"Input",CellLabel -> "In[57]:= ",ExpressionUUID -> "4571791e-6e65-4399-87ca-0f693ace9e8e"],Cell[
+BoxData[
+RowBox[{"\[LeftAssociation]",RowBox[{RowBox[{"\"a\"","\[Rule]","1"}],",",RowBox[{"\"b\"","\[Rule]","2"}],",",RowBox[
+{"\"c\"","\[Rule]","3"}]}],"\[RightAssociation]"}],StandardForm],"Output",CellLabel -> "Out[57]= ",
+ExpressionUUID -> "b79a8bcc-6610-4b88-89f4-c66b6215efbc"]},Open],ExpressionUUID -> "8c8c9324-b072-4e30-9b2a-a9e5d35091c1"],Cell[
+TextData[
+{"In"," ","this"," ","example",StyleBox[RowBox[{","," "}]],"the"," ","keys"," ","were"," ","string"," ","objects",StyleBox[
+RowBox[{","," "}]],"but"," ","they"," ","do"," ","not"," ","need"," ","to",":"}],
+"Text",ExpressionUUID -> "d6c3b9d3-e046-47e9-9b08-db6c831f5627"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"\[LeftAssociation]",RowBox[{RowBox[{"a","\[Rule]","1"}],",",RowBox[
+{"7","\[Rule]","2"}],",",RowBox[{RowBox[{"{",RowBox[{"1",",","2"}],"}"}],"\[Rule]","3"}]}],"\[RightAssociation]"}]," "," "," "," ",RowBox[
+{"(*"," ",RowBox[{RowBox[{"The"," ","first"," ","key"," ","is"," ","the"," ","symbol"," ","\"a\""}],","," ",RowBox[
+{"the"," ","second"," ","the"," ","integer"," ","7"}],","," ",RowBox[{"and"," ","the"," ","third"," ","one"," ","is"," ","the"," ","list"," ",RowBox[
+{"{",RowBox[{"1",",","2"}],"}"}]}]}]," ","*)"}]}]],"Input",CellLabel -> "In[65]:= ",
+ExpressionUUID -> "1d16d123-6d30-4e1c-b04a-c86faa8ddfa9"],Cell[
+BoxData[RowBox[{"\[LeftAssociation]",RowBox[
+{RowBox[{"a","\[Rule]","1"}],",",RowBox[{"7","\[Rule]","2"}],",",RowBox[{RowBox[{"{",RowBox[
+{"1",",","2"}],"}"}],"\[Rule]","3"}]}],"\[RightAssociation]"}],StandardForm],"Output",
+CellLabel -> "Out[65]= ",ExpressionUUID -> "0648b4dd-18b1-42f8-9558-70fcd3890409"]},
+Open],ExpressionUUID -> "3dd8a83a-ee04-422e-898c-f8b322093b4b"],Cell[
+TextData[{"Similarly",StyleBox[
+RowBox[{","," "}]],"the"," ","values"," ","can"," ","be"," ","anything",":"}],"Text",
+ExpressionUUID -> "7b751631-2a43-4689-9e4c-b0c1592e5ab2"],Cell[
+CellGroupData[{Cell[
+BoxData[
+RowBox[{"\[LeftAssociation]",RowBox[{RowBox[{"\"a\"","\[Rule]","Exp"}],",",RowBox[
+{"\"b\"","\[Rule]","\"hello\""}],",",RowBox[{"\"c\"","\[Rule]",RowBox[{"{",RowBox[
+{"1",",","2"}],"}"}]}]}],"\[RightAssociation]"}]],"Input",CellLabel -> "In[95]:= ",
+ExpressionUUID -> "6da1decc-65fe-4fb2-80ab-a76c1a937a35"],Cell[
+BoxData[RowBox[{"\[LeftAssociation]",RowBox[
+{RowBox[{"\"a\"","\[Rule]","Exp"}],",",RowBox[{"\"b\"","\[Rule]","\"hello\""}],",",RowBox[
+{"\"c\"","\[Rule]",RowBox[{"{",RowBox[{"1",",","2"}],"}"}]}]}],"\[RightAssociation]"}],
+StandardForm],"Output",CellLabel -> "Out[95]= ",ExpressionUUID -> "30ae5845-989e-4931-9459-d62158f8d8ca"]},
+Open],ExpressionUUID -> "535660ab-8942-4b06-809c-84ef042b5996"]},{1}],ExpressionUUID -> "7b409d93-a4be-421c-9a3a-90ebc9d365db"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Extract"," ","from"," ","associations"}],"Section",ExpressionUUID -> "f9946140-cdeb-4709-a5ec-3a8276e8015a"],Cell[
+TextData[
+{"You"," ","can"," ","extract"," ","the"," ","keys"," ","of"," ","an"," ","association"," ","using"," ",ButtonBox[
+"Keys",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolfram.com/language/ref/Keys.html"],None},
+ButtonNote -> "https://reference.wolfram.com/language/ref/Keys.html"],":"}],"Text",
+ExpressionUUID -> "e74b4828-46c4-4ed7-8c30-ecf307d13248"],Cell[
+CellGroupData[{Cell[
+BoxData[
+RowBox[{"Keys","[","assoc","]"}]],"Input",CellLabel -> "In[62]:= ",ExpressionUUID -> "aa9add08-0207-404c-98bf-cbf9c251de39"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"\"a\"",",","\"b\"",",","\"c\""}],"}"}],StandardForm],"Output",
+CellLabel -> "Out[62]= ",ExpressionUUID -> "6f7f5e1e-e2ba-46e9-9bad-f62753694f47"]},
+Open],ExpressionUUID -> "1b91384b-78ff-4c5c-83db-8fe7b5a868cc"],Cell[
+TextData[{"Extract"," ","the"," ","values"," ","of"," ","an"," ","association"," ","using"," ",ButtonBox[
+"Values",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolfram.com/language/ref/Values.html"],None},
+ButtonNote -> "https://reference.wolfram.com/language/ref/Values.html"],":"}],"Text",
+ExpressionUUID -> "392d8f6b-61c3-4c28-9efd-f95272ff3919"],Cell[
+CellGroupData[{Cell[
+BoxData[
+RowBox[{"Values","[","assoc","]"}]],"Input",CellLabel -> "In[59]:= ",ExpressionUUID -> "fb18fc6a-fbd8-47ff-83d0-4d1fedf32fc3"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"1",",","2",",","3"}],"}"}],StandardForm],"Output",CellLabel -> "Out[59]= ",
+ExpressionUUID -> "536c55ec-7d9a-40c1-bfce-75770283dfa2"]},Open],ExpressionUUID -> "60c12d9d-feef-4cc2-abe2-28f4b01fb4dd"],Cell[
+TextData[
+{"You"," ","can"," ","easily"," ",StyleBox["extract",FontWeight -> Bold],StyleBox[
+" ",FontWeight -> Bold],StyleBox["the",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"value",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox["associated",
+FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox["with",FontWeight -> Bold],StyleBox[
+" ",FontWeight -> Bold],StyleBox["a",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"given",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox["key",FontWeight -> Bold],":"}],
+"Text",ExpressionUUID -> "ba1298bf-a6fb-4d23-82d1-e8e695e7f499"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"assoc","[","\"b\"","]"}]],"Input",CellLabel -> "In[63]:= ",
+ExpressionUUID -> "49e27172-6a50-4cd0-94e9-3b7485521e9b"],Cell[
+BoxData["2",StandardForm],
+"Output",CellLabel -> "Out[63]= ",ExpressionUUID -> "9d8a07d7-5131-46fa-9c89-af92c5c8a8b7"]},
+Open],ExpressionUUID -> "eb702322-2923-4faa-b524-fec5b55cf6bb"],Cell[
+TextData[{"Alternatively",StyleBox[
+RowBox[{","," "}]],"you"," ","can"," ","use"," ","a"," ","pure"," ","function",":"}],
+"Text",ExpressionUUID -> "e6a4563f-7668-4420-b23c-af5d6afdd9b6"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{RowBox[{RowBox[{"#","[","\"b\"","]"}]," ","&"}],"[","assoc","]"}]," "}]],
+"Input",CellLabel -> "In[89]:= ",ExpressionUUID -> "2d904fb2-1031-42a7-91d0-33bc6e3fc4a3"],Cell[
+BoxData[
+"2",StandardForm],"Output",CellLabel -> "Out[89]= ",ExpressionUUID -> "0ddb85b8-01e5-4765-9630-b900f3391418"]},
+Open],ExpressionUUID -> "78676969-78aa-4596-9212-dcf66f7bee70"],Cell[
+TextData[{"When"," ","the"," ","key"," ","is"," ","a"," ","string",StyleBox[
+RowBox[{","," "}]],"you"," ","can"," ","omit"," ","the"," ","square"," ","brackets"," ","and"," ","quote"," ","marks",":"}],
+"Text",ExpressionUUID -> "fc13c7da-d66b-49ac-97ca-2fdab67197b3"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{RowBox[{"#c"," ","&"}],"[","assoc","]"}]," "}]],"Input",
+CellLabel -> "In[91]:= ",ExpressionUUID -> "083c5d54-d6a3-4031-b9ad-56cfd318f70e"],Cell[
+BoxData[
+"3",StandardForm],"Output",CellLabel -> "Out[91]= ",ExpressionUUID -> "14523057-cadb-488a-bcb5-48ee22cf5299"]},
+Open],ExpressionUUID -> "64de3be0-bcf1-48d3-8391-b13ae7af8b78"],Cell[
+TextData[{"When"," ","the"," ","values"," ","of"," ","your"," ","association"," ","are"," ","lists",StyleBox[
+RowBox[{","," "}]],"you"," ","can"," ","extract"," ","given"," ","elements"," ","of"," ","the"," ","structure"," ","using"," ","combination"," ","of"," ","keys"," ","and"," ","positions"," ","and"," ","the"," ",ButtonBox[
+"Part",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/Part.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/Part.html"]," ","function",":"}],
+"Text",ExpressionUUID -> "33d97209-c1c4-4fd1-88e0-ac8317167fac"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"\[LeftAssociation]",RowBox[{RowBox[{"\"a\"","\[Rule]",RowBox[
+{"{",RowBox[{"1",",","2"}],"}"}]}],",",RowBox[{"\"b\"","\[Rule]",RowBox[{"{",RowBox[
+{"3",",","4"}],"}"}]}],",",RowBox[{"\"c\"","\[Rule]",RowBox[{"{",RowBox[{"5",",","6"}],"}"}]}]}],"\[RightAssociation]"}],"[",RowBox[
+{"[",RowBox[{"\"b\"",",","1"}],"]"}],"]"}]],"Input",CellLabel -> "In[96]:= ",ExpressionUUID -> "b9cea3e3-ca1f-435a-827a-a5ba1a0f4a40"],Cell[
+BoxData[
+"3",StandardForm],"Output",CellLabel -> "Out[96]= ",ExpressionUUID -> "4a6895c1-e776-4907-9d0f-c5f8bd3661e0"]},
+Open],ExpressionUUID -> "484669bd-8f3b-42e5-a961-05f58ba2d5bd"]},{1}],ExpressionUUID -> "3eec36fa-0d29-40df-be2c-06eed8cf3788"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Standard"," ","operations"}],"Section",ExpressionUUID -> "715bcf7d-bc38-49ce-a9c5-d1762f3e1878"],Cell[
+TextData[
+{"Standard"," ","functions"," ","such"," ","as"," ",ButtonBox["Map",BaseStyle -> "HyperlinkActionNew",
+ButtonData -> {URL["https://reference.wolfram.com/language/ref/Map.html"],None},ButtonNote -> "https://reference.wolfram.com/language/ref/Map.html"],StyleBox[
+RowBox[{","," "}]],ButtonBox["Sort",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL[
+"https://reference.wolfram.com/language/ref/Sort.html"],None},ButtonNote -> "https://reference.wolfram.com/language/ref/Sort.html"],StyleBox[
+RowBox[{","," "}]],ButtonBox["ReverseSort",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL[
+"https://reference.wolfram.com/language/ref/ReverseSort.html"],None},ButtonNote -> "https://reference.wolfram.com/language/ref/ReverseSort.html"],StyleBox[
+RowBox[{","," "}]],ButtonBox["Total",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL[
+"https://reference.wolfram.com/language/ref/Total.html"],None},ButtonNote -> "https://reference.wolfram.com/language/ref/Total.html"],StyleBox[
+RowBox[{","," "}]],ButtonBox["Select",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL[
+"https://reference.wolfram.com/language/ref/Select.html"],None},ButtonNote -> "https://reference.wolfram.com/language/ref/Select.html"]," ","work"," ","on"," ","associations",":"}],
+"Text",ExpressionUUID -> "b1dd7dbf-8ff4-46fd-89ec-e6abe6343747"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{"Map","[",RowBox[{"f",",","assoc"}],"]"}],"\n",RowBox[{"ReverseSort","[","assoc","]"}],"\n",RowBox[
+{"Total","[","assoc","]"}],"\n",RowBox[{"Select","[",RowBox[{"assoc",",",RowBox[{RowBox[
+{"#",">","2"}],"&"}]}],"]"}]}],"Input",CellLabel -> "In[73]:= ",ExpressionUUID -> "3a29e298-1707-45a6-8032-f0b86875b8fe"],Cell[
+BoxData[
+RowBox[{"\[LeftAssociation]",RowBox[{RowBox[{"\"a\"","\[Rule]",RowBox[{"f","[","1","]"}]}],",",RowBox[
+{"\"b\"","\[Rule]",RowBox[{"f","[","2","]"}]}],",",RowBox[{"\"c\"","\[Rule]",RowBox[
+{"f","[","3","]"}]}]}],"\[RightAssociation]"}],StandardForm],"Output",CellLabel -> "Out[73]= ",
+ExpressionUUID -> "af575c2a-127a-42a3-b592-2e1d075147c0"],Cell[
+BoxData[RowBox[{"\[LeftAssociation]",RowBox[
+{RowBox[{"\"c\"","\[Rule]","3"}],",",RowBox[{"\"b\"","\[Rule]","2"}],",",RowBox[{"\"a\"","\[Rule]","1"}]}],"\[RightAssociation]"}],
+StandardForm],"Output",CellLabel -> "Out[74]= ",ExpressionUUID -> "11fc5bde-7723-4c50-aff7-0504c0f4a168"],Cell[
+BoxData[
+"6",StandardForm],"Output",CellLabel -> "Out[75]= ",ExpressionUUID -> "4004321d-d6e8-40c8-9d9a-b4a7dfbd1c3d"],Cell[
+BoxData[
+RowBox[{"\[LeftAssociation]",RowBox[{"\"c\"","\[Rule]","3"}],"\[RightAssociation]"}],
+StandardForm],"Output",CellLabel -> "Out[76]= ",ExpressionUUID -> "942722f5-d1e1-4717-956e-429ec9bbd8f6"]},
+Open],ExpressionUUID -> "ef1a08e3-7bdf-44e9-af0d-9b573f6d3289"],Cell[
+TextData[{"By"," ","default",StyleBox[
+RowBox[{","," "}]],"these"," ","functions"," ","work"," ","on"," ","the"," ","values"," ","of"," ","an"," ","association",StyleBox[
+RowBox[{"."," "}]],"You"," ","can"," ","also"," ","map"," ","and"," ","sort"," ","the"," ","keys"," ","using"," ",ButtonBox[
+"KeyMap",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolfram.com/language/ref/KeyMap.html"],None},
+ButtonNote -> "https://reference.wolfram.com/language/ref/KeyMap.html"],StyleBox[
+RowBox[{","," "}]],ButtonBox["KeySort",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL[
+"https://reference.wolfram.com/language/ref/KeySort.html"],None},ButtonNote -> "https://reference.wolfram.com/language/ref/KeySort.html"]," ","and",ButtonBox[
+RowBox[{" ","KeySortBy"}],BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolframcloud.com/language/ref/KeySortBy.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/ref/KeySortBy.html"],StyleBox[
+RowBox[{":"," "}]]}],"Text",ExpressionUUID -> "f7bb72b1-5d6a-4f90-8bfb-2d05301550e7"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"KeyMap","[",RowBox[{"f",",","assoc"}],"]"}],"\n",RowBox[
+{"KeySort","[",RowBox[{"\[LeftAssociation]",RowBox[{RowBox[{"\"s\"","\[Rule]","1"}],",",RowBox[
+{"\"z\"","\[Rule]","2"}],",",RowBox[{"\"e\"","\[Rule]","3"}]}],"\[RightAssociation]"}],"]"}],"     "}]],
+"Input",CellLabel -> "In[83]:= ",ExpressionUUID -> "9cdb6197-4b6c-44ae-bb19-af5e831d7e6e"],Cell[
+BoxData[
+RowBox[{"\[LeftAssociation]",RowBox[{RowBox[{RowBox[{"f","[","\"a\"","]"}],"\[Rule]","1"}],",",RowBox[
+{RowBox[{"f","[","\"b\"","]"}],"\[Rule]","2"}],",",RowBox[{RowBox[{"f","[","\"c\"","]"}],"\[Rule]","3"}]}],"\[RightAssociation]"}],
+StandardForm],"Output",CellLabel -> "Out[83]= ",ExpressionUUID -> "2224f15c-13d0-4e02-83ac-bc6de09cb4e4"],Cell[
+BoxData[
+RowBox[{"\[LeftAssociation]",RowBox[{RowBox[{"\"e\"","\[Rule]","3"}],",",RowBox[{"\"s\"","\[Rule]","1"}],",",RowBox[
+{"\"z\"","\[Rule]","2"}]}],"\[RightAssociation]"}],StandardForm],"Output",CellLabel -> "Out[84]= ",
+ExpressionUUID -> "9ac93b43-17fb-4215-af1b-ea5ccb4b99cc"]},Open],ExpressionUUID -> "c500ca55-32f7-47b7-b489-a30f4b5f7279"],Cell[
+TextData[
+{"To"," ","map"," ","over"," ","the"," ","keys"," ","and"," ","values",StyleBox[RowBox[
+{","," "}]],"use"," ",ButtonBox["KeyValueMap",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL[
+"https://reference.wolfram.com/language/ref/KeyValueMap.html"],None},ButtonNote -> "https://reference.wolfram.com/language/ref/KeyValueMap.html"],":"}],
+"Text",ExpressionUUID -> "62976692-34d7-43ca-b608-d8687b1b06bf"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"KeyValueMap","[",RowBox[{"f",",","assoc"}],"]"}]],"Input",
+CellLabel -> "In[86]:= ",ExpressionUUID -> "565b47e7-828a-4235-9461-d0e14a02fb71"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{RowBox[{"f","[",RowBox[{"\"a\"",",","1"}],"]"}],",",RowBox[{"f","[",RowBox[
+{"\"b\"",",","2"}],"]"}],",",RowBox[{"f","[",RowBox[{"\"c\"",",","3"}],"]"}]}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[86]= ",ExpressionUUID -> "4f221b67-62c9-4f8d-bca9-80912c67c753"]},
+Open],ExpressionUUID -> "532aed69-7743-4d86-8c77-98cef78cd2ee"],Cell[
+TextData[{"You"," ","can"," ",ButtonBox[
+"Append",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolfram.com/language/ref/Append.html"],None},
+ButtonNote -> "https://reference.wolfram.com/language/ref/Append.html"]," ","to"," ","an"," ","association",":"}],
+"Text",ExpressionUUID -> "37ab6feb-dda3-47a8-9a7d-384c028b05d8"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Append","[",RowBox[{"assoc",",",RowBox[{"{"," ",RowBox[{RowBox[
+{"\"d\""," ","\[Rule]"," ","4"}],","," ",RowBox[{"\"e\""," ","\[Rule]"," ","5"}]}],"}"}]}],"]"}]],
+"Input",CellLabel -> "In[88]:= ",ExpressionUUID -> "80f2e6cc-19b5-4d38-8842-1cde43c3e215"],Cell[
+BoxData[
+RowBox[{"\[LeftAssociation]",RowBox[{RowBox[{"\"a\"","\[Rule]","1"}],",",RowBox[{"\"b\"","\[Rule]","2"}],",",RowBox[
+{"\"c\"","\[Rule]","3"}],",",RowBox[{"\"d\"","\[Rule]","4"}],",",RowBox[{"\"e\"","\[Rule]","5"}]}],"\[RightAssociation]"}],
+StandardForm],"Output",CellLabel -> "Out[88]= ",ExpressionUUID -> "a3b36614-4f1a-46bb-a24f-51e94065c284"]},
+Open],ExpressionUUID -> "50dca7ae-d37d-4201-aba8-c1e7d697d4d5"],Cell[
+TextData[{"You"," ","can"," ","convert"," ","an"," ","association"," ","to"," ","a"," ","list",StyleBox[
+RowBox[{" ","("}]],"or"," ","rules",StyleBox[RowBox[{")"," "}]],"using"," ",ButtonBox[
+"Normal",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://reference.wolfram.com/language/ref/Normal.html"],None},
+ButtonNote -> "https://reference.wolfram.com/language/ref/Normal.html"]}],"Text",
+ExpressionUUID -> "c664a2b2-32bb-418a-a0df-6f7a1ecaa32a"],Cell[
+CellGroupData[{Cell[
+BoxData[
+RowBox[{"Normal","[","assoc","]"}]],"Input",CellLabel -> "In[66]:= ",ExpressionUUID -> "e25392a5-a134-43d0-a7ff-38fa4b4a51ea"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{RowBox[{"\"a\"","\[Rule]","1"}],",",RowBox[{"\"b\"","\[Rule]","2"}],",",RowBox[
+{"\"c\"","\[Rule]","3"}]}],"}"}],StandardForm],"Output",CellLabel -> "Out[66]= ",
+ExpressionUUID -> "cf25e10b-2e92-4a41-b88d-7f0e3a64dc4e"]},Open],ExpressionUUID -> "b509650f-633d-4e47-be17-12040db2805f"],Cell[
+TextData[
+{"On"," ","the"," ","opposite",StyleBox[RowBox[{","," "}]],"you"," ","can"," ","convert"," ","a"," ","list"," ","of"," ","rules"," ","into"," ","an"," ","association"," ","using"," ","Association",":"}],
+"Text",ExpressionUUID -> "63226bc4-0e2b-4d2f-8aae-b3f5bf5fbe8f"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{"lisasso"," ","="," ",RowBox[{"{",RowBox[{RowBox[{"\"a\""," ","\[Rule]"," ","1"}],","," ",RowBox[
+{"\"b\""," ","\[Rule]"," ","2"}],","," ",RowBox[{"\"c\""," ","\[Rule]"," ","3"}]}],"}"}]}],"\n",RowBox[
+{"Association","[","lisasso","]"}]}],"Input",CellLabel -> "In[67]:= ",ExpressionUUID -> "b09b2b78-741f-4205-b28b-cd9a7c69893f"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{RowBox[{"\"a\"","\[Rule]","1"}],",",RowBox[{"\"b\"","\[Rule]","2"}],",",RowBox[
+{"\"c\"","\[Rule]","3"}]}],"}"}],StandardForm],"Output",CellLabel -> "Out[67]= ",
+ExpressionUUID -> "a207c5df-ba05-4211-9765-e2c77f45e17e"],Cell[
+BoxData[RowBox[{"\[LeftAssociation]",RowBox[
+{RowBox[{"\"a\"","\[Rule]","1"}],",",RowBox[{"\"b\"","\[Rule]","2"}],",",RowBox[{"\"c\"","\[Rule]","3"}]}],"\[RightAssociation]"}],
+StandardForm],"Output",CellLabel -> "Out[68]= ",ExpressionUUID -> "8b74db5f-078b-450c-8044-9367cd9337db"]},
+Open],ExpressionUUID -> "0f421f74-5028-4008-ad51-7cf319b2328c"]},{1}],ExpressionUUID -> "2b08cb0e-e102-47c9-9747-07861cd1ea45"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Useful"," ","links"}],"Section",ExpressionUUID -> "91c78d13-f85a-4ad8-bfca-4a9fae53ddd8"],Cell[
+CellGroupData[
+{Cell[
+TextData[ButtonBox[RowBox[{"Fast"," ","Introduction"," ","for"," ","Programmers"}],
+BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://www.wolfram.com/language/fast-introduction-for-programmers/en/"],None},
+ButtonNote -> "https://www.wolfram.com/language/fast-introduction-for-programmers/en/"]],
+"Item",ExpressionUUID -> "2069af52-3cb2-4580-9933-c6b1a0b6f07c"],Cell[
+TextData[{ButtonBox[
+"Videos",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://www.wolfram.com/wolfram-u/fast-introduction-for-programmers/"],None},
+ButtonNote -> "https://www.wolfram.com/wolfram-u/fast-introduction-for-programmers/"],StyleBox[
+RowBox[{" ","\""}]],"Associations",StyleBox[RowBox[{"\""," "}]],"from"," ","the"," ","Fast"," ","Introduction"," ","for"," ","Programmers"}],
+"Item",ExpressionUUID -> "2706a182-edab-4f5c-9b97-7b7134d092e3"],Cell[
+TextData[{ButtonBox[
+RowBox[{"Computation"," ","with"," ","Structure"," ","Dataset"}],BaseStyle -> "HyperlinkActionNew",
+ButtonData -> {URL["https://reference.wolframcloud.com/language/guide/ComputationWithStructuredDatasets.html"],None},
+ButtonNote -> "https://reference.wolframcloud.com/language/guide/ComputationWithStructuredDatasets.html"],RowBox[
+{}]}],"Item",ExpressionUUID -> "dd9ec771-9466-46bb-a974-2bcc977e5324"]},Open],ExpressionUUID -> "a9ff5ecf-f9ba-4d67-9dad-d45cbe1cde6e"]},
+{1}],ExpressionUUID -> "34b894a9-df8c-4a36-8ab0-d1c68ce972b0"]},Open],ExpressionUUID -> "994eb017-5e8a-4462-b202-4b0a0ea9f9d2"]},
+Open],ExpressionUUID -> "8c2c72e9-65fc-4699-98f0-3b490187bd48"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "12.3 for Wolfram Cloud 1.60 (September 28, 2021)",TaggingRules -> {"TryRealOnly" -> False}]
