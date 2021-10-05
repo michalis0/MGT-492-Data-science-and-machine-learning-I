@@ -1,0 +1,133 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+TextData[{"Data"," ","Science"," ","and"," ","Machine"," ","Learning"}],
+"Title",ExpressionUUID -> "48c4ef4c-9562-4570-b813-89f93fcf1e42"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Week"," ","3"," ","exercises"}],"Subtitle",ExpressionUUID -> "44a823fd-471a-4f96-8544-3983bb7679d8"],Cell[
+CellGroupData[
+{Cell[
+"\<Entity\>","Section",ExpressionUUID -> "fe9ce43f-2995-4d71-b384-092879c2a0d5"],Cell[
+TextData[
+{StyleBox["Exercise",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"1",FontWeight -> Bold],StyleBox[RowBox[{StyleBox[":",FontWeight -> Bold]," "}]],"Create"," ","an"," ","entity"," ","of"," ","your"," ","favourite"," ","animal",StyleBox[
+RowBox[{"."," "}]],"Display"," ","in"," ","the"," ","same"," ","list"," ","an"," ","image"," ","of"," ","this"," ","animal",StyleBox[
+RowBox[{","," "}]],"its"," ","scientific"," ","name",StyleBox[RowBox[{","," "}]],"family",StyleBox[
+RowBox[{","," "}]],"weight",StyleBox[RowBox[{","," "}]],"and"," ","length","."}],
+"Text",Background -> RGBColor[0.8235294117647058`,0.8`,0.8`],ExpressionUUID -> "6ba4fa56-0b89-4c2b-ad5c-8788088987fc"],Cell[
+TextData[
+{StyleBox["Exercise",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"2",FontWeight -> Bold],StyleBox[RowBox[{StyleBox[":",FontWeight -> Bold]," "}]],"\n","a",StyleBox[
+RowBox[{")"," "}]],"Find"," ","the"," ","flag"," ","of"," ","Switzerland",".","\n","b",StyleBox[
+RowBox[{")"," "}]],"Create"," ","one"," ","list"," ","with"," ","the"," ","flags"," ","of"," ","the",StyleBox[
+RowBox[{" ","\""}]],"BorderingCountries",StyleBox[RowBox[{"\""," "}]],"of"," ","Switzerland"}],
+"Text",Background -> RGBColor[0.8235294117647058`,0.8`,0.8`],ExpressionUUID -> "261cfb25-72eb-48de-ab9b-275824c08ee6"],Cell[
+TextData[
+{StyleBox["Exercise",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"3",FontWeight -> Bold],StyleBox[RowBox[{StyleBox[":",FontWeight -> Bold],StyleBox[
+" ",FontWeight -> Bold]}]],"Compute"," ","the"," ","elevation"," ","of"," ","Mount"," ","Everest"," ","divided"," ","by"," ","the"," ","height"," ","of"," ","the"," ","Empire"," ","State"," ","Building","."}],
+"Text",Background -> RGBColor[0.7843137254901961`,0.7490196078431373`,0.7490196078431373`],
+ExpressionUUID -> "42b5d11b-7197-4e01-8790-622fbac6e0cb"],Cell[
+TextData[{StyleBox[
+"Exercise",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox["4",FontWeight -> Bold],StyleBox[
+RowBox[{StyleBox[":",FontWeight -> Bold]," "}]],"\n","a",StyleBox[RowBox[{")"," "}]],"Create"," ","a"," ","list"," ","of"," ","the"," ","Population"," ","of"," ","European"," ","Countries","\n","b",StyleBox[
+RowBox[{")"," "}]],"Create"," ","a"," ","Bar"," ","Chart"," ","using"," ","the"," ","list"," ","you"," ","just"," ","created",StyleBox[
+RowBox[{"."," "}]],"You"," ","can"," ","try"," ","to"," ","change"," ","the"," ","ChartStyle"," ","and"," ","add"," ","some"," ","ChartLabels",".","\n","c",StyleBox[
+RowBox[{")"," "}]],"Create"," ","an"," ","association"," ","of"," ","the"," ","Population"," ","of"," ","European"," ","Countries"," ","using"," ","the"," ","property",StyleBox[
+RowBox[{" ","\""}]],"EntityAssociation",StyleBox[RowBox[{"\""," "}]],"\n","d",StyleBox[
+RowBox[{")"," "}]],"Sort"," ","the"," ","European"," ","countries"," ","population"," ","from"," ","largest"," ","to"," ","smallest"," ","using"," ","your"," ","association"}],
+"Text",Background -> RGBColor[0.796078431372549`,0.7843137254901961`,0.7843137254901961`],
+ExpressionUUID -> "cd26567d-5f30-4f82-a396-b5b0f6176d8b"],Cell[
+TextData[{StyleBox[
+"Exercise",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox["5",FontWeight -> Bold],StyleBox[
+RowBox[{StyleBox[":",FontWeight -> Bold]," "}]],"Plot"," ","the"," ","population"," ","density",StyleBox[
+RowBox[{" ","("}]],"Population"," ","divided"," ","by"," ","Land"," ","Area",StyleBox[
+RowBox[{")"," "}]],"over"," ","time"," ","between"," ","1950"," ","and"," ","2020"," ","in"," ","five"," ","countries"," ","of"," ","your"," ","choice",StyleBox[
+RowBox[{"."," "}]],"Add"," ","a"," ","legend"," ","and"," ","a"," ","label"}],"Text",
+Background -> RGBColor[0.7843137254901961`,0.7490196078431373`,0.7490196078431373`],
+ExpressionUUID -> "d96e6b71-b4e0-489b-8f27-1d282c0fc65f"],Cell[
+TextData[{StyleBox[
+"Exercise",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox["6",FontWeight -> Bold],StyleBox[
+RowBox[{StyleBox[":",FontWeight -> Bold]," "}]],"Create"," ","a"," ","GeoRegionValuePlot"," ","of"," ","the"," ","Gini"," ","Index"," ","in"," ","the"," ","continent"," ","of"," ","your"," ","choice"}],
+"Text",Background -> RGBColor[0.7843137254901961`,0.7490196078431373`,0.7490196078431373`],
+ExpressionUUID -> "e93c1ca3-5396-4a75-91ba-6bc75d90068b"]},Open],ExpressionUUID -> "45a197b1-db2a-4aa8-a2db-a1b2dec07cdd"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Wolfram"," ","Data"," ","Repository"}],"Section",ExpressionUUID -> "702100bc-e15c-4e85-b7db-b8a04b239ec0"],Cell[
+TextData[
+{StyleBox["Exercise",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"7",FontWeight -> Bold],StyleBox[RowBox[{StyleBox[":",FontWeight -> Bold]," "}]],"Import"," ","the",StyleBox[
+RowBox[{" ","\""}]],"Snowfall"," ","Frequency"," ","by"," ","WMO"," ","Station",StyleBox[
+RowBox[{"\""," "}]],"repository"}],"Text",Background -> RGBColor[0.7843137254901961`,
+0.7490196078431373`,0.7490196078431373`],ExpressionUUID -> "c72e3b4d-6282-4dd4-b8fc-82fd3a3ad191"],Cell[
+TextData[
+{StyleBox["Exercise",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"8",FontWeight -> Bold],StyleBox[RowBox[{StyleBox[":",FontWeight -> Bold]," "," "}]],"Select"," ","the"," ","WMO"," ","Stations"," ","in"," ","Japan"}],
+"Text",Background -> RGBColor[0.7843137254901961`,0.7490196078431373`,0.7490196078431373`],
+ExpressionUUID -> "3fd3e9cc-a5b5-4022-aa56-727cbd7af0c1"],Cell[
+TextData[{StyleBox[
+"Exercise",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox["9",FontWeight -> Bold],StyleBox[
+RowBox[{StyleBox[" ",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+":",FontWeight -> Bold]," "}]],"Display"," ","on"," ","a"," ","GeoListPlot"," ","the"," ","WMO"," ","Stations"," ","in"," ","Japan"}],
+"Text",Background -> RGBColor[0.7843137254901961`,0.7490196078431373`,0.7490196078431373`],
+ExpressionUUID -> "a9756c86-21fc-4e98-9782-730d29ff9d99"],Cell[
+TextData[{StyleBox[
+"Exercise",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox["10",FontWeight -> Bold],StyleBox[
+RowBox[{StyleBox[" ",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+":",FontWeight -> Bold]," "}]],"Plot"," ","snow"," ","frequency"," ","from"," ","January"," ","to"," ","December"," ","for"," ","WMO"," ","stations"," ","in"," ","Japan"}],
+"Text",Background -> RGBColor[0.7843137254901961`,0.7490196078431373`,0.7490196078431373`],
+ExpressionUUID -> "59d48c2c-6497-4973-9468-6972c8ee2c33"]},Open],ExpressionUUID -> "40fda602-e5e2-4748-b9ac-560e56bc5179"],Cell[
+CellGroupData[
+{Cell[
+"\<Dataset\>","Section",ExpressionUUID -> "273e2a8b-9a11-426f-93d7-229cb01f0cfa"],Cell[
+TextData[
+{StyleBox["Exercise",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"11",FontWeight -> Bold],StyleBox[RowBox[{StyleBox[" ",FontWeight -> Bold],StyleBox[
+":",FontWeight -> Bold]," "}]],"Here"," ","is"," ","a"," ","dataset"," ","based"," ","on"," ","a"," ","class",StyleBox[
+RowBox[{"."," "}]],"\n","a",StyleBox[RowBox[{")"," "}]],"Compute"," ","the"," ","average"," ","age"," ","of"," ","the"," ","class",StyleBox[
+RowBox[{","," "}]],"\n","b",StyleBox[RowBox[{")"," "}]],"Compute"," ","the"," ","share"," ","of"," ","engineers"," ","vs"," ","economists",StyleBox[
+RowBox[{"."," "}]],"\n","c",StyleBox[RowBox[{")"," "}]],"Create"," ","a"," ","PieChart"," ","of"," ","the"," ","result",StyleBox[
+RowBox[{","," "}]],"add"," ","a"," ","legend"," ","and"," ","change"," ","the"," ","option"," ","plot"," ","theme",".","\n","Hint",StyleBox[
+RowBox[{":"," "}]],"You"," ","could"," ","Count"," ","the"," ","numbers"," ","of"," ","engineers","/","economists"}],
+"Text",Background -> RGBColor[0.7843137254901961`,0.7490196078431373`,0.7490196078431373`],
+ExpressionUUID -> "9308a2ca-c72e-4840-bac4-1a37313d75c7"],Cell[
+BoxData[RowBox[{"ds"," ","=","  ",RowBox[
+{"Dataset","["," ",RowBox[{"<|",RowBox[{RowBox[{"\"Charles\""," ","\[Rule]","  ",RowBox[
+{"<|",RowBox[{RowBox[{"\"Age\""," ","\[Rule]"," ","25"}],","," ",RowBox[{"\"Field\""," ","\[Rule]"," ","\"Engineering\""}],","," ",RowBox[
+{"\"Gender\""," ","\[Rule]","\"Male\""}]}],"|>"}]}]," ",",","\n","                                      ",RowBox[
+{"\"Sophia\""," ","\[Rule]","  ",RowBox[{"<|",RowBox[{RowBox[{"\"Age\""," ","\[Rule]"," ","22"}],","," ",RowBox[
+{"\"Field\""," ","\[Rule]"," ","\"Economics\""}],","," ",RowBox[{"\"Gender\""," ","\[Rule]","\"Female\""}]}]," ","|>"}]}]," ",",","\n","\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]",RowBox[
+{"\"John\""," ","\[Rule]","  ",RowBox[{"<|",RowBox[{RowBox[{"\"Age\""," ","\[Rule]"," ","23"}],","," ",RowBox[
+{"\"Field\""," ","\[Rule]"," ","\"Economics\""}],","," ",RowBox[{"\"Gender\""," ","\[Rule]","\"Male\""}]}]," ","|>"}]}]," ",",","\n","\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]",RowBox[
+{"\"Maria\""," ","\[Rule]","  ",RowBox[{"<|",RowBox[{RowBox[{"\"Age\""," ","\[Rule]"," ","24"}],","," ",RowBox[
+{"\"Field\""," ","\[Rule]"," ","\"Engineering\""}],","," ",RowBox[{"\"Gender\""," ","\[Rule]","\"Female\""}]}]," ","|>"}]}]," ",",","\n","\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]",RowBox[
+{"\"Karim\""," ","\[Rule]","  ",RowBox[{"<|",RowBox[{RowBox[{"\"Age\""," ","\[Rule]"," ","22"}],","," ",RowBox[
+{"\"Field\""," ","\[Rule]"," ","\"Economics\""}],","," ",RowBox[{"\"Gender\""," ","\[Rule]","\"Male\""}]}]," ","|>"}]}]," ",",","\n","\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]",RowBox[
+{"\"Katharina\""," ","\[Rule]","  ",RowBox[{"<|",RowBox[{RowBox[{"\"Age\""," ","\[Rule]"," ","26"}],","," ",RowBox[
+{"\"Field\""," ","\[Rule]"," ","\"Economics\""}],","," ",RowBox[{"\"Gender\""," ","\[Rule]","\"Female\""}]}]," ","|>"}]}]," ",",","\n","\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]",RowBox[
+{"\"No\[EAcute]mie\""," ","\[Rule]","  ",RowBox[{"<|",RowBox[{RowBox[{"\"Age\""," ","\[Rule]"," ","22"}],","," ",RowBox[
+{"\"Field\""," ","\[Rule]"," ","\"Economics\""}],","," ",RowBox[{"\"Gender\""," ","\[Rule]","\"Female\""}]}]," ","|>"}]}]," ",",","\n","\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]",RowBox[
+{"\"Claudia\""," ","\[Rule]","  ",RowBox[{"<|",RowBox[{RowBox[{"\"Age\""," ","\[Rule]"," ","21"}],","," ",RowBox[
+{"\"Field\""," ","\[Rule]"," ","\"Economics\""}],","," ",RowBox[{"\"Gender\""," ","\[Rule]","\"Female\""}]}]," ","|>"}]}]," ",",","\n","\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]",RowBox[
+{"\"Lionel\""," ","\[Rule]","  ",RowBox[{"<|",RowBox[{RowBox[{"\"Age\""," ","\[Rule]"," ","24"}],","," ",RowBox[
+{"\"Field\""," ","\[Rule]"," ","\"Engineering\""}],","," ",RowBox[{"\"Gender\""," ","\[Rule]","\"Male\""}]}]," ","|>"}]}]," ",",","\n","\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]",RowBox[
+{"\"Andreas\""," ","\[Rule]","  ",RowBox[{"<|",RowBox[{RowBox[{"\"Age\""," ","\[Rule]"," ","25"}],","," ",RowBox[
+{"\"Field\""," ","\[Rule]"," ","\"Economics\""}],","," ",RowBox[{"\"Gender\""," ","\[Rule]","\"Male\""}]}]," ","|>"}]}]," ",",","\n","\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]",RowBox[
+{"\"Martina\""," ","\[Rule]","  ",RowBox[{"<|",RowBox[{RowBox[{"\"Age\""," ","\[Rule]"," ","22"}],","," ",RowBox[
+{"\"Field\""," ","\[Rule]"," ","\"Economics\""}],","," ",RowBox[{"\"Gender\""," ","\[Rule]","\"Female\""}]}]," ","|>"}]}]}]," ","\n","\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]","|>"}],"]"}]," "}]],
+"Input",CellLabel -> "In[24]:= ",ExpressionUUID -> "139d0bca-8bc5-43ae-95ff-2f8d330dff1c"]},
+Open],ExpressionUUID -> "f7675d20-b31f-4d47-b4ee-3a4bb3e1ec75"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Application",StyleBox[RowBox[{":"," "}]],"Carbon"," ","intensity"," ","of"," ","GDP"}],
+"Section",ExpressionUUID -> "c89539d4-a555-4361-8ec4-ee1609816636"],Cell[
+TextData[
+{StyleBox["Exercise",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"12",FontWeight -> Bold],StyleBox[RowBox[{StyleBox[" ",FontWeight -> Bold],StyleBox[
+":",FontWeight -> Bold]," "}]],"Plot"," ","the"," ","evolution"," ","of"," ","GHG"," ","emissions"," ","per"," ","GDP"," ","unit"," ","for"," ","the"," ","country"," ","of"," ","your"," ","choice",StyleBox[
+RowBox[{"."," "}]],"How"," ","do"," ","you"," ","interpret"," ","the"," ","result","? \n","a) Import the CSV file \"GHG_EU_csv\" and select the country of your choice and years after 1990\n","b) Convert your dataset into a timeseries using the functions Normal and Timeseries\n","c) Import GDP data from 1990 to 2019 using CountryData\n","d) Compute the GHG emissions per GDP unit\n","e) Plot the result and add a label"}],
+"Text",Background -> RGBColor[0.7843137254901961`,0.7490196078431373`,0.7490196078431373`],
+ExpressionUUID -> "849d7ee4-d1a4-4624-9c31-8f1b5fb63aaa"]},Open],ExpressionUUID -> "80982fee-deb6-4df0-8638-ff48da40799e"]},
+Open],ExpressionUUID -> "994eb017-5e8a-4462-b202-4b0a0ea9f9d2"]},Open],ExpressionUUID -> "8c2c72e9-65fc-4699-98f0-3b490187bd48"]},
+StyleDefinitions -> "Default.nb",FrontEndVersion -> "12.3 for Wolfram Cloud 1.60 (September 28, 2021)",
+TaggingRules -> {"TryRealOnly" -> False}]
