@@ -1,0 +1,308 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+TextData[{"Data"," ","Science"," ","and"," ","Machine"," ","Learning"}],
+"Title",ExpressionUUID -> "98e3e3f9-128d-4e4c-9a86-5466abb3fc44"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Assignment"," ","1",StyleBox[RowBox[{":"," "}]],"Manipulating",StyleBox[
+RowBox[{","," "}]],"cleaning",StyleBox[RowBox[{","," "}]],"visualizing"," ","data"}],
+"Subtitle",ExpressionUUID -> "81b96c51-9575-47fd-8957-e3af20dc0ee0"],Cell[
+TextData[
+{"In"," ","this"," ","assignment",StyleBox[RowBox[{","," "}]],"we"," ","will"," ","use"," ","a"," ","dataset"," ","to"," ","perform"," ","cleaning"," ","and"," ","visualization"," ","operations",".","\n","We"," ","will"," ","first"," ","use"," ","clean"," ","data"," ","from"," ","company"," ","entities",".","\n","Then",StyleBox[
+RowBox[{","," "}]],"we"," ","will"," ","use"," ","a"," ","dataset"," ","about"," ","the"," ","performance"," ","of"," ","several"," ","companies"," ","across"," ","different"," ","years",StyleBox[
+RowBox[{"."," "}]],"The"," ","performance"," ","is"," ","shown"," ","in"," ","terms"," ","of"," ","different"," ","social",StyleBox[
+RowBox[{","," "}]],"environmental",StyleBox[RowBox[{","," "}]],"and"," ","governance"," ","scores",StyleBox[
+RowBox[{"."," "}]],"For"," ","each"," ","company",StyleBox[RowBox[{","," "}]],"the"," ","dataset"," ","also"," ","contains"," ","a"," ","set"," ","of"," ","features",StyleBox[
+RowBox[{","," "}]],"e",".","g",StyleBox[RowBox[{","," "}]],"market"," ","value",StyleBox[
+RowBox[{","," "}]],"assets",StyleBox[RowBox[{","," "}]],"etc",".","\n","Once"," ","you"," ","are"," ","done"," ","you"," ","have"," ","to",":","\n",StyleBox[
+RowBox[{" "," "," "," "," "," "," "}]],"1",StyleBox[RowBox[{"."," "}]],"Submit"," ","your"," ","notebook"," ","here",StyleBox[
+RowBox[{":"," "}]],ButtonBox["https://moodle.epfl.ch/mod/assign/view.php?id=1159929",
+BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://moodle.epfl.ch/mod/assign/view.php?id=1159929"],None},
+ButtonNote -> "https://moodle.epfl.ch/mod/assign/view.php?id=1159929"],"\n",StyleBox[
+RowBox[{" "," "," "," "," "," "," "}]],"2",StyleBox[RowBox[{"."," "}]],"Answer"," ","the"," ","questions"," ","to"," ","the"," ","quiz",StyleBox[
+RowBox[{":"," "}]],ButtonBox["https://moodle.epfl.ch/mod/quiz/view.php?id=1171854",
+BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://moodle.epfl.ch/mod/quiz/view.php?id=1171854"],None},
+ButtonNote -> "https://moodle.epfl.ch/mod/quiz/view.php?id=1171854"],"\n","You"," ","have"," ","to"," ","do"," ","both",StyleBox[
+RowBox[{"."," "}]],"The"," ","answers"," ","to"," ","the"," ","quiz"," ","should"," ","be"," ","supported"," ","by"," ","your"," ","code",StyleBox[
+RowBox[{"."," "}]],"If"," ","they"," ","are"," ","not"," ","you"," ","will"," ","not"," ","receive"," ","the"," ","point"," ","for"," ","it",StyleBox[
+RowBox[{"."," "}]],"\n","If"," ","there"," ","is"," ","need"," ","for"," ","further"," ","clarifications"," ","on"," ","the"," ","questions",StyleBox[
+RowBox[{","," "}]],"after"," ","the"," ","assignment"," ","is"," ","released",StyleBox[
+RowBox[{","," "}]],"we"," ","will"," ","update"," ","this"," ","file",StyleBox[RowBox[
+{","," "}]],"so"," ","make"," ","sure"," ","you"," ","check"," ","the"," ","git"," ",StyleBox[
+"repository",IgnoreSpellCheck -> True]," ","for"," ","updates",".","\n","\t","Good"," ","luck","!"}],
+"Text",ExpressionUUID -> "133bac52-fcc8-475f-87c1-1bf9093120ff"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Warm-Up",StyleBox[RowBox[{" ","(.."}]],"the"," ","clean"," ","data","...)"}],
+"Section",ExpressionUUID -> "c7f7eed2-32a2-468d-85d3-2c33d51aba5a"],Cell[
+TextData[
+{"For"," ","the"," ","companies",StyleBox[RowBox[{":"," ","{\""}]],"Zoom"," ","Video"," ","Communications","\",\"","Apple","\",\"","Biogen","\",\"","Amazon","\",\"","Adobe","\",\"","Invesco"," ","Ltd","\",\"","Facebook","\",\"","Microsoft",StyleBox[
+RowBox[{"\"},"," "}]],"create"," ","a"," ","data"," ","structure"," ","containing"," ","their",StyleBox[
+RowBox[{" ","\""}]],"CurrentAssets","\".","\n","Your"," ","structure"," ","should"," ","be"," ","an"," ","association"," ","with"," ","keys"," ","being"," ","company"," ","entities","."}],
+"Text",CellFrame -> 2,FontSlant -> Plain,Background -> RGBColor[0.8941176470588236`,
+0.8941176470588236`,0.8941176470588236`],ExpressionUUID -> "ae21ffdf-5389-4862-a19d-ac3d6f5e52cb"],Cell[
+TextData[
+{StyleBox["Question",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"1",FontWeight -> Bold],StyleBox[RowBox[{StyleBox[":",FontWeight -> Bold],StyleBox[
+" ",FontWeight -> Bold]}]],"\n","What"," ","are"," ","the"," ","current"," ","assets"," ","of"," ","Zoom"," ","Video"," ","Communications","? ",StyleBox[
+"[",FontWeight -> Bold],StyleBox["1",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"point",FontWeight -> Bold],"]\n","Give your answer in billion $, rounded at two-digit precision (e.g., 1.23)"}],
+"Text",CellFrame -> 2,Background -> RGBColor[0.7490196078431373`,0.792156862745098`,
+0.9215686274509803`],ExpressionUUID -> "0d348033-2150-41ab-b4f6-4c56bb6fa3c3"],Cell[
+TextData[
+{"Sort"," ","this"," ","data"," ","structure",StyleBox[RowBox[{","," "}]],"on"," ","decreasing"," ","order"," ","of"," ","their"," ","current"," ","assets","."}],
+"Text",CellFrame -> 2,FontSlant -> Plain,Background -> RGBColor[0.8941176470588236`,
+0.8941176470588236`,0.8941176470588236`],ExpressionUUID -> "36d47bba-7ed0-4ac7-8618-0b17154eca50"],Cell[
+TextData[
+{StyleBox["Question",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"2",FontWeight -> Bold],StyleBox[RowBox[{StyleBox[":",FontWeight -> Bold],StyleBox[
+" ",FontWeight -> Bold]}]],"\n","Which"," ","is"," ","the"," ","company"," ","with"," ","the"," ","2nd"," ","highest"," ","current"," ","assets","? ",StyleBox[
+"[",FontWeight -> Bold],StyleBox["1",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"point",FontWeight -> Bold],StyleBox["]",FontWeight -> Bold]}],"Text",CellFrame -> 2,
+Background -> RGBColor[0.7490196078431373`,0.792156862745098`,0.9215686274509803`],
+ExpressionUUID -> "bf07c149-1278-449f-92ca-a5d1ffbefdcd"],Cell[
+TextData[{"Make"," ","a"," ","BarChart"," ","to"," ","show"," ","the"," ","sorted"," ","list",StyleBox[
+RowBox[{","," "}]],"displaying"," ","the"," ","current"," ","assets"," ","in"," ","billion",StyleBox[
+RowBox[{" ","$."," "}]],"Annotate"," ","the"," ","x","-","axis"," ","with"," ","the"," ","name"," ","of"," ","the"," ","company",StyleBox[
+RowBox[{"."," "}]]}],"Text",CellFrame -> 2,FontSlant -> Plain,Background -> RGBColor[
+0.8941176470588236`,0.8941176470588236`,0.8941176470588236`],ExpressionUUID -> "2942bf4c-3c6e-46dc-9fea-9318c4372c7b"],Cell[
+TextData[
+{"Make"," ","a"," ","PieChart"," ","of"," ","the"," ","current"," ","assets",StyleBox[
+RowBox[{"."," "," "}]],"Add"," ","a"," ","ChartLegends"," ","with"," ","the"," ","company"," ","names",StyleBox[
+RowBox[{","," "}]],"and"," ","ChartLabels"," ","with"," ","the"," ","share"," ","of"," ","each"," ","company"," ","in",StyleBox[
+RowBox[{" ","%."}]]}],"Text",CellFrame -> 2,FontSlant -> Plain,Background -> RGBColor[
+0.8941176470588236`,0.8941176470588236`,0.8941176470588236`],ExpressionUUID -> "249d8306-27f2-4613-8b0b-19bb7ea971cc"],Cell[
+TextData[
+{StyleBox["Question",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"3",FontWeight -> Bold],StyleBox[":",FontWeight -> Bold],"\n","What"," ","is"," ","the"," ","share"," ","of"," ","current"," ","assets"," ","of"," ","Microsoft","?  ",StyleBox[
+"[",FontWeight -> Bold],StyleBox["1",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"point",FontWeight -> Bold],StyleBox["]",FontWeight -> Bold]}],"Text",CellFrame -> 2,
+Background -> RGBColor[0.7490196078431373`,0.792156862745098`,0.9215686274509803`],
+ExpressionUUID -> "4c73f145-d6cb-4e81-8d52-9e2fe77fbdc1"],Cell[
+TextData[{"Plot"," ","a"," ","GeoBubbleChart"," ","where"," ","each"," ","bubble"," ","is"," ","a"," ","company"," ","centered"," ","at"," ","its"," ","longitude","/","latitude",StyleBox[
+RowBox[{","," "}]],"and"," ","the"," ","size"," ","of"," ","the"," ","bubble"," ","is"," ","the"," ","current"," ","assets"," ","of"," ","the"," ","company","."}],
+"Text",CellFrame -> 2,FontSlant -> Plain,Background -> RGBColor[0.8941176470588236`,
+0.8941176470588236`,0.8941176470588236`],ExpressionUUID -> "3c4c0467-70bf-429b-9f13-41eecd5c269a"],Cell[
+TextData[
+{StyleBox["Question",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"4",FontWeight -> Bold],StyleBox[":",FontWeight -> Bold],"\n","Where"," ","are"," ","located"," ","the"," ","companies"," ","with"," ","the"," ","highest"," ","current"," ","assets","?  ",StyleBox[
+"[",FontWeight -> Bold],StyleBox["1",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"point",FontWeight -> Bold],StyleBox["]",FontWeight -> Bold]}],"Text",CellFrame -> 2,
+Background -> RGBColor[0.7490196078431373`,0.792156862745098`,0.9215686274509803`],
+ExpressionUUID -> "f4cd8a8e-f5c2-4258-acae-d4d73859c3b6"]},Open],ExpressionUUID -> "479fb3f8-7250-4320-9b74-bbbbb37cad36"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Data"," ","acquisition",StyleBox[RowBox[{" ","("}]],"or"," ","dealing"," ","with"," ","the"," ","Dirty","-","Dirty"," ","Data","!)"}],
+"Section",ExpressionUUID -> "50349fd8-d6be-40c1-88f5-f6082778f52e"],Cell[
+TextData[
+{"Import"," ","the"," ","CSV"," ","dataset"," ","located"," ","at"," ","this"," ","address",StyleBox[
+RowBox[{":"," ","\""}]],"https://raw.githubusercontent.com/michalis0/Business-Intelligence-and-Analytics/master/data/ESG_index_companies.csv","\"","\n","Store"," ","it"," ","in"," ","a"," ","variable",StyleBox[
+RowBox[{" ","\""}]],"dataRaw",StyleBox[RowBox[{"\""," "}]],"and"," ","do"," ","not"," ","display"," ","the"," ","output",".","\n","Note",StyleBox[
+RowBox[{":"," "}]],"Import"," ","it"," ","as"," ","a"," ","dataset",StyleBox[RowBox[
+{","," "}]],"with"," ","column"," ","keys"," ","corresponding"," ","to"," ","the"," ","first"," ","row","."}],
+"Text",CellFrame -> 2,Background -> RGBColor[0.8941176470588236`,0.8941176470588236`,
+0.8941176470588236`],ExpressionUUID -> "0e4566e7-1570-4218-876c-04751e3025f7"],Cell[
+TextData[
+{"Preview"," ","the"," ","dataset",StyleBox[RowBox[{"."," "}]],"Display"," ","a"," ","RandomSample"," ","of"," ","10"," ","rows"," ","of"," ","your"," ","dataset"," "}],
+"Text",CellFrame -> 2,Background -> RGBColor[0.8941176470588236`,0.8745098039215686`,
+0.8745098039215686`],ExpressionUUID -> "a7b48f7f-0a5b-4d2d-b5a1-bd24cbf3da13"],Cell[
+TextData[
+{"Extract"," ","the"," ","names"," ","of"," ","the"," ","columns",StyleBox[RowBox[
+{" ","("}]],"Keys",StyleBox[RowBox[{")"," "}]],"to"," ","understand"," ","what"," ","information"," ","is"," ","displayed"," ","in"," ","the"," ","dataset"}],
+"Text",CellFrame -> 2,Background -> RGBColor[0.8941176470588236`,0.8745098039215686`,
+0.8745098039215686`],ExpressionUUID -> "c10cc613-8ed2-4dea-9ab8-bfd206c92d35"],Cell[
+TextData[
+{"Drop"," ","the",StyleBox[RowBox[{" ","\""}]],"esg_binaire",StyleBox[RowBox[{"\","," ","\""}]],"csr_com",StyleBox[
+RowBox[{"\","," ","\""}]],"csr_report",StyleBox[RowBox[{"\""," "}]],"columns"," ","because"," ","they"," ","are"," ","not"," ","reliable",".","\n","Store"," ","all"," ","the"," ","remaining"," ","data"," ","in"," ","a"," ","variable",StyleBox[
+RowBox[{" ","\""}]],"dataReliable",StyleBox[RowBox[{"\""," "}]],"and"," ","do"," ","not"," ","display"," ","the"," ","output","."}],
+"Text",CellFrame -> 2,Background -> RGBColor[0.8941176470588236`,0.8745098039215686`,
+0.8745098039215686`],ExpressionUUID -> "83c02911-8c37-4a0f-a24c-dc778813721d"],Cell[
+TextData[
+{StyleBox["Question",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"5",FontWeight -> Bold],StyleBox[":",FontWeight -> Bold],"\n","How"," ","many"," ","columns"," ","are"," ","in"," ","the"," ","dataset",StyleBox[
+RowBox[{" ","\""}]],"dataReliable",StyleBox[RowBox[{"\"?"," "," ",StyleBox["[",FontWeight -> Bold]}]],StyleBox[
+"1",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox["point",FontWeight -> Bold],StyleBox[
+"]",FontWeight -> Bold]}],"Text",CellFrame -> 2,Background -> RGBColor[0.7490196078431373`,
+0.792156862745098`,0.9215686274509803`],ExpressionUUID -> "1b2bfa84-99e7-4d4e-9f60-dfb3a11545c6"],Cell[
+TextData[
+{StyleBox["Question",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"6",FontWeight -> Bold],StyleBox[":",FontWeight -> Bold],"\n","What"," ","is"," ","the"," ","data"," ","type",StyleBox[
+RowBox[{" ","("}]],"String",StyleBox[RowBox[{","," "}]],"Real",StyleBox[RowBox[{","," "}]],"Integer",StyleBox[
+RowBox[{","," "}]],"etc",StyleBox[RowBox[{".)"," "," "}]],"of"," ","the"," ","first"," ","observation"," ","of"," ","the"," ","feature",StyleBox[
+RowBox[{" ","\""}]],"ESG"," ","controversy"," ","score",StyleBox[RowBox[{"\"?"," "}]],"What"," ","about"," ","the"," ","last"," ","observation","?  ",StyleBox[
+"[",FontWeight -> Bold],StyleBox["1",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"point",FontWeight -> Bold],StyleBox["]",FontWeight -> Bold],"\n","How do you interpret this result?  "}],
+"Text",CellFrame -> 2,Background -> RGBColor[0.7490196078431373`,0.792156862745098`,
+0.9215686274509803`],ExpressionUUID -> "030f184e-3aab-4447-aca6-63d44bd33025"]},Open],
+ExpressionUUID -> "1f5e4f9c-669b-4354-9fcb-6cb7e8176101"],Cell[
+CellGroupData[{Cell[
+TextData[
+{"Data"," ","Cleaning",StyleBox[RowBox[{" ","(..."}]],"or"," ","your"," ","worst"," ","nightmare",")"}],
+"Section",ExpressionUUID -> "83db87da-1efd-42b7-b838-9aa02830e2de"],Cell[
+TextData[
+{"Count"," ","the"," ","number"," ","of"," ","missing"," ","values"," ","in"," ","each"," ","column",StyleBox[
+RowBox[{"."," "}]],"\n","Note"," ","that"," ","there"," ","are"," ","two"," ","types"," ","of"," ","missing"," ","values",StyleBox[
+RowBox[{":"," ","\"\""," "}]],"and",StyleBox[RowBox[{" ","\"#"}]],"DIV","/","0","!\".","\n",StyleBox[
+"Hints",FontSlant -> Italic],StyleBox[RowBox[{StyleBox[":",FontSlant -> Italic]," "}]],"\n",StyleBox[
+RowBox[{" "," "," ","-"," "}]],"One"," ","option"," ","is"," ","to"," ","map"," ","over"," ","a"," ","list"," ","of"," ","the"," ","Keys",".","\n",StyleBox[
+RowBox[{" "," "," ","-"," "}]],"After"," ","counting"," ","the"," ","number"," ","of"," ","missing"," ","value",StyleBox[
+RowBox[{","," "}]],"you"," ","can"," ","create"," ","an"," ","association"," ","between"," ","a"," ","list"," ","of"," ","keys"," ","and"," ","a"," ","list"," ","of"," ","missing"," ","values"," ","to"," ","help"," ","future"," ","operations","."}],
+"Text",CellFrame -> 2,Background -> RGBColor[0.8941176470588236`,0.8941176470588236`,
+0.8941176470588236`],ExpressionUUID -> "852d28c0-0c41-49d1-b4f1-512f320f10ac"],Cell[
+TextData[
+{StyleBox["Question",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"7",FontWeight -> Bold],StyleBox[":",FontWeight -> Bold],"\n","What"," ","is"," ","the"," ","number"," ","of"," ","missing"," ","values"," ","in"," ","the"," ","column",StyleBox[
+RowBox[{" ","\""}]],"Social"," ","controvery"," ","score",StyleBox[RowBox[{"\"?"," "," ",StyleBox[
+"[",FontWeight -> Bold]}]],StyleBox["1",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"point",FontWeight -> Bold],StyleBox["]",FontWeight -> Bold]}],"Text",CellFrame -> 2,
+Background -> RGBColor[0.7490196078431373`,0.792156862745098`,0.9215686274509803`],
+ExpressionUUID -> "b9d59bd7-f5e6-4b6c-8631-8d8ba7c13ff4"],Cell[
+TextData[{"Find"," ","the"," ","four"," ","columns"," ","with"," ","the"," ","most"," ","missing"," ","values"," ","and"," ","drop"," ","them",".","\n","Store"," ","the"," ","new"," ","dataset"," ","in"," ","a"," ","variable",StyleBox[
+RowBox[{" ","\""}]],"dataCleanCol",StyleBox[RowBox[{"\""," "}]],"and"," ","do"," ","not"," ","display"," ","it",".","\n",StyleBox[
+"Hint",FontSlant -> Italic],StyleBox[RowBox[{StyleBox[":",FontSlant -> Italic]," "}]],"You"," ","should"," ","expect"," ","to"," ","drop"," ","the"," ","following"," ","columns",StyleBox[
+RowBox[{":"," ","\""}]],"Environment"," ","controversy"," ","score",StyleBox[RowBox[
+{"\","," ","\""}]],"Social"," ","controvery"," ","score",StyleBox[RowBox[{"\","," ","\""}]],"Score",StyleBox[
+RowBox[{" ","-"," "}]],"Emission"," ","Reduction","/","Spill","/","Pollution"," ","Controversies",StyleBox[
+RowBox[{" ","("}]],"Inactive",StyleBox[RowBox[{")\","," ","\""}]],"Score",StyleBox[
+RowBox[{" ","-"," "}]],"Product"," ","Responsibility","/","Responsible"," ","Mrktg"," ","Controversy","(","Inactive",")\""}],
+"Text",CellFrame -> 2,FontSlant -> Plain,Background -> RGBColor[0.8941176470588236`,
+0.8941176470588236`,0.8941176470588236`],ExpressionUUID -> "d484af93-a0da-4bcd-8549-968b0e4a6088"],Cell[
+TextData[
+{"Delete"," ","all"," ","the"," ","rows"," ","that"," ","have"," ","at"," ","least"," ","one"," ","missing"," ","value",".","\n","Store"," ","the"," ","new"," ","dataset"," ","in"," ","a"," ","variable",StyleBox[
+RowBox[{" ","\""}]],"dataClean",StyleBox[RowBox[{"\""," "}]],"and"," ","do"," ","not"," ","display"," ","it",".","\n",StyleBox[
+"Hint",FontSlant -> Italic],StyleBox[RowBox[{StyleBox[":",FontSlant -> Italic],StyleBox[
+" ",FontSlant -> Italic]}]],StyleBox["One",FontSlant -> Plain],StyleBox[" ",FontSlant -> Plain],StyleBox[
+"option",FontSlant -> Plain],StyleBox[" ",FontSlant -> Plain],StyleBox["is",FontSlant -> Plain],StyleBox[
+" ",FontSlant -> Plain],StyleBox["to",FontSlant -> Plain],StyleBox[" ",FontSlant -> Plain],StyleBox[
+"use",FontSlant -> Plain],StyleBox[" ",FontSlant -> Plain],StyleBox["Select",FontSlant -> Plain],StyleBox[
+" ",FontSlant -> Plain],StyleBox["and",FontSlant -> Plain],StyleBox[" ",FontSlant -> Plain],StyleBox[
+"FreeQ",FontSlant -> Plain]}],"Text",CellFrame -> 2,FontSlant -> Plain,Background -> RGBColor[
+0.8941176470588236`,0.8941176470588236`,0.8941176470588236`],ExpressionUUID -> "beac5d5d-cbf6-46a2-844e-d36ed7733af2"],Cell[
+TextData[
+{StyleBox["Question",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"8",FontWeight -> Bold],StyleBox[":",FontWeight -> Bold],"\n","How"," ","many"," ","rows"," ","does"," ","the"," ","dataset"," ","have"," ","after"," ","dropping"," ","those"," ","rows","?  ",StyleBox[
+"[",FontWeight -> Bold],StyleBox["1",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"point",FontWeight -> Bold],StyleBox["]",FontWeight -> Bold]}],"Text",CellFrame -> 2,
+Background -> RGBColor[0.7490196078431373`,0.792156862745098`,0.9215686274509803`],
+ExpressionUUID -> "a0a101ec-f225-4e0f-9104-2786465b7f43"],Cell[
+TextData[{StyleBox[
+"Question",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox["9",FontWeight -> Bold],StyleBox[
+":",FontWeight -> Bold],"\n","As"," ","you"," ","may"," ","have"," ","noted",StyleBox[
+RowBox[{","," "}]],"for"," ","each"," ","company"," ","we"," ","have"," ","data"," ","for"," ","multiple"," ","years",StyleBox[
+RowBox[{"."," "}]],"For"," ","which"," ","year"," ","do"," ","we"," ","have"," ","more"," ","data"," ","points"," ","lefts","? How many companies are in this year?  ",StyleBox[
+"[",FontWeight -> Bold],StyleBox["1",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"point",FontWeight -> Bold],StyleBox["]",FontWeight -> Bold]}],"Text",CellFrame -> 2,
+Background -> RGBColor[0.7490196078431373`,0.792156862745098`,0.9215686274509803`],
+ExpressionUUID -> "41e275ae-8df2-421d-b108-ec45c9bcf6e4"],Cell[
+TextData[{"From"," ","now"," ","on",StyleBox[
+RowBox[{","," "}]],"we"," ","will"," ","use"," ","the"," ","subset"," ","of"," ","the"," ","dataset"," ","containing"," ","the"," ","companies"," ","data"," ","only"," ","for"," ","the"," ","year"," ","with"," ","the"," ","most"," ","number"," ","of"," ","observations",":","\n",StyleBox[
+RowBox[{"-"," "}]],"Keep"," ","only"," ","the"," ","data"," ","for"," ","the"," ","year"," ","with"," ","the"," ","most"," ","number"," ","of"," ","observations",StyleBox[
+RowBox[{"."," "}]],"\n",StyleBox[RowBox[{"-"," "}]],"Store"," ","this"," ","dataset"," ","in"," ","a"," ","variable",StyleBox[
+RowBox[{" ","\""}]],"data","\".","\n",StyleBox[RowBox[{"-"," "}]],"Check"," ","the"," ","dimensions"," ","of"," ","your"," ","new"," ","dataset"," ","and"," ","generate"," ","a"," ","RandomSample"," ","of"," ","10"," ","observations",".","\n",StyleBox[
+RowBox[{"-"," "}]],"Clear"," ","the"," ","variables"," ","you"," ","are"," ","not"," ","using"," ","anymore"}],
+"Text",CellFrame -> 2,FontSlant -> Plain,Background -> RGBColor[0.8941176470588236`,
+0.8941176470588236`,0.8941176470588236`],ExpressionUUID -> "566fa112-73eb-4d1b-9e00-10a696814fd7"]},
+Open],ExpressionUUID -> "c9dce913-d07e-485e-99be-1145fed2567e"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Data"," ","Visualization"}],"Section",ExpressionUUID -> "69c10125-72e1-4077-9879-b602b214cea8"],Cell[
+TextData[
+{"If"," ","you"," ","could"," ","not"," ","perform"," ","the"," ","previous"," ","operations",StyleBox[
+RowBox[{","," "}]],"you"," ","can"," ","answer"," ","the"," ","following"," ","questions"," ","by"," ","importing"," ","the"," ","CSV"," ","dataset",StyleBox[
+RowBox[{" ","\""}]],"data","-","esg",".","csv",StyleBox[RowBox[{"\""," "}]],"that"," ","is"," ","available"," ","in"," ","Git",StyleBox[
+RowBox[{"."," "}]],"Store"," ","it"," ","in"," ","a"," ","variable",StyleBox[RowBox[
+{" ","\""}]],"data",StyleBox[RowBox[{"\""," "}]],"and"," ","do"," ","not"," ","display"," ","the"," ","output",StyleBox[
+RowBox[{"."," "}]],"Import"," ","it"," ","as"," ","a"," ","dataset",StyleBox[RowBox[
+{","," "}]],"with"," ","column"," ","keys"," ","corresponding"," ","to"," ","the"," ","first"," ","row","."}],
+"Text",CellFrame -> 2,FontSlant -> Plain,Background -> RGBColor[0.9019607843137255`,
+1,1],CellFrameColor -> RGBColor[0,0,0],ExpressionUUID -> "a298baa7-bf9c-42bc-ad50-0883c50c1be6"],Cell[
+TextData[
+{"Plot"," ","a"," ","BoxWhiskerChart"," ","of"," ","the"," ","values"," ","in"," ","the"," ","following"," ","columns",StyleBox[
+RowBox[{" ","\""}]],"ESG"," ","controversy"," ","score",StyleBox[RowBox[{"\","," ","\""}]],"Governance"," ","controversy"," ","score",StyleBox[
+RowBox[{"\","," ","\""}]],"esg_score","\""}],"Text",CellFrame -> 2,FontSlant -> Plain,
+Background -> RGBColor[0.8941176470588236`,0.8941176470588236`,0.8941176470588236`],
+ExpressionUUID -> "c36a54e5-58cf-4582-96e4-9fe2dd1d6dde"],Cell[
+TextData[{StyleBox[
+"Question",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox["10",FontWeight -> Bold],StyleBox[
+":",FontWeight -> Bold],"\n","Which"," ","between"," ","the",StyleBox[RowBox[{" ","\""}]],"ESG"," ","controversy"," ","score",StyleBox[
+RowBox[{"\","," ","\""}]],"Governance"," ","controversy"," ","score",StyleBox[RowBox[
+{"\","," ","\""}]],"esg_score",StyleBox[RowBox[{"\""," "}]],"columns"," ","has"," ","the"," ","highest"," ","median"," ","value","?  ",StyleBox[
+"[",FontWeight -> Bold],StyleBox["1",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"point",FontWeight -> Bold],StyleBox["]",FontWeight -> Bold]}],"Text",CellFrame -> 2,
+Background -> RGBColor[0.7490196078431373`,0.792156862745098`,0.9215686274509803`],
+ExpressionUUID -> "ae4732f1-738a-46e0-be61-9630d5a8b984"],Cell[
+TextData[{"Normalize"," ","all"," ","the"," ","columns"," ","to"," ","have"," ","values"," ","between"," ","0"," ","and"," ","1",StyleBox[
+RowBox[{","," "}]],"except"," ","the"," ","following"," ","ones",StyleBox[RowBox[
+{":"," ","\""}]],"Year",StyleBox[RowBox[{"\","," ","\""}]],"Firm",StyleBox[RowBox[
+{"\","," ","\""}]],"ind",StyleBox[RowBox[{"\","," ","\""}]],"country","\".","\n","Store"," ","this"," ","dataset"," ","in"," ","a"," ","variable",StyleBox[
+RowBox[{" ","\""}]],"dataN",StyleBox[RowBox[{"\""," "}]],"and"," ","do"," ","not"," ","display"," ","the"," ","result","."}],
+"Text",CellFrame -> 2,FontSlant -> Plain,Background -> RGBColor[0.8941176470588236`,
+0.8941176470588236`,0.8941176470588236`],ExpressionUUID -> "605cb69c-f9b4-4d1f-bbf8-811587fc776e"],Cell[
+TextData[
+{StyleBox["Question",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"11",FontWeight -> Bold],StyleBox[":",FontWeight -> Bold],"\n","What"," ","is"," ","the"," ","normalized"," ","value"," ","for"," ","the",StyleBox[
+RowBox[{" ","\""}]],"ESG"," ","controversy"," ","score",StyleBox[RowBox[{"\""," "}]],"for"," ","the"," ","firm",StyleBox[
+RowBox[{" ","\""}]],"1","&","1"," ","DRILLISCH",StyleBox[RowBox[{"\""," "}]],"for"," ","the"," ","year"," ","2017","? (round to 2 decimals, e.g., 0.50)  ",StyleBox[
+"[",FontWeight -> Bold],StyleBox["1",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"point",FontWeight -> Bold],StyleBox["]",FontWeight -> Bold]}],"Text",CellFrame -> 2,
+Background -> RGBColor[0.7490196078431373`,0.792156862745098`,0.9215686274509803`],
+ExpressionUUID -> "db6f4482-eae4-4945-ba05-d2f98b875f0a"],Cell[
+TextData[{"Compute"," ","the"," ","correlation"," ","matrix"," ","for"," ","the"," ","following"," ","score"," ","columns",":","\n","\"","ESG"," ","controversy"," ","score",StyleBox[
+RowBox[{"\","," "}]],"\n","\"","Governance"," ","controversy"," ","score","\",","\n","\"","Score",StyleBox[
+RowBox[{" ","-"," "}]],"Emission"," ","Reduction","/","Biodiversity"," ","Controversies",StyleBox[
+RowBox[{" ","("}]],"Inactive",StyleBox[RowBox[{")\","," "}]],"\n","\"","Score",StyleBox[
+RowBox[{" ","-"," "}]],"Community","/","Critical"," ","Countries","-","Indigenous"," ","Controversy",StyleBox[
+RowBox[{" ","("}]],"Inactive",")\",","\n","\"","Score",StyleBox[RowBox[{" ","-"," "}]],"Community","/","Public"," ","Health"," ","Controversies",StyleBox[
+RowBox[{" ","("}]],"Inactive",")\",","\n","\"","Score",StyleBox[RowBox[{" ","-"," "}]],"Diversity"," ","and"," ","Opportunity","/","Diversity"," ","Controversies",StyleBox[
+RowBox[{" ","("}]],"Inactive",")\""}],"Text",CellFrame -> 2,FontSlant -> Plain,Background -> RGBColor[
+0.8941176470588236`,0.8941176470588236`,0.8941176470588236`],ExpressionUUID -> "2204c03b-6045-4861-b1f7-4e45ce804405"],Cell[
+TextData[
+{StyleBox["Question",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"12",FontWeight -> Bold],StyleBox[":",FontWeight -> Bold],"\n","What"," ","is"," ","the"," ","correlation"," ","between"," ","the"," ","columns",StyleBox[
+RowBox[{" ","\""}]],"ESG"," ","controversy"," ","score",StyleBox[RowBox[{"\""," "}]],"and",StyleBox[
+RowBox[{" ","\""}]],"Governance"," ","controversy"," ","score",StyleBox[RowBox[{"\"?"," ","("}]],"round"," ","to"," ","2"," ","decimals",StyleBox[
+RowBox[{","," "}]],"e",".","g",StyleBox[RowBox[{".,"," "}]],"0",".","50",StyleBox[
+RowBox[{")"," "," ",StyleBox["[",FontWeight -> Bold]}]],StyleBox["1",FontWeight -> Bold],StyleBox[
+" ",FontWeight -> Bold],StyleBox["point",FontWeight -> Bold],StyleBox["]",FontWeight -> Bold]}],
+"Text",CellFrame -> 2,Background -> RGBColor[0.7490196078431373`,0.792156862745098`,
+0.9215686274509803`],ExpressionUUID -> "d60c6d37-d631-447b-aeaf-995330e037f3"],Cell[
+TextData[
+{"Generate"," ","a"," ","MatrixPlot"," ","of"," ","the"," ","correlation"," ","matrix"}],
+"Text",CellFrame -> 2,FontSlant -> Plain,Background -> RGBColor[0.8941176470588236`,
+0.8941176470588236`,0.8941176470588236`],ExpressionUUID -> "077ab7c6-4a56-44e5-81cb-1dc9d3241d23"],Cell[
+TextData[
+{"Plot"," ","a"," ","histogram"," ","of"," ","the",StyleBox[RowBox[{" ","\""}]],"assets",StyleBox[
+RowBox[{"\""," "}]],"column",StyleBox[RowBox[{" ","("}]],"non","-","normalized",StyleBox[
+RowBox[{")"," "}]],"in"," ","order"," ","to"," ","get"," ","an"," ","idea"," ","of"," ","the"," ","distribution"," ","of"," ","the"," ","amount"," ","of"," ","assets"," ","belonging"," ","to"," ","the"," ","companies"," ","in"," ","this"," ","dataset",StyleBox[
+RowBox[{"."," "}]],"To"," ","make"," ","the"," ","histogram"," ","more"," ","readable"," ","use"," ","a"," ","logarithmic"," ","scale"," ","on"," ","the"," ","y","-","axis",StyleBox[
+RowBox[{" ","("}]],"x","-","axis"," ","are"," ","the"," ","bins"," ","of"," ","asset"," ","values",")."}],
+"Text",CellFrame -> 2,FontSlant -> Plain,Background -> RGBColor[0.8941176470588236`,
+0.8941176470588236`,0.8941176470588236`],ExpressionUUID -> "14a1fd63-8a5d-46c3-85ac-8a67a311bfde"],Cell[
+TextData[
+{StyleBox["Question",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"13",FontWeight -> Bold],StyleBox[":",FontWeight -> Bold],"\n","What"," ","does"," ","the"," ","shape"," ","of"," ","the"," ","assets"," ","values"," ","histogram",StyleBox[
+RowBox[{" ","("}]],"in"," ","log"," ","scale",StyleBox[RowBox[{")"," "}]],"look"," ","like",StyleBox[
+RowBox[{" ","("}]],"from"," ","left"," ","to"," ","right",StyleBox[RowBox[{","," "}]],"from"," ","smaller"," ","to"," ","larger"," ","values",StyleBox[
+RowBox[{")?"," "}]],"Decreasing",StyleBox[RowBox[{","," "}]],"increasing",StyleBox[
+RowBox[{","," "}]],"almost"," ","uniform",StyleBox[RowBox[{","," "}]],"very"," ","irregular","?  ",StyleBox[
+"[",FontWeight -> Bold],StyleBox["1",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"point",FontWeight -> Bold],StyleBox["]",FontWeight -> Bold]}],"Text",CellFrame -> 2,
+Background -> RGBColor[0.7490196078431373`,0.792156862745098`,0.9215686274509803`],
+ExpressionUUID -> "6cade8e1-a616-4e36-8e44-61508298c81f"],Cell[
+TextData[{"For"," ","each"," ","country",StyleBox[
+RowBox[{","," "}]],"compute"," ","the"," ","number"," ","of"," ","companies"," ","and"," ","the"," ","average"," ","amount"," ","of"," ","market"," ","value",StyleBox[
+RowBox[{" ","(\""}]],"mv",StyleBox[RowBox[{"\""," "}]],"column",StyleBox[RowBox[{")"," "}]],"for"," ","the"," ","companies"," ","in"," ","the"," ","country","."}],
+"Text",CellFrame -> 2,FontSlant -> Plain,Background -> RGBColor[0.8941176470588236`,
+0.8941176470588236`,0.8941176470588236`],ExpressionUUID -> "29c587a4-3094-4b7d-9507-de38e6cc44af"],Cell[
+TextData[
+{StyleBox["Question",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"14",FontWeight -> Bold],StyleBox[":",FontWeight -> Bold],"\n","How"," ","many"," ","companies"," ","are"," ","in"," ","country",StyleBox[
+RowBox[{" ","\""}]],"GB",StyleBox[RowBox[{"\"?"," "," ",StyleBox["[",FontWeight -> Bold]}]],StyleBox[
+"1",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox["point",FontWeight -> Bold],StyleBox[
+"]",FontWeight -> Bold],"\n",StyleBox["Hint",FontSlant -> Italic],StyleBox[RowBox[
+{StyleBox[":",FontSlant -> Italic],StyleBox[" ",FontSlant -> Italic]}]],"the"," ","number"," ","should"," ","be"," ","between"," ","300","-","400"}],
+"Text",CellFrame -> 2,Background -> RGBColor[0.7490196078431373`,0.792156862745098`,
+0.9215686274509803`],ExpressionUUID -> "d8f38433-2e19-4116-94ea-164bee43d861"]},Open],
+ExpressionUUID -> "c8b79573-3f81-4ebc-adae-6cd388104b66"]},Open],ExpressionUUID -> "56d84a42-c027-4858-83e4-910b473c85e9"]},
+Open],ExpressionUUID -> "5aa42db5-1cce-4886-8e6a-ead466117295"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "12.3 for Wolfram Cloud 1.60 (September 28, 2021)",TaggingRules -> {"TryRealOnly" -> False}]
