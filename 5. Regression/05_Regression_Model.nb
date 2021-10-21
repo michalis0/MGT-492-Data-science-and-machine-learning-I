@@ -554,7 +554,7 @@ BoxData[RowBox[{"Dataset","[",RowBox[{"<|",RowBox[{RowBox[{"\"Observation 1\"","
 {"\"Feature 1\"","\[Rule]",RowBox[{"Subscript","[",RowBox[{"x",",","n",",","1"}],"]"}]}],","," ",RowBox[
 {"\"Feature 2\"","\[Rule]",RowBox[{"Subscript","[",RowBox[{"x",",","n",",","2"}],"]"}]}],",",RowBox[
 {"\"...\"","\[Rule]","\"...\""}],",",RowBox[{"\"Feature d\"","\[Rule]",RowBox[{"Subscript","[",RowBox[
-{"x",",","n",",","d"}],"]"}]}]}],"|>"}]}]}],"|>"}],"]"}]],"Input",CellLabel -> "In[82]:= ",
+{"x",",","n",",","d"}],"]"}]}]}],"|>"}]}]}],"|>"}],"]"}]],"Input",CellLabel -> "In[1]:= ",
 ExpressionUUID -> "96b41bc9-cb6f-48ba-aea4-5c5df10ad2d6"],Cell[
 BoxData[TagBox[TagBox[
 DynamicModuleBox[{Set[TypeSystem`NestedGrid`PackagePrivate`$state$$,Association["InitialData" -> Association[
@@ -577,7 +577,7 @@ False],"Feature 2" -> TypeSystem`PackageScope`UnknownShape[False],"..." -> TypeS
 String],TypeSystem`Struct[{"Outcome","Feature 1","Feature 2","...","Feature d"},{TypeSystem`AnyType,TypeSystem`AnyType,TypeSystem`AnyType,TypeSystem`Atom[
 TypeSystem`Enumeration["..."]],TypeSystem`AnyType}],4],"Meta" -> Association[],"RowTarget" -> 20,
 "ColumnTarget" -> 10,"Shape" -> TypeSystem`PackageScope`HeaderShape[Association[{All,TypeSystem`PackageScope`KeyDummy[
-0]} -> 1,{All,"Outcome"} -> 1,{All,"Feature 1"} -> 1,{All,"Feature 2"} -> 1,{All,"..."} -> 1,
+1]} -> 1,{All,"Outcome"} -> 1,{All,"Feature 1"} -> 1,{All,"Feature 2"} -> 1,{All,"..."} -> 1,
 {All,"Feature d"} -> 1],TypeSystem`PackageScope`Limited[TypeSystem`PackageScope`ColumnShape[
 TypeSystem`PackageScope`KeyValueShape[TypeSystem`PackageScope`AtomShape[145.60000000000002`],
 TypeSystem`PackageScope`Limited[TypeSystem`PackageScope`RowShape[Association["Outcome" -> TypeSystem`PackageScope`UnknownShape[
@@ -606,10 +606,9 @@ Mouseover["Outcome",Style["Outcome",FontColor -> RGBColor[0.27450980392156865`,0
 TypeSystem`NestedGrid`PackagePrivate`$state$$,TypeSystem`NestedGrid`PackagePrivate`$path$$,
 TypeSystem`NestedGrid`PackagePrivate`$vPos$$,TypeSystem`NestedGrid`PackagePrivate`$hPos$$,
 TypeSystem`NestedGrid`PackagePrivate`$grid$$,TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`localHold[TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][
-{All,"Outcome"},1]]],Row[{Row[{Style["All",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",
-RGBColor[0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style["Outcome",
-GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
+"7149933a-970e-4717-8c1b-55461424eac1"]][{All,"Outcome"},1]]],Row[{Row[{Style["All",
+GrayLevel[0.6`]]}],Row[{Style[" \:203a ",RGBColor[0.6509803921568628`,0.6509803921568628`,
+0.6509803921568628`]],Style["Outcome",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
 ImageSize -> {{1,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],Background -> GrayLevel[
 0.95`],Alignment -> {Left,Baseline}],Item[Pane[Tooltip[EventHandler[MouseAppearance[
 Mouseover["Feature 1",Style["Feature 1",FontColor -> RGBColor[0.27450980392156865`,
@@ -617,10 +616,10 @@ Mouseover["Feature 1",Style["Feature 1",FontColor -> RGBColor[0.2745098039215686
 TypeSystem`NestedGrid`PackagePrivate`updateState[TypeSystem`NestedGrid`PackagePrivate`$state$$,
 TypeSystem`NestedGrid`PackagePrivate`$path$$,TypeSystem`NestedGrid`PackagePrivate`$vPos$$,
 TypeSystem`NestedGrid`PackagePrivate`$hPos$$,TypeSystem`NestedGrid`PackagePrivate`$grid$$,
-TypeSystem`NestedGrid`PackagePrivate`localHold[TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{All,"Feature 1"},1]]],Row[{Row[
-{Style["All",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",RGBColor[0.6509803921568628`,
-0.6509803921568628`,0.6509803921568628`]],Style["Feature 1",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
+TypeSystem`NestedGrid`PackagePrivate`localHold["7149933a-970e-4717-8c1b-55461424eac1"]][
+{All,"Feature 1"},1]]],Row[{Row[{Style["All",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",
+RGBColor[0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style["Feature 1",
+GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
 ImageSize -> {{1,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],Background -> GrayLevel[
 0.95`],Alignment -> {Left,Baseline}],Item[Pane[Tooltip[EventHandler[MouseAppearance[
 Mouseover["Feature 2",Style["Feature 2",FontColor -> RGBColor[0.27450980392156865`,
@@ -628,10 +627,10 @@ Mouseover["Feature 2",Style["Feature 2",FontColor -> RGBColor[0.2745098039215686
 TypeSystem`NestedGrid`PackagePrivate`updateState[TypeSystem`NestedGrid`PackagePrivate`$state$$,
 TypeSystem`NestedGrid`PackagePrivate`$path$$,TypeSystem`NestedGrid`PackagePrivate`$vPos$$,
 TypeSystem`NestedGrid`PackagePrivate`$hPos$$,TypeSystem`NestedGrid`PackagePrivate`$grid$$,
-TypeSystem`NestedGrid`PackagePrivate`localHold[TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{All,"Feature 2"},1]]],Row[{Row[
-{Style["All",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",RGBColor[0.6509803921568628`,
-0.6509803921568628`,0.6509803921568628`]],Style["Feature 2",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
+TypeSystem`NestedGrid`PackagePrivate`localHold["7149933a-970e-4717-8c1b-55461424eac1"]][
+{All,"Feature 2"},1]]],Row[{Row[{Style["All",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",
+RGBColor[0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style["Feature 2",
+GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
 ImageSize -> {{1,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],Background -> GrayLevel[
 0.95`],Alignment -> {Left,Baseline}],Item[Pane[Tooltip[EventHandler[MouseAppearance[
 Mouseover["...",Style["...",FontColor -> RGBColor[0.27450980392156865`,0.5372549019607843`,
@@ -639,18 +638,17 @@ Mouseover["...",Style["...",FontColor -> RGBColor[0.27450980392156865`,0.5372549
 TypeSystem`NestedGrid`PackagePrivate`$state$$,TypeSystem`NestedGrid`PackagePrivate`$path$$,
 TypeSystem`NestedGrid`PackagePrivate`$vPos$$,TypeSystem`NestedGrid`PackagePrivate`$hPos$$,
 TypeSystem`NestedGrid`PackagePrivate`$grid$$,TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`localHold[TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][
-{All,"..."},1]]],Row[{Row[{Style["All",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",RGBColor[
-0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style["...",GrayLevel[
-0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],ImageSize -> {{1,Full},Automatic},
-ImageMargins -> {{5,3},{4,5}}],Background -> GrayLevel[0.95`],Alignment -> {Left,Baseline}],Item[
-Pane[Tooltip[EventHandler[MouseAppearance[Mouseover["Feature d",Style["Feature d",
-FontColor -> RGBColor[0.27450980392156865`,0.5372549019607843`,0.792156862745098`]]],
-"LinkHand"],RuleDelayed[{"MouseClicked",1},TypeSystem`NestedGrid`PackagePrivate`updateState[
-TypeSystem`NestedGrid`PackagePrivate`$state$$,TypeSystem`NestedGrid`PackagePrivate`$path$$,
-TypeSystem`NestedGrid`PackagePrivate`$vPos$$,TypeSystem`NestedGrid`PackagePrivate`$hPos$$,
-TypeSystem`NestedGrid`PackagePrivate`$grid$$,TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`localHold[TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][
+"7149933a-970e-4717-8c1b-55461424eac1"]][{All,"..."},1]]],Row[{Row[{Style["All",GrayLevel[
+0.6`]]}],Row[{Style[" \:203a ",RGBColor[0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style[
+"...",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
+ImageSize -> {{1,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],Background -> GrayLevel[
+0.95`],Alignment -> {Left,Baseline}],Item[Pane[Tooltip[EventHandler[MouseAppearance[
+Mouseover["Feature d",Style["Feature d",FontColor -> RGBColor[0.27450980392156865`,
+0.5372549019607843`,0.792156862745098`]]],"LinkHand"],RuleDelayed[{"MouseClicked",1},
+TypeSystem`NestedGrid`PackagePrivate`updateState[TypeSystem`NestedGrid`PackagePrivate`$state$$,
+TypeSystem`NestedGrid`PackagePrivate`$path$$,TypeSystem`NestedGrid`PackagePrivate`$vPos$$,
+TypeSystem`NestedGrid`PackagePrivate`$hPos$$,TypeSystem`NestedGrid`PackagePrivate`$grid$$,
+TypeSystem`NestedGrid`PackagePrivate`localHold["7149933a-970e-4717-8c1b-55461424eac1"]][
 {All,"Feature d"},1]]],Row[{Row[{Style["All",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",
 RGBColor[0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style["Feature d",
 GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
@@ -661,186 +659,169 @@ Mouseover["Observation 1",Style["Observation 1",FontColor -> RGBColor[0.27450980
 TypeSystem`NestedGrid`PackagePrivate`updateState[TypeSystem`NestedGrid`PackagePrivate`$state$$,
 TypeSystem`NestedGrid`PackagePrivate`$path$$,TypeSystem`NestedGrid`PackagePrivate`$vPos$$,
 TypeSystem`NestedGrid`PackagePrivate`$hPos$$,TypeSystem`NestedGrid`PackagePrivate`$grid$$,
-TypeSystem`NestedGrid`PackagePrivate`localHold[TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{Key["Observation 1"]},1]]],Row[
-{Row[{Style["Observation 1",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
+TypeSystem`NestedGrid`PackagePrivate`localHold["7149933a-970e-4717-8c1b-55461424eac1"]][
+{Key["Observation 1"]},1]]],Row[{Row[{Style["Observation 1",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
 ImageSize -> {{145.60000000000002`,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],
 Background -> GrayLevel[0.95`],Alignment -> {Left,Baseline}],Item[Pane[Annotation[
 Tooltip[RawBoxes[StyleBox[SubscriptBox["y","1"],FontFamily -> Dynamic[CurrentValue[
 {"StyleHints","CodeFont"}]],ShowStringCharacters -> True]],Row[{Row[{Style["Observation 1",
 GrayLevel[0.6`]]}],Row[{Style[" \:203a ",RGBColor[0.6509803921568628`,0.6509803921568628`,
 0.6509803921568628`]],Style["Outcome",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
-TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{Key["Observation 1"],Key["Outcome"]},
-"Item",False],"Mouse"],ImageSize -> {{60,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],
-ItemSize -> {Full,Automatic}],Item[Pane[Annotation[Tooltip[RawBoxes[StyleBox[SubscriptBox[
-"x",RowBox[{"1",",","1"}]],FontFamily -> Dynamic[CurrentValue[{"StyleHints","CodeFont"}]],
-ShowStringCharacters -> True]],Row[{Row[{Style["Observation 1",GrayLevel[0.6`]]}],Row[
-{Style[" \:203a ",RGBColor[0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style[
-"Feature 1",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
-TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{Key["Observation 1"],Key["Feature 1"]},
-"Item",False],"Mouse"],ImageSize -> {{60,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],
-ItemSize -> {Full,Automatic}],Item[Pane[Annotation[Tooltip[RawBoxes[StyleBox[SubscriptBox[
-"x",RowBox[{"1",",","2"}]],FontFamily -> Dynamic[CurrentValue[{"StyleHints","CodeFont"}]],
-ShowStringCharacters -> True]],Row[{Row[{Style["Observation 1",GrayLevel[0.6`]]}],Row[
-{Style[" \:203a ",RGBColor[0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style[
-"Feature 2",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
-TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{Key["Observation 1"],Key["Feature 2"]},
-"Item",False],"Mouse"],ImageSize -> {{60,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],
-ItemSize -> {Full,Automatic}],Item[Pane[Annotation[Tooltip["...",Row[{Row[{Style[
-"Observation 1",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",RGBColor[0.6509803921568628`,
-0.6509803921568628`,0.6509803921568628`]],Style["...",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
-TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{Key["Observation 1"],Key["..."]},
-"Item",False],"Mouse"],ImageSize -> {{31.5`,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],
-ItemSize -> {Full,Automatic}],Item[Pane[Annotation[Tooltip[RawBoxes[StyleBox[SubscriptBox[
-"x",RowBox[{"1",",","d"}]],FontFamily -> Dynamic[CurrentValue[{"StyleHints","CodeFont"}]],
-ShowStringCharacters -> True]],Row[{Row[{Style["Observation 1",GrayLevel[0.6`]]}],Row[
-{Style[" \:203a ",RGBColor[0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style[
-"Feature d",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
-TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{Key["Observation 1"],Key["Feature d"]},
-"Item",False],"Mouse"],ImageSize -> {{60,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],
-ItemSize -> {Full,Automatic}]},{Item[Pane[Tooltip[EventHandler[MouseAppearance[Mouseover[
-"Observation 2",Style["Observation 2",FontColor -> RGBColor[0.27450980392156865`,
-0.5372549019607843`,0.792156862745098`]]],"LinkHand"],RuleDelayed[{"MouseClicked",1},
-TypeSystem`NestedGrid`PackagePrivate`updateState[TypeSystem`NestedGrid`PackagePrivate`$state$$,
+TypeSystem`NestedGrid`PackagePrivate`$SliceMarker["7149933a-970e-4717-8c1b-55461424eac1"][
+{Key["Observation 1"],Key["Outcome"]},"Item",False],"Mouse"],ImageSize -> {{60,Full},Automatic},
+ImageMargins -> {{5,3},{4,5}}],ItemSize -> {Full,Automatic}],Item[Pane[Annotation[
+Tooltip[RawBoxes[StyleBox[SubscriptBox["x",RowBox[{"1",",","1"}]],FontFamily -> Dynamic[
+CurrentValue[{"StyleHints","CodeFont"}]],ShowStringCharacters -> True]],Row[{Row[
+{Style["Observation 1",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",RGBColor[0.6509803921568628`,
+0.6509803921568628`,0.6509803921568628`]],Style["Feature 1",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
+TypeSystem`NestedGrid`PackagePrivate`$SliceMarker["7149933a-970e-4717-8c1b-55461424eac1"][
+{Key["Observation 1"],Key["Feature 1"]},"Item",False],"Mouse"],ImageSize -> {{60,Full},Automatic},
+ImageMargins -> {{5,3},{4,5}}],ItemSize -> {Full,Automatic}],Item[Pane[Annotation[
+Tooltip[RawBoxes[StyleBox[SubscriptBox["x",RowBox[{"1",",","2"}]],FontFamily -> Dynamic[
+CurrentValue[{"StyleHints","CodeFont"}]],ShowStringCharacters -> True]],Row[{Row[
+{Style["Observation 1",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",RGBColor[0.6509803921568628`,
+0.6509803921568628`,0.6509803921568628`]],Style["Feature 2",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
+TypeSystem`NestedGrid`PackagePrivate`$SliceMarker["7149933a-970e-4717-8c1b-55461424eac1"][
+{Key["Observation 1"],Key["Feature 2"]},"Item",False],"Mouse"],ImageSize -> {{60,Full},Automatic},
+ImageMargins -> {{5,3},{4,5}}],ItemSize -> {Full,Automatic}],Item[Pane[Annotation[
+Tooltip["...",Row[{Row[{Style["Observation 1",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",
+RGBColor[0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style["...",
+GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
+TypeSystem`NestedGrid`PackagePrivate`$SliceMarker["7149933a-970e-4717-8c1b-55461424eac1"][
+{Key["Observation 1"],Key["..."]},"Item",False],"Mouse"],ImageSize -> {{31.5`,Full},Automatic},
+ImageMargins -> {{5,3},{4,5}}],ItemSize -> {Full,Automatic}],Item[Pane[Annotation[
+Tooltip[RawBoxes[StyleBox[SubscriptBox["x",RowBox[{"1",",","d"}]],FontFamily -> Dynamic[
+CurrentValue[{"StyleHints","CodeFont"}]],ShowStringCharacters -> True]],Row[{Row[
+{Style["Observation 1",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",RGBColor[0.6509803921568628`,
+0.6509803921568628`,0.6509803921568628`]],Style["Feature d",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
+TypeSystem`NestedGrid`PackagePrivate`$SliceMarker["7149933a-970e-4717-8c1b-55461424eac1"][
+{Key["Observation 1"],Key["Feature d"]},"Item",False],"Mouse"],ImageSize -> {{60,Full},Automatic},
+ImageMargins -> {{5,3},{4,5}}],ItemSize -> {Full,Automatic}]},{Item[Pane[Tooltip[
+EventHandler[MouseAppearance[Mouseover["Observation 2",Style["Observation 2",FontColor -> RGBColor[
+0.27450980392156865`,0.5372549019607843`,0.792156862745098`]]],"LinkHand"],RuleDelayed[
+{"MouseClicked",1},TypeSystem`NestedGrid`PackagePrivate`updateState[TypeSystem`NestedGrid`PackagePrivate`$state$$,
 TypeSystem`NestedGrid`PackagePrivate`$path$$,TypeSystem`NestedGrid`PackagePrivate`$vPos$$,
 TypeSystem`NestedGrid`PackagePrivate`$hPos$$,TypeSystem`NestedGrid`PackagePrivate`$grid$$,
-TypeSystem`NestedGrid`PackagePrivate`localHold[TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{Key["Observation 2"]},1]]],Row[
-{Row[{Style["Observation 2",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
+TypeSystem`NestedGrid`PackagePrivate`localHold["7149933a-970e-4717-8c1b-55461424eac1"]][
+{Key["Observation 2"]},1]]],Row[{Row[{Style["Observation 2",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
 ImageSize -> {{145.60000000000002`,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],
 Background -> GrayLevel[0.95`],Alignment -> {Left,Baseline}],Item[Pane[Annotation[
 Tooltip[RawBoxes[StyleBox[SubscriptBox["y","2"],FontFamily -> Dynamic[CurrentValue[
 {"StyleHints","CodeFont"}]],ShowStringCharacters -> True]],Row[{Row[{Style["Observation 2",
 GrayLevel[0.6`]]}],Row[{Style[" \:203a ",RGBColor[0.6509803921568628`,0.6509803921568628`,
 0.6509803921568628`]],Style["Outcome",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
-TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{Key["Observation 2"],Key["Outcome"]},
-"Item",False],"Mouse"],ImageSize -> {{60,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],
-ItemSize -> {Full,Automatic}],Item[Pane[Annotation[Tooltip[RawBoxes[StyleBox[SubscriptBox[
-"x",RowBox[{"2",",","1"}]],FontFamily -> Dynamic[CurrentValue[{"StyleHints","CodeFont"}]],
-ShowStringCharacters -> True]],Row[{Row[{Style["Observation 2",GrayLevel[0.6`]]}],Row[
-{Style[" \:203a ",RGBColor[0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style[
-"Feature 1",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
-TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{Key["Observation 2"],Key["Feature 1"]},
-"Item",False],"Mouse"],ImageSize -> {{60,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],
-ItemSize -> {Full,Automatic}],Item[Pane[Annotation[Tooltip[RawBoxes[StyleBox[SubscriptBox[
-"x",RowBox[{"2",",","2"}]],FontFamily -> Dynamic[CurrentValue[{"StyleHints","CodeFont"}]],
-ShowStringCharacters -> True]],Row[{Row[{Style["Observation 2",GrayLevel[0.6`]]}],Row[
-{Style[" \:203a ",RGBColor[0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style[
-"Feature 2",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
-TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{Key["Observation 2"],Key["Feature 2"]},
-"Item",False],"Mouse"],ImageSize -> {{60,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],
-ItemSize -> {Full,Automatic}],Item[Pane[Annotation[Tooltip["...",Row[{Row[{Style[
-"Observation 2",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",RGBColor[0.6509803921568628`,
-0.6509803921568628`,0.6509803921568628`]],Style["...",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
-TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{Key["Observation 2"],Key["..."]},
-"Item",False],"Mouse"],ImageSize -> {{31.5`,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],
-ItemSize -> {Full,Automatic}],Item[Pane[Annotation[Tooltip[RawBoxes[StyleBox[SubscriptBox[
-"x",RowBox[{"2",",","d"}]],FontFamily -> Dynamic[CurrentValue[{"StyleHints","CodeFont"}]],
-ShowStringCharacters -> True]],Row[{Row[{Style["Observation 2",GrayLevel[0.6`]]}],Row[
-{Style[" \:203a ",RGBColor[0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style[
-"Feature d",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
-TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{Key["Observation 2"],Key["Feature d"]},
-"Item",False],"Mouse"],ImageSize -> {{60,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],
-ItemSize -> {Full,Automatic}]},{Item[Pane[Tooltip[EventHandler[MouseAppearance[Mouseover[
-"...",Style["...",FontColor -> RGBColor[0.27450980392156865`,0.5372549019607843`,
-0.792156862745098`]]],"LinkHand"],RuleDelayed[{"MouseClicked",1},TypeSystem`NestedGrid`PackagePrivate`updateState[
-TypeSystem`NestedGrid`PackagePrivate`$state$$,TypeSystem`NestedGrid`PackagePrivate`$path$$,
-TypeSystem`NestedGrid`PackagePrivate`$vPos$$,TypeSystem`NestedGrid`PackagePrivate`$hPos$$,
-TypeSystem`NestedGrid`PackagePrivate`$grid$$,TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`localHold[TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][
+TypeSystem`NestedGrid`PackagePrivate`$SliceMarker["7149933a-970e-4717-8c1b-55461424eac1"][
+{Key["Observation 2"],Key["Outcome"]},"Item",False],"Mouse"],ImageSize -> {{60,Full},Automatic},
+ImageMargins -> {{5,3},{4,5}}],ItemSize -> {Full,Automatic}],Item[Pane[Annotation[
+Tooltip[RawBoxes[StyleBox[SubscriptBox["x",RowBox[{"2",",","1"}]],FontFamily -> Dynamic[
+CurrentValue[{"StyleHints","CodeFont"}]],ShowStringCharacters -> True]],Row[{Row[
+{Style["Observation 2",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",RGBColor[0.6509803921568628`,
+0.6509803921568628`,0.6509803921568628`]],Style["Feature 1",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
+TypeSystem`NestedGrid`PackagePrivate`$SliceMarker["7149933a-970e-4717-8c1b-55461424eac1"][
+{Key["Observation 2"],Key["Feature 1"]},"Item",False],"Mouse"],ImageSize -> {{60,Full},Automatic},
+ImageMargins -> {{5,3},{4,5}}],ItemSize -> {Full,Automatic}],Item[Pane[Annotation[
+Tooltip[RawBoxes[StyleBox[SubscriptBox["x",RowBox[{"2",",","2"}]],FontFamily -> Dynamic[
+CurrentValue[{"StyleHints","CodeFont"}]],ShowStringCharacters -> True]],Row[{Row[
+{Style["Observation 2",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",RGBColor[0.6509803921568628`,
+0.6509803921568628`,0.6509803921568628`]],Style["Feature 2",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
+TypeSystem`NestedGrid`PackagePrivate`$SliceMarker["7149933a-970e-4717-8c1b-55461424eac1"][
+{Key["Observation 2"],Key["Feature 2"]},"Item",False],"Mouse"],ImageSize -> {{60,Full},Automatic},
+ImageMargins -> {{5,3},{4,5}}],ItemSize -> {Full,Automatic}],Item[Pane[Annotation[
+Tooltip["...",Row[{Row[{Style["Observation 2",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",
+RGBColor[0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style["...",
+GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
+TypeSystem`NestedGrid`PackagePrivate`$SliceMarker["7149933a-970e-4717-8c1b-55461424eac1"][
+{Key["Observation 2"],Key["..."]},"Item",False],"Mouse"],ImageSize -> {{31.5`,Full},Automatic},
+ImageMargins -> {{5,3},{4,5}}],ItemSize -> {Full,Automatic}],Item[Pane[Annotation[
+Tooltip[RawBoxes[StyleBox[SubscriptBox["x",RowBox[{"2",",","d"}]],FontFamily -> Dynamic[
+CurrentValue[{"StyleHints","CodeFont"}]],ShowStringCharacters -> True]],Row[{Row[
+{Style["Observation 2",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",RGBColor[0.6509803921568628`,
+0.6509803921568628`,0.6509803921568628`]],Style["Feature d",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
+TypeSystem`NestedGrid`PackagePrivate`$SliceMarker["7149933a-970e-4717-8c1b-55461424eac1"][
+{Key["Observation 2"],Key["Feature d"]},"Item",False],"Mouse"],ImageSize -> {{60,Full},Automatic},
+ImageMargins -> {{5,3},{4,5}}],ItemSize -> {Full,Automatic}]},{Item[Pane[Tooltip[
+EventHandler[MouseAppearance[Mouseover["...",Style["...",FontColor -> RGBColor[0.27450980392156865`,
+0.5372549019607843`,0.792156862745098`]]],"LinkHand"],RuleDelayed[{"MouseClicked",1},
+TypeSystem`NestedGrid`PackagePrivate`updateState[TypeSystem`NestedGrid`PackagePrivate`$state$$,
+TypeSystem`NestedGrid`PackagePrivate`$path$$,TypeSystem`NestedGrid`PackagePrivate`$vPos$$,
+TypeSystem`NestedGrid`PackagePrivate`$hPos$$,TypeSystem`NestedGrid`PackagePrivate`$grid$$,
+TypeSystem`NestedGrid`PackagePrivate`localHold["7149933a-970e-4717-8c1b-55461424eac1"]][
 {Key["..."]},1]]],Row[{Row[{Style["...",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
 ImageSize -> {{145.60000000000002`,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],
 Background -> GrayLevel[0.95`],Alignment -> {Left,Baseline}],Item[Pane[Annotation[
 Tooltip["...",Row[{Row[{Style["...",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",RGBColor[
 0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style["Outcome",GrayLevel[
 0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-TypeSystem`NestedGrid`PackagePrivate`localHold[TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][
-{Key["..."],Key["Outcome"]},"Item",False],"Mouse"],ImageSize -> {{33.6`,Full},Automatic},
-ImageMargins -> {{5,3},{4,5}}],ItemSize -> {Full,Automatic}],Item[Pane[Annotation[
-Tooltip["...",Row[{Row[{Style["...",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",RGBColor[
-0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style["Feature 1",GrayLevel[
-0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-TypeSystem`NestedGrid`PackagePrivate`localHold[TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][
+"7149933a-970e-4717-8c1b-55461424eac1"][{Key["..."],Key["Outcome"]},"Item",False],
+"Mouse"],ImageSize -> {{33.6`,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],ItemSize -> {Full,Automatic}],Item[
+Pane[Annotation[Tooltip["...",Row[{Row[{Style["...",GrayLevel[0.6`]]}],Row[{Style[
+" \:203a ",RGBColor[0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style[
+"Feature 1",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
+TypeSystem`NestedGrid`PackagePrivate`$SliceMarker["7149933a-970e-4717-8c1b-55461424eac1"][
 {Key["..."],Key["Feature 1"]},"Item",False],"Mouse"],ImageSize -> {{33.6`,Full},Automatic},
 ImageMargins -> {{5,3},{4,5}}],ItemSize -> {Full,Automatic}],Item[Pane[Annotation[
 Tooltip["...",Row[{Row[{Style["...",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",RGBColor[
 0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style["Feature 2",GrayLevel[
 0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-TypeSystem`NestedGrid`PackagePrivate`localHold[TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][
-{Key["..."],Key["Feature 2"]},"Item",False],"Mouse"],ImageSize -> {{33.6`,Full},Automatic},
-ImageMargins -> {{5,3},{4,5}}],ItemSize -> {Full,Automatic}],Item[Pane[Annotation[
-Tooltip["...",Row[{Row[{Style["...",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",RGBColor[
-0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style["...",GrayLevel[
-0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-TypeSystem`NestedGrid`PackagePrivate`localHold[TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][
+"7149933a-970e-4717-8c1b-55461424eac1"][{Key["..."],Key["Feature 2"]},"Item",False],
+"Mouse"],ImageSize -> {{33.6`,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],ItemSize -> {Full,Automatic}],Item[
+Pane[Annotation[Tooltip["...",Row[{Row[{Style["...",GrayLevel[0.6`]]}],Row[{Style[
+" \:203a ",RGBColor[0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style[
+"...",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
+TypeSystem`NestedGrid`PackagePrivate`$SliceMarker["7149933a-970e-4717-8c1b-55461424eac1"][
 {Key["..."],Key["..."]},"Item",False],"Mouse"],ImageSize -> {{31.5`,Full},Automatic},
 ImageMargins -> {{5,3},{4,5}}],ItemSize -> {Full,Automatic}],Item[Pane[Annotation[
 Tooltip["...",Row[{Row[{Style["...",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",RGBColor[
 0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style["Feature d",GrayLevel[
 0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-TypeSystem`NestedGrid`PackagePrivate`localHold[TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][
-{Key["..."],Key["Feature d"]},"Item",False],"Mouse"],ImageSize -> {{33.6`,Full},Automatic},
-ImageMargins -> {{5,3},{4,5}}],ItemSize -> {Full,Automatic}]},{Item[Pane[Tooltip[
-EventHandler[MouseAppearance[Mouseover["Observation n",Style["Observation n",FontColor -> RGBColor[
-0.27450980392156865`,0.5372549019607843`,0.792156862745098`]]],"LinkHand"],RuleDelayed[
-{"MouseClicked",1},TypeSystem`NestedGrid`PackagePrivate`updateState[TypeSystem`NestedGrid`PackagePrivate`$state$$,
-TypeSystem`NestedGrid`PackagePrivate`$path$$,TypeSystem`NestedGrid`PackagePrivate`$vPos$$,
-TypeSystem`NestedGrid`PackagePrivate`$hPos$$,TypeSystem`NestedGrid`PackagePrivate`$grid$$,
-TypeSystem`NestedGrid`PackagePrivate`localHold[TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{Key["Observation n"]},1]]],Row[
-{Row[{Style["Observation n",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
+"7149933a-970e-4717-8c1b-55461424eac1"][{Key["..."],Key["Feature d"]},"Item",False],
+"Mouse"],ImageSize -> {{33.6`,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],ItemSize -> {Full,Automatic}]},{Item[
+Pane[Tooltip[EventHandler[MouseAppearance[Mouseover["Observation n",Style["Observation n",
+FontColor -> RGBColor[0.27450980392156865`,0.5372549019607843`,0.792156862745098`]]],
+"LinkHand"],RuleDelayed[{"MouseClicked",1},TypeSystem`NestedGrid`PackagePrivate`updateState[
+TypeSystem`NestedGrid`PackagePrivate`$state$$,TypeSystem`NestedGrid`PackagePrivate`$path$$,
+TypeSystem`NestedGrid`PackagePrivate`$vPos$$,TypeSystem`NestedGrid`PackagePrivate`$hPos$$,
+TypeSystem`NestedGrid`PackagePrivate`$grid$$,TypeSystem`NestedGrid`PackagePrivate`localHold[
+"7149933a-970e-4717-8c1b-55461424eac1"]][{Key["Observation n"]},1]]],Row[{Row[{Style[
+"Observation n",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
 ImageSize -> {{145.60000000000002`,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],
 Background -> GrayLevel[0.95`],Alignment -> {Left,Baseline}],Item[Pane[Annotation[
 Tooltip[RawBoxes[StyleBox[SubscriptBox["y","n"],FontFamily -> Dynamic[CurrentValue[
 {"StyleHints","CodeFont"}]],ShowStringCharacters -> True]],Row[{Row[{Style["Observation n",
 GrayLevel[0.6`]]}],Row[{Style[" \:203a ",RGBColor[0.6509803921568628`,0.6509803921568628`,
 0.6509803921568628`]],Style["Outcome",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
-TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{Key["Observation n"],Key["Outcome"]},
-"Item",False],"Mouse"],ImageSize -> {{60,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],
-ItemSize -> {Full,Automatic}],Item[Pane[Annotation[Tooltip[RawBoxes[StyleBox[SubscriptBox[
-"x",RowBox[{"n",",","1"}]],FontFamily -> Dynamic[CurrentValue[{"StyleHints","CodeFont"}]],
-ShowStringCharacters -> True]],Row[{Row[{Style["Observation n",GrayLevel[0.6`]]}],Row[
-{Style[" \:203a ",RGBColor[0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style[
-"Feature 1",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
-TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{Key["Observation n"],Key["Feature 1"]},
-"Item",False],"Mouse"],ImageSize -> {{60,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],
-ItemSize -> {Full,Automatic}],Item[Pane[Annotation[Tooltip[RawBoxes[StyleBox[SubscriptBox[
-"x",RowBox[{"n",",","2"}]],FontFamily -> Dynamic[CurrentValue[{"StyleHints","CodeFont"}]],
-ShowStringCharacters -> True]],Row[{Row[{Style["Observation n",GrayLevel[0.6`]]}],Row[
-{Style[" \:203a ",RGBColor[0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style[
-"Feature 2",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
-TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{Key["Observation n"],Key["Feature 2"]},
-"Item",False],"Mouse"],ImageSize -> {{60,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],
-ItemSize -> {Full,Automatic}],Item[Pane[Annotation[Tooltip["...",Row[{Row[{Style[
-"Observation n",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",RGBColor[0.6509803921568628`,
-0.6509803921568628`,0.6509803921568628`]],Style["...",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
-TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{Key["Observation n"],Key["..."]},
-"Item",False],"Mouse"],ImageSize -> {{31.5`,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],
-ItemSize -> {Full,Automatic}],Item[Pane[Annotation[Tooltip[RawBoxes[StyleBox[SubscriptBox[
-"x",RowBox[{"n",",","d"}]],FontFamily -> Dynamic[CurrentValue[{"StyleHints","CodeFont"}]],
-ShowStringCharacters -> True]],Row[{Row[{Style["Observation n",GrayLevel[0.6`]]}],Row[
-{Style[" \:203a ",RGBColor[0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style[
-"Feature d",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
-TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{Key["Observation n"],Key["Feature d"]},
-"Item",False],"Mouse"],ImageSize -> {{60,Full},Automatic},ImageMargins -> {{5,3},{4,5}}],
-ItemSize -> {Full,Automatic}]}},BaseStyle -> {ContextMenu -> Dynamic[CompoundExpression[
-TypeSystem`NestedGrid`PackagePrivate`$contextMenuTrigger,Which[UnsameQ[TypeSystem`NestedGrid`PackagePrivate`$lastOutputID,
-TypeSystem`NestedGrid`PackagePrivate`localHold[TypeSystem`NestedGrid`PackagePrivate`$outputID$$]],
+TypeSystem`NestedGrid`PackagePrivate`$SliceMarker["7149933a-970e-4717-8c1b-55461424eac1"][
+{Key["Observation n"],Key["Outcome"]},"Item",False],"Mouse"],ImageSize -> {{60,Full},Automatic},
+ImageMargins -> {{5,3},{4,5}}],ItemSize -> {Full,Automatic}],Item[Pane[Annotation[
+Tooltip[RawBoxes[StyleBox[SubscriptBox["x",RowBox[{"n",",","1"}]],FontFamily -> Dynamic[
+CurrentValue[{"StyleHints","CodeFont"}]],ShowStringCharacters -> True]],Row[{Row[
+{Style["Observation n",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",RGBColor[0.6509803921568628`,
+0.6509803921568628`,0.6509803921568628`]],Style["Feature 1",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
+TypeSystem`NestedGrid`PackagePrivate`$SliceMarker["7149933a-970e-4717-8c1b-55461424eac1"][
+{Key["Observation n"],Key["Feature 1"]},"Item",False],"Mouse"],ImageSize -> {{60,Full},Automatic},
+ImageMargins -> {{5,3},{4,5}}],ItemSize -> {Full,Automatic}],Item[Pane[Annotation[
+Tooltip[RawBoxes[StyleBox[SubscriptBox["x",RowBox[{"n",",","2"}]],FontFamily -> Dynamic[
+CurrentValue[{"StyleHints","CodeFont"}]],ShowStringCharacters -> True]],Row[{Row[
+{Style["Observation n",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",RGBColor[0.6509803921568628`,
+0.6509803921568628`,0.6509803921568628`]],Style["Feature 2",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
+TypeSystem`NestedGrid`PackagePrivate`$SliceMarker["7149933a-970e-4717-8c1b-55461424eac1"][
+{Key["Observation n"],Key["Feature 2"]},"Item",False],"Mouse"],ImageSize -> {{60,Full},Automatic},
+ImageMargins -> {{5,3},{4,5}}],ItemSize -> {Full,Automatic}],Item[Pane[Annotation[
+Tooltip["...",Row[{Row[{Style["Observation n",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",
+RGBColor[0.6509803921568628`,0.6509803921568628`,0.6509803921568628`]],Style["...",
+GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
+TypeSystem`NestedGrid`PackagePrivate`$SliceMarker["7149933a-970e-4717-8c1b-55461424eac1"][
+{Key["Observation n"],Key["..."]},"Item",False],"Mouse"],ImageSize -> {{31.5`,Full},Automatic},
+ImageMargins -> {{5,3},{4,5}}],ItemSize -> {Full,Automatic}],Item[Pane[Annotation[
+Tooltip[RawBoxes[StyleBox[SubscriptBox["x",RowBox[{"n",",","d"}]],FontFamily -> Dynamic[
+CurrentValue[{"StyleHints","CodeFont"}]],ShowStringCharacters -> True]],Row[{Row[
+{Style["Observation n",GrayLevel[0.6`]]}],Row[{Style[" \:203a ",RGBColor[0.6509803921568628`,
+0.6509803921568628`,0.6509803921568628`]],Style["Feature d",GrayLevel[0.6`]]}]},BaseStyle -> {FontFamily -> "Source Sans Pro",FontSize -> 10.5`}]],
+TypeSystem`NestedGrid`PackagePrivate`$SliceMarker["7149933a-970e-4717-8c1b-55461424eac1"][
+{Key["Observation n"],Key["Feature d"]},"Item",False],"Mouse"],ImageSize -> {{60,Full},Automatic},
+ImageMargins -> {{5,3},{4,5}}],ItemSize -> {Full,Automatic}]}},BaseStyle -> {ContextMenu -> Dynamic[
+CompoundExpression[TypeSystem`NestedGrid`PackagePrivate`$contextMenuTrigger,Which[
+UnsameQ[TypeSystem`NestedGrid`PackagePrivate`$lastOutputID,"7149933a-970e-4717-8c1b-55461424eac1"],
 {},SameQ[TypeSystem`NestedGrid`PackagePrivate`$contextMenuTrigger,TypeSystem`NestedGrid`PackagePrivate`$lastContextMenuTrigger],
 TypeSystem`NestedGrid`PackagePrivate`$lastContextMenu,True,CompoundExpression[Set[
 TypeSystem`NestedGrid`PackagePrivate`$lastContextMenuTrigger,TypeSystem`NestedGrid`PackagePrivate`$contextMenuTrigger],
@@ -870,41 +851,38 @@ Which[Equal[TypeSystem`NestedGrid`PackagePrivate`lastPathType$,"Item"],"",Equal[
 TypeSystem`NestedGrid`PackagePrivate`$state$$,TypeSystem`NestedGrid`PackagePrivate`$path$$,
 TypeSystem`NestedGrid`PackagePrivate`$vPos$$,TypeSystem`NestedGrid`PackagePrivate`$hPos$$,
 TypeSystem`NestedGrid`PackagePrivate`$grid$$,TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`localHold[TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][
-TypeSystem`NestedGrid`PackagePrivate`lastPath$,"remove"]],MenuEvaluator -> Automatic]],If[
-Or[Not[TypeSystem`NestedGrid`PackagePrivate`haveData$],TypeSystem`NestedGrid`PackagePrivate`pathEmptyQ[
-TypeSystem`NestedGrid`PackagePrivate`$lastPath,TypeSystem`NestedGrid`PackagePrivate`$state$$],
-TypeSystem`NestedGrid`PackagePrivate`isKeyDummy$,And[TypeSystem`NestedGrid`PackagePrivate`allHidden$,
-TypeSystem`NestedGrid`PackagePrivate`headerHidden$]],Nothing,MenuItem[StringJoin[
-"Hide ",Which[Equal[TypeSystem`NestedGrid`PackagePrivate`lastPathType$,"Item"],"",
-Equal[TypeSystem`NestedGrid`PackagePrivate`lastPathType$,"RowHeader"],"Row",Equal[
-TypeSystem`NestedGrid`PackagePrivate`lastPathType$,"ColumnHeader"],"Column",True,
-""]],KernelExecute[TypeSystem`NestedGrid`PackagePrivate`updateHiddenItems[TypeSystem`NestedGrid`PackagePrivate`$state$$,
+"7149933a-970e-4717-8c1b-55461424eac1"]][TypeSystem`NestedGrid`PackagePrivate`lastPath$,
+"remove"]],MenuEvaluator -> Automatic]],If[Or[Not[TypeSystem`NestedGrid`PackagePrivate`haveData$],
+TypeSystem`NestedGrid`PackagePrivate`pathEmptyQ[TypeSystem`NestedGrid`PackagePrivate`$lastPath,
+TypeSystem`NestedGrid`PackagePrivate`$state$$],TypeSystem`NestedGrid`PackagePrivate`isKeyDummy$,
+And[TypeSystem`NestedGrid`PackagePrivate`allHidden$,TypeSystem`NestedGrid`PackagePrivate`headerHidden$]],
+Nothing,MenuItem[StringJoin["Hide ",Which[Equal[TypeSystem`NestedGrid`PackagePrivate`lastPathType$,
+"Item"],"",Equal[TypeSystem`NestedGrid`PackagePrivate`lastPathType$,"RowHeader"],
+"Row",Equal[TypeSystem`NestedGrid`PackagePrivate`lastPathType$,"ColumnHeader"],"Column",
+True,""]],KernelExecute[TypeSystem`NestedGrid`PackagePrivate`updateHiddenItems[TypeSystem`NestedGrid`PackagePrivate`$state$$,
 TypeSystem`NestedGrid`PackagePrivate`$path$$,TypeSystem`NestedGrid`PackagePrivate`$vPos$$,
 TypeSystem`NestedGrid`PackagePrivate`$hPos$$,TypeSystem`NestedGrid`PackagePrivate`$grid$$,
-TypeSystem`NestedGrid`PackagePrivate`localHold[TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][TypeSystem`NestedGrid`PackagePrivate`lastPath$,
-"add"]],MenuEvaluator -> Automatic]],Delimiter},If[And[TypeSystem`NestedGrid`PackagePrivate`haveData$,
-MatchQ[TypeSystem`NestedGrid`PackagePrivate`lastPathType$,Alternatives["ColumnHeader",
-"KeyDummy"]],TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$,Not[TypeSystem`NestedGrid`PackagePrivate`allHidden$]],
-{If[UnsameQ[TypeSystem`NestedGrid`PackagePrivate`sortDirection$,"Ascending"],MenuItem[
-"Sort",KernelExecute[TypeSystem`NestedGrid`PackagePrivate`updateSort[TypeSystem`NestedGrid`PackagePrivate`$state$$,
-TypeSystem`NestedGrid`PackagePrivate`$path$$,TypeSystem`NestedGrid`PackagePrivate`$vPos$$,
-TypeSystem`NestedGrid`PackagePrivate`$hPos$$,TypeSystem`NestedGrid`PackagePrivate`$grid$$,
-TypeSystem`NestedGrid`PackagePrivate`localHold[TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][
+TypeSystem`NestedGrid`PackagePrivate`localHold["7149933a-970e-4717-8c1b-55461424eac1"]][
+TypeSystem`NestedGrid`PackagePrivate`lastPath$,"add"]],MenuEvaluator -> Automatic]],Delimiter},
+If[And[TypeSystem`NestedGrid`PackagePrivate`haveData$,MatchQ[TypeSystem`NestedGrid`PackagePrivate`lastPathType$,
+Alternatives["ColumnHeader","KeyDummy"]],TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$,
+Not[TypeSystem`NestedGrid`PackagePrivate`allHidden$]],{If[UnsameQ[TypeSystem`NestedGrid`PackagePrivate`sortDirection$,
+"Ascending"],MenuItem["Sort",KernelExecute[TypeSystem`NestedGrid`PackagePrivate`updateSort[
+TypeSystem`NestedGrid`PackagePrivate`$state$$,TypeSystem`NestedGrid`PackagePrivate`$path$$,
+TypeSystem`NestedGrid`PackagePrivate`$vPos$$,TypeSystem`NestedGrid`PackagePrivate`$hPos$$,
+TypeSystem`NestedGrid`PackagePrivate`$grid$$,"7149933a-970e-4717-8c1b-55461424eac1"][
 TypeSystem`NestedGrid`PackagePrivate`lastPath$,"Ascending"]],MenuEvaluator -> Automatic],
 Nothing],If[UnsameQ[TypeSystem`NestedGrid`PackagePrivate`sortDirection$,"Descending"],
 MenuItem["Reverse Sort",KernelExecute[TypeSystem`NestedGrid`PackagePrivate`updateSort[
 TypeSystem`NestedGrid`PackagePrivate`$state$$,TypeSystem`NestedGrid`PackagePrivate`$path$$,
 TypeSystem`NestedGrid`PackagePrivate`$vPos$$,TypeSystem`NestedGrid`PackagePrivate`$hPos$$,
-TypeSystem`NestedGrid`PackagePrivate`$grid$$,TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][TypeSystem`NestedGrid`PackagePrivate`lastPath$,
-"Descending"]],MenuEvaluator -> Automatic],Nothing],If[UnsameQ[TypeSystem`NestedGrid`PackagePrivate`sortDirection$,
-None],MenuItem["Unsort",KernelExecute[TypeSystem`NestedGrid`PackagePrivate`updateSort[
-TypeSystem`NestedGrid`PackagePrivate`$state$$,TypeSystem`NestedGrid`PackagePrivate`$path$$,
-TypeSystem`NestedGrid`PackagePrivate`$vPos$$,TypeSystem`NestedGrid`PackagePrivate`$hPos$$,
-TypeSystem`NestedGrid`PackagePrivate`$grid$$,TypeSystem`NestedGrid`PackagePrivate`localHold[
-TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][TypeSystem`NestedGrid`PackagePrivate`lastPath$,
+TypeSystem`NestedGrid`PackagePrivate`$grid$$,"7149933a-970e-4717-8c1b-55461424eac1"][
+TypeSystem`NestedGrid`PackagePrivate`lastPath$,"Descending"]],MenuEvaluator -> Automatic],
+Nothing],If[UnsameQ[TypeSystem`NestedGrid`PackagePrivate`sortDirection$,None],MenuItem[
+"Unsort",KernelExecute[TypeSystem`NestedGrid`PackagePrivate`updateSort[TypeSystem`NestedGrid`PackagePrivate`$state$$,
+TypeSystem`NestedGrid`PackagePrivate`$path$$,TypeSystem`NestedGrid`PackagePrivate`$vPos$$,
+TypeSystem`NestedGrid`PackagePrivate`$hPos$$,TypeSystem`NestedGrid`PackagePrivate`$grid$$,
+"7149933a-970e-4717-8c1b-55461424eac1"][TypeSystem`NestedGrid`PackagePrivate`lastPath$,
 None]],MenuEvaluator -> Automatic],Nothing],Delimiter},{}],{MenuItem["Copy Position to Clipboard",
 KernelExecute[TypeSystem`NestedGrid`PackagePrivate`toCurrentPosition[TypeSystem`NestedGrid`PackagePrivate`copyClip]],
 MenuEvaluator -> Automatic],If[TypeSystem`NestedGrid`PackagePrivate`haveData$,MenuItem[
@@ -928,12 +906,12 @@ TypeSystem`NestedGrid`PackagePrivate`tmpData$],TypeSystem`NestedGrid`PackagePriv
 TypeSystem`NestedGrid`PackagePrivate`renderGrid[TypeSystem`NestedGrid`PackagePrivate`$state$$,
 TypeSystem`NestedGrid`PackagePrivate`$path$$,TypeSystem`NestedGrid`PackagePrivate`$vPos$$,
 TypeSystem`NestedGrid`PackagePrivate`$hPos$$,TypeSystem`NestedGrid`PackagePrivate`$grid$$,
-TypeSystem`NestedGrid`PackagePrivate`localHold[TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][
-TypeSystem`NestedGrid`PackagePrivate`tmpData$]]],If[Not[FailureQ[TypeSystem`NestedGrid`PackagePrivate`tmpGrid$]],
-Set[TypeSystem`NestedGrid`PackagePrivate`renderedGrid,TypeSystem`NestedGrid`PackagePrivate`tmpGrid$]],
-Null]]],Set[TypeSystem`NestedGrid`PackagePrivate`initialQ,False],TypeSystem`NestedGrid`PackagePrivate`$vPos$$,
-TypeSystem`NestedGrid`PackagePrivate`$hPos$$,If[FailureQ[TypeSystem`NestedGrid`PackagePrivate`renderedGrid],
-TypeSystem`SparseGrid[TypeSystem`H["(data no longer present)"]],TypeSystem`NestedGrid`PackagePrivate`renderedGrid]]],
+"7149933a-970e-4717-8c1b-55461424eac1"][TypeSystem`NestedGrid`PackagePrivate`tmpData$]]],
+If[Not[FailureQ[TypeSystem`NestedGrid`PackagePrivate`tmpGrid$]],Set[TypeSystem`NestedGrid`PackagePrivate`renderedGrid,
+TypeSystem`NestedGrid`PackagePrivate`tmpGrid$]],Null]]],Set[TypeSystem`NestedGrid`PackagePrivate`initialQ,
+False],TypeSystem`NestedGrid`PackagePrivate`$vPos$$,TypeSystem`NestedGrid`PackagePrivate`$hPos$$,
+If[FailureQ[TypeSystem`NestedGrid`PackagePrivate`renderedGrid],TypeSystem`SparseGrid[
+TypeSystem`H["(data no longer present)"]],TypeSystem`NestedGrid`PackagePrivate`renderedGrid]]],
 RuleDelayed[TrackedSymbols,{TypeSystem`NestedGrid`PackagePrivate`$vPos$$,TypeSystem`NestedGrid`PackagePrivate`$hPos$$}]],
 RuleDelayed[DynamicModuleValues,{}]]],Set[TypeSystem`NestedGrid`PackagePrivate`$topBar$$,
 Dynamic[TypeSystem`NestedGrid`PackagePrivate`makeFramedBar[TypeSystem`PackageScope`SubViewPathbar[
@@ -969,10 +947,10 @@ TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]],StandardForm],RuleDelayed[Tr
 Set[TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$,MouseAnnotation[]]],RuleDelayed[
 Initialization,Set[TypeSystem`NestedGrid`PackagePrivate`$outputID$$,CreateUUID[]]],
 RuleDelayed[DynamicModuleValues,{}],BaseStyle -> {LineBreakWithin -> False},RuleDelayed[
-UnsavedVariables,{TypeSystem`NestedGrid`PackagePrivate`$outputID$$}],ExpressionUUID -> "32498399-d8a7-4e65-a634-41ee98bd039c"],
+UnsavedVariables,{TypeSystem`NestedGrid`PackagePrivate`$outputID$$}],ExpressionUUID -> "72651ff1-caa2-417a-a01e-c71e6e01819b"],
 Deploy,DefaultBaseStyle -> "Deploy"],Dataset`InterpretDataset[1],Selectable -> False,
-Editable -> False,SelectWithContents -> True],StandardForm],"Output",CellLabel -> "Out[82]= ",
-ExpressionUUID -> "74626c3a-37f7-4f12-a4b5-1978c6303ba3"]},{2}],ExpressionUUID -> "2a4d511e-94b5-45a0-84fc-ec8b8b8a21be"],Cell[
+Editable -> False,SelectWithContents -> True],StandardForm],"Output",CellLabel -> "Out[1]= ",
+ExpressionUUID -> "6162fc8a-3c3f-4ea4-829e-590bc388012c"]},{2}],ExpressionUUID -> "556f1b39-6f1c-4275-96ae-5fbeba8cb690"],Cell[
 TextData[
 {"For"," ","simplicity",StyleBox[RowBox[{","," "}]],"we"," ","will"," ","write",":","\n","\t",Cell[
 BoxData[
@@ -1457,44 +1435,52 @@ StandardForm],"Output",CellLabel -> "Out[67]= ",ExpressionUUID -> "5210fb27-0f46
 TextData[{"We"," ","call"," ","our"," ","objective"," ","function"," ","L",StyleBox[
 RowBox[{" ",":="," "}]],Cell[
 BoxData[Cell[
-SubscriptBox["L","0"],ExpressionUUID -> "535268b0-9613-45d1-820a-9c455260f246"]]],StyleBox[
-RowBox[{" ","+"," "}]],"R","\n","\n","One"," ","possible"," ","numerical"," ","method"," ","to"," ","solve"," ","this"," ","problem"," ","is"," ","the"," ","gradient"," ","descent",".","\n","Gradient"," ","descent"," ","is"," ","an"," ","optimization"," ","algorithm"," ","with"," ","iterative"," ","updating"," ","rule",":","\n","\n",StyleBox[
+Cell[
+SubscriptBox["L","0"],ExpressionUUID -> "535268b0-9613-45d1-820a-9c455260f246"],
+ExpressionUUID -> "e56ef2a0-e652-4d7d-a522-5f1a5683b2dc"]]],StyleBox[RowBox[{" ","+"," ","\[Lambda]"}]],"R","\n","\n","One"," ","possible"," ","numerical"," ","method"," ","to"," ","solve"," ","this"," ","problem"," ","is"," ","the"," ","gradient"," ","descent",".","\n","Gradient"," ","descent"," ","is"," ","an"," ","optimization"," ","algorithm"," ","with"," ","iterative"," ","updating"," ","rule",":","\n","\n",StyleBox[
 RowBox[{" "," "," "," "," "," "}]],"1",StyleBox[RowBox[{"."," "}]],"We"," ","first"," ","start"," ","with"," ","an"," ","initial"," ","value"," ",Cell[
 BoxData[
 Cell[
-StyleBox[SubscriptBox["\[Theta]","0"],Bold,StripOnInput -> False],ExpressionUUID -> "501c5d41-4538-4da5-9065-5532eea7ad3a"]]],StyleBox[
-RowBox[{","," "}]],"selected"," ","at"," ","random"," ","or"," ","a"," ","best"," ","guess"," ","\n",StyleBox[
+Cell[
+StyleBox[SubscriptBox["\[Theta]","0"],Bold,StripOnInput -> False],ExpressionUUID -> "501c5d41-4538-4da5-9065-5532eea7ad3a"],
+ExpressionUUID -> "3f68b015-e98a-4ba9-8cda-6baf9c9f2c7c"]]],StyleBox[RowBox[{","," "}]],"selected"," ","at"," ","random"," ","or"," ","a"," ","best"," ","guess"," ","\n",StyleBox[
 RowBox[{"\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]"}]],"\n",StyleBox[
 RowBox[{"\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]"," "," "," "}]],"2",StyleBox[
 RowBox[{"."," "}]],"We"," ","update"," ","our"," ","parameters",":","\n",StyleBox[
 RowBox[{"\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\t"}]],Cell[
 BoxData[
 Cell[
-StyleBox[SubscriptBox["\[Theta]",TagBox[RowBox[{"n","+","1"}],HoldForm]],Bold,
-StripOnInput -> False],ExpressionUUID -> "1d357450-0e2b-4177-b087-2acfc7a972f5"]]],StyleBox[
-RowBox[{" ","="," "}]],Cell[
-BoxData[Cell[
-StyleBox[SubscriptBox["\[Theta]","n"],
-Bold,StripOnInput -> False],ExpressionUUID -> "1d2e3d95-2009-4165-aea4-b05d06569c6c"]]],StyleBox[
-RowBox[{" ","-"," ","\[Gamma]"," "," ","\[Del]"}]],"L","[",Cell[
-BoxData[Cell[
-StyleBox[
-SubscriptBox["\[Theta]","n"],Bold,StripOnInput -> False],ExpressionUUID -> "e38f6be1-8b7d-4c92-a82e-8bca81184075"]]],"]","\n",StyleBox[
-RowBox[{"\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\t","\t"}]],"where",StyleBox[
+Cell[
+StyleBox[SubscriptBox["\[Theta]",TagBox[RowBox[{"n","+","1"}],HoldForm]],
+Bold,StripOnInput -> False],ExpressionUUID -> "1d357450-0e2b-4177-b087-2acfc7a972f5"],
+ExpressionUUID -> "897aa7a6-cdba-40d5-8d62-356eb95640f5"]]],StyleBox[RowBox[{" ","="," "}]],Cell[
+BoxData[
+Cell[
+Cell[
+StyleBox[SubscriptBox["\[Theta]","n"],Bold,StripOnInput -> False],ExpressionUUID -> "1d2e3d95-2009-4165-aea4-b05d06569c6c"],
+ExpressionUUID -> "743e1be4-c309-4188-a8a6-1034c5c79193"]]],StyleBox[RowBox[{" ","-"," ","\[Gamma]"," "," ","\[Del]"}]],"L","[",Cell[
+BoxData[
+Cell[
+Cell[
+StyleBox[SubscriptBox["\[Theta]","n"],Bold,StripOnInput -> False],ExpressionUUID -> "e38f6be1-8b7d-4c92-a82e-8bca81184075"],
+ExpressionUUID -> "c8ae8ef3-94fe-46aa-98ed-dba3ab0d3684"]]],"]","\n",StyleBox[RowBox[
+{"\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\t","\t"}]],"where",StyleBox[
 RowBox[{":"," "}]],"\n",StyleBox[RowBox[{"\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\t","\t","\t","\[Gamma]","\t","\t"}]],"learning"," ","rate","\n",StyleBox[
 RowBox[{"\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\t","\t","\[Del]"}]],"L","[",Cell[
 BoxData[
 Cell[
-StyleBox[SubscriptBox["\[Theta]","n"],Bold,StripOnInput -> False],ExpressionUUID -> "2190a49c-649f-4ee2-a486-f3869cdeecce"]]],StyleBox[
-RowBox[{"]","\t"}]],"derivatives"," ","of"," ","L"," ","with"," ","respect"," ","to",StyleBox[
+Cell[
+StyleBox[SubscriptBox["\[Theta]","n"],Bold,StripOnInput -> False],ExpressionUUID -> "2190a49c-649f-4ee2-a486-f3869cdeecce"],
+ExpressionUUID -> "95bc99ae-0969-4aa9-afbc-bd218bc51458"]]],StyleBox[RowBox[{"]","\t"}]],"derivatives"," ","of"," ","L"," ","with"," ","respect"," ","to",StyleBox[
 " ",FontSlant -> Plain],Cell[
 BoxData[Cell[
 Cell[
 Cell[
-SubscriptBox["\[Theta]","1"],
-ExpressionUUID -> "64cf498e-833e-402d-9250-2dd485f3b83a"],ExpressionUUID -> "d253025c-941b-464d-89f4-baa3d6890b5b"],
-ExpressionUUID -> "4deac1e6-51b6-480c-8487-2bdca04b6750"]]],StyleBox[RowBox[{StyleBox[
-StyleBox[StyleBox[" ",FontSlant -> Plain],FontSlant -> Plain],FontSlant -> Plain],StyleBox[
+Cell[
+SubscriptBox["\[Theta]",
+"1"],ExpressionUUID -> "64cf498e-833e-402d-9250-2dd485f3b83a"],ExpressionUUID -> "d253025c-941b-464d-89f4-baa3d6890b5b"],
+ExpressionUUID -> "4deac1e6-51b6-480c-8487-2bdca04b6750"],ExpressionUUID -> "dbb200ee-a9d3-4028-b734-16441eaad627"]]],StyleBox[
+RowBox[{StyleBox[StyleBox[StyleBox[" ",FontSlant -> Plain],FontSlant -> Plain],FontSlant -> Plain],StyleBox[
 StyleBox[StyleBox[",",FontSlant -> Plain],FontSlant -> Plain],FontSlant -> Plain],StyleBox[
 StyleBox[StyleBox[" ",FontSlant -> Plain],FontSlant -> Plain],FontSlant -> Plain],StyleBox[
 StyleBox[StyleBox["...",FontSlant -> Plain],FontSlant -> Plain],FontSlant -> Plain],StyleBox[
@@ -1507,8 +1493,10 @@ FontSlant -> Plain],FontSlant -> Plain],StyleBox[StyleBox[StyleBox[StyleBox[Styl
 FontSlant -> Plain]}]],Cell[
 BoxData[Cell[
 Cell[
-SubscriptBox["\[Theta]","d"],ExpressionUUID -> "464fd7d2-8aab-412c-9ac8-b67003b72f60"],
-ExpressionUUID -> "dceb6e7b-12ce-49f5-ac70-0d8249174680"]]],StyleBox[RowBox[{StyleBox[
+Cell[
+SubscriptBox["\[Theta]","d"],
+ExpressionUUID -> "464fd7d2-8aab-412c-9ac8-b67003b72f60"],ExpressionUUID -> "dceb6e7b-12ce-49f5-ac70-0d8249174680"],
+ExpressionUUID -> "669e8f1a-63ad-4a95-bce5-58f5fcf02269"]]],StyleBox[RowBox[{StyleBox[
 StyleBox[StyleBox[StyleBox[StyleBox[" ",FontSlant -> Plain],FontSlant -> Plain],FontSlant -> Plain],
 FontSlant -> Plain],FontSlant -> Plain],StyleBox[StyleBox[StyleBox[StyleBox[StyleBox[
 " ",FontSlant -> Plain],FontSlant -> Plain],FontSlant -> Plain],FontSlant -> Plain],
@@ -1524,9 +1512,11 @@ FontSlant -> Plain],FontSlant -> Plain],FontSlant -> Plain],StyleBox[RowBox[{Sty
 StyleBox[StyleBox[StyleBox[StyleBox[" ",FontSlant -> Plain],FontSlant -> Plain],FontSlant -> Plain],
 FontSlant -> Plain],FontSlant -> Plain]," "}]],Cell[
 BoxData[Cell[
-StyleBox[SubscriptBox[
-"\[Theta]","n"],Bold,StripOnInput -> False],ExpressionUUID -> "e332a600-0015-4508-9196-a73a253bedc2"]]],"\n","\n",StyleBox[
-RowBox[{" "," "," "," "," "," "}]],"3",StyleBox[RowBox[{"."," "}]],"We"," ","continue"," ","until"," ","a"," ","given"," ","convergence"," ","criteria"," ","is"," ","obtained",StyleBox[
+Cell[
+StyleBox[
+SubscriptBox["\[Theta]","n"],Bold,StripOnInput -> False],ExpressionUUID -> "e332a600-0015-4508-9196-a73a253bedc2"],
+ExpressionUUID -> "7a75c31e-57ee-48cc-87a8-3a63e88f4608"]]],"\n","\n",StyleBox[RowBox[
+{" "," "," "," "," "," "}]],"3",StyleBox[RowBox[{"."," "}]],"We"," ","continue"," ","until"," ","a"," ","given"," ","convergence"," ","criteria"," ","is"," ","obtained",StyleBox[
 RowBox[{" ","("}]],"fixed"," ","point",")"}],"Text",ExpressionUUID -> "c96ff4e9-f8cb-4607-9cac-0d86f0ec7f85"],Cell[
 TextData[
 {"There"," ","are"," ","many"," ","other"," ","methods",StyleBox[RowBox[{","," "}]],"but"," ","they"," ","often"," ","consist"," ","in"," ","tweaking"," ","the"," ","updating"," ","rule","."}],
@@ -1550,4 +1540,5 @@ ButtonNote -> "https://reference.wolframcloud.com/language/ref/method/LinearRegr
 "Item",ExpressionUUID -> "be7f02c8-504c-46bb-8285-0d3078e034f9"]},Open],ExpressionUUID -> "316f67d8-010b-489b-b513-72882e2c2101"]},
 Open],ExpressionUUID -> "34b894a9-df8c-4a36-8ab0-d1c68ce972b0"]},Open],ExpressionUUID -> "994eb017-5e8a-4462-b202-4b0a0ea9f9d2"]},
 Open],ExpressionUUID -> "8c2c72e9-65fc-4699-98f0-3b490187bd48"]},StyleDefinitions -> "Default.nb",
-FrontEndVersion -> "12.3 for Wolfram Cloud 1.60 (September 28, 2021)",TaggingRules -> {"TryRealOnly" -> False}]
+FrontEndVersion -> "12.3 for Wolfram Cloud 1.60 (September 28, 2021)",Magnification -> 0.75`,
+TaggingRules -> {"TryRealOnly" -> False}]
