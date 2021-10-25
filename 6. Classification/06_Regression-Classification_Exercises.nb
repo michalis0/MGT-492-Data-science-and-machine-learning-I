@@ -1,0 +1,86 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+TextData[{"Data"," ","Science"," ","and"," ","Machine"," ","Learning"}],
+"Title",ExpressionUUID -> "48c4ef4c-9562-4570-b813-89f93fcf1e42"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Exercises",StyleBox[RowBox[{":"," "}]],"Prediction",StyleBox[RowBox[
+{" ","&"," "}]],"Classification"}],"Subtitle",ExpressionUUID -> "44a823fd-471a-4f96-8544-3983bb7679d8"],Cell[
+CellGroupData[
+{Cell[
+"\<Prediction\>","Section",ExpressionUUID -> "47d8ac7f-159b-4a8f-ac0c-28a4af8ce7f5"],Cell[
+TextData[
+{"The"," ","objective"," ","is"," ","to"," ","predict"," ","the"," ","value"," ","of"," ","houses",StyleBox[
+RowBox[{"."," "}]],"\n","We"," ","use"," ","data"," ","from"," ","the"," ","Wolfram"," ","Data"," ","Repository"," ","of",ButtonBox[
+RowBox[{" ","housing"," ","values"," ","in"," ","the"," ","suburbs"," ","of"," ","Boston"}],
+BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://datarepository.wolframcloud.com/resources/Sample-Data-Boston-Homes"],None},
+ButtonNote -> "https://datarepository.wolframcloud.com/resources/Sample-Data-Boston-Homes"],"."}],
+"Text",Background -> RGBColor[0.8392156862745098`,0.8235294117647058`,0.8235294117647058`],
+ExpressionUUID -> "53810a89-16e6-41c4-aa42-00c576d7cff7"],Cell[
+BoxData[RowBox[{RowBox[
+{"bostonHomes","=",RowBox[{"ResourceData","[","\"Sample Data: Boston Homes\"","]"}]}],";"}]],
+"Input",CellLabel -> "In[104]:= ",ExpressionUUID -> "66810382-21fc-4532-be23-43a5622dd268"],Cell[
+TextData[
+{"Create"," ","a"," ","training"," ","and"," ","test"," ","sets"," ","from"," ","the"," ","Boston"," ","Homes"," ","dataset","."}],
+"Text",Background -> RGBColor[0.8392156862745098`,0.8235294117647058`,0.8235294117647058`],
+ExpressionUUID -> "ff20c0d3-2aee-4816-a13f-2fd53829ad6b"],Cell[
+TextData[{"Build"," ","a"," ","predictor"," ","for"," ","the"," ","home"," ","value",StyleBox[
+RowBox[{" ","(\[OpenCurlyDoubleQuote]"}]],"MEDV",StyleBox[RowBox[{"\[CloseCurlyDoubleQuote]"," "}]],"column",StyleBox[
+RowBox[{")"," "}]],"based"," ","on"," ","the"," ","other"," ","factors","."}],"Text",
+Background -> RGBColor[0.8392156862745098`,0.8235294117647058`,0.8235294117647058`],
+ExpressionUUID -> "b37c60e5-e6b9-4514-b14f-ff3bcd1ef428"],Cell[
+TextData[{"Analyse"," ","the"," ","performance"," ","of"," ","your"," ","predictor",StyleBox[
+RowBox[{","," "}]],"comparing"," ","the"," ","predictions"," ","with"," ","the"," ","actual"," ","values","."}],
+"Text",Background -> RGBColor[0.8392156862745098`,0.8235294117647058`,0.8235294117647058`],
+ExpressionUUID -> "4d87ff59-f8df-4f6d-a843-3117ba1eed77"],Cell[
+TextData[{"Obtain"," ","information"," ","about"," ","your"," ","predictor",StyleBox[
+RowBox[{"."," "}]],"What"," ","algorithm",StyleBox[RowBox[{" ","("}]],"Method",StyleBox[
+RowBox[{")"," "}]],"was"," ","used","?"}],"Text",Background -> RGBColor[0.8392156862745098`,
+0.8235294117647058`,0.8235294117647058`],ExpressionUUID -> "6a6632a4-6541-4a7f-af88-634f89feb1a3"],Cell[
+TextData[
+{"Build"," ","and"," ","analyse"," ","the"," ","performance"," ","of"," ","a"," ","predictor"," ","that"," ","is"," ","using",StyleBox[
+RowBox[{" ","\""}]],"LinearRegression",StyleBox[RowBox[{"\""," "}]],"as"," ","Method",StyleBox[
+RowBox[{"."," "}]],"How"," ","does"," ","it"," ","compare"," ","to"," ","the"," ","previous"," ","predictor","?"}],
+"Text",Background -> RGBColor[0.8392156862745098`,0.8235294117647058`,0.8235294117647058`],
+ExpressionUUID -> "d8e88293-994b-44b3-a2ac-62a70470c730"]},Open],ExpressionUUID -> "5ad2dd46-f298-47f5-9031-2ccac860e6a9"],Cell[
+CellGroupData[
+{Cell[
+"\<Classification\>","Section",ExpressionUUID -> "265b51fa-742a-4f81-8ba8-2365232a0ee8"],Cell[
+TextData[
+{"The"," ","objective"," ","is"," ","to"," ","recognize"," ","handwritten"," ","digits",".","\n","We"," ","use"," ","the"," ",ButtonBox[
+"MNIST",BaseStyle -> "HyperlinkActionNew",ButtonData -> {URL["https://datarepository.wolframcloud.com/resources/MNIST"],None},
+ButtonNote -> "https://datarepository.wolframcloud.com/resources/MNIST"]," ","dataset","."}],
+"Text",Background -> RGBColor[0.8392156862745098`,0.8235294117647058`,0.8235294117647058`],
+ExpressionUUID -> "5374d1b9-758d-45fa-a94a-8f0f67401e3f"],Cell[
+BoxData[RowBox[{RowBox[
+{"mnist","=",RowBox[{"ResourceData","[","\"MNIST\"","]"}]}],";"}]],"Input",CellLabel -> "In[101]:= ",
+ExpressionUUID -> "9b4b3335-7b25-411f-8a11-f677148962cc"],Cell[
+TextData[{"Create"," ","a"," ","training"," ","and"," ","test"," ","sets"," ","from"," ","the"," ","MNIST"," ","dataset","."}],
+"Text",Background -> RGBColor[0.8392156862745098`,0.8235294117647058`,0.8235294117647058`],
+ExpressionUUID -> "cbe19564-b226-433c-bddd-e8ec94cb65b9"],Cell[
+TextData[{"Train"," ","a"," ","classifier"," ","on"," ","the",StyleBox[
+RowBox[{" ","\[OpenCurlyDoubleQuote]"}]],"MNIST",StyleBox[RowBox[{"\[CloseCurlyDoubleQuote]"," "}]],"dataset","."}],
+"Text",Background -> RGBColor[0.8392156862745098`,0.8235294117647058`,0.8235294117647058`],
+ExpressionUUID -> "bee03fd9-7df7-436e-a984-96365a22cc7a"],Cell[
+TextData[{"Visualize"," ","the"," ","learning"," ","curves","."}],
+"Text",Background -> RGBColor[0.8392156862745098`,0.8235294117647058`,0.8235294117647058`],
+ExpressionUUID -> "5e0f7a7b-cbd6-4ec0-9280-0af62cce4986"],Cell[
+TextData[{"Test"," ","its"," ","accuracy",StyleBox[
+RowBox[{"."," "}]],"Compare"," ","with"," ","the"," ","accuracy"," ","estimated"," ","by"," ","the"," ","training"," ","procedure","."}],
+"Text",Background -> RGBColor[0.8392156862745098`,0.8235294117647058`,0.8235294117647058`],
+ExpressionUUID -> "386ebdde-9c5e-4c0f-8f08-5a5d26d890d6"],Cell[
+TextData[{"Visualize"," ","the"," ","confusion"," ","matrix","."}],
+"Text",Background -> RGBColor[0.8392156862745098`,0.8235294117647058`,0.8235294117647058`],
+ExpressionUUID -> "feb47ef2-87a1-44e5-86fb-6e902df5c47f"],Cell[
+TextData[{"Find"," ","the"," ","three"," ","worst"," ","classified"," ","examples"," ","from"," ","the"," ","test"," ","set",".","\n","Identify"," ","the"," ","predicted"," ","class",".","\n","Analyse"," ","the"," ","predicted"," ","probabilities"," ","of"," ","the"," ","worst"," ","classified"," ","example","."}],
+"Text",Background -> RGBColor[0.8392156862745098`,0.8235294117647058`,0.8235294117647058`],
+ExpressionUUID -> "04655775-6dc3-4005-a488-c380f826d072"],Cell[
+TextData[{"Build"," ","and"," ","analyse"," ","the"," ","performance",StyleBox[
+RowBox[{" ","("}]],"accuracy",StyleBox[RowBox[{","," "}]],"confusion"," ","matrix",StyleBox[
+RowBox[{")"," "}]],"of"," ","a"," ","classifier"," ","that"," ","is"," ","using"," ","another"," ","Method",StyleBox[
+RowBox[{"."," "}]],"How"," ","does"," ","it"," ","compare"," ","to"," ","the"," ","previous"," ","predictor","?"}],
+"Text",Background -> RGBColor[0.8392156862745098`,0.8235294117647058`,0.8235294117647058`],
+ExpressionUUID -> "0406a77f-b14d-44d9-850f-1a38714eccac"]},Open],ExpressionUUID -> "447e4b49-761e-4117-bc15-34a61cf67a38"]},
+Open],ExpressionUUID -> "994eb017-5e8a-4462-b202-4b0a0ea9f9d2"]},Open],ExpressionUUID -> "8c2c72e9-65fc-4699-98f0-3b490187bd48"]},
+StyleDefinitions -> "Default.nb",FrontEndVersion -> "12.3 for Wolfram Cloud 1.60 (September 28, 2021)",
+TaggingRules -> {"TryRealOnly" -> False}]
