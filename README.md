@@ -12,4 +12,4 @@ Use this repository to view the code and assignments for the course.
 - Week 9: [Text Analytics](9.%20Text-analytics)
 - Week 10: [AI Fairness](week10)
 - Week 11: [Neural Networks](week11)
-- Week 12: [Clustering](week12)
+
