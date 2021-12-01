@@ -10,6 +10,6 @@ Use this repository to view the code and assignments for the course.
 - Week 6: [Classification](6.%20Classification)
 - Week 8: [Dimensionality Reduction](8.%20Dimensionality-Reduction)
 - Week 9: [Text Analytics](9.%20Text-analytics)
-- Week 10: [AI Fairness](week10)
-- Week 11: [Neural Networks](week11)
+- Week 10: [AI Fairness](10.%20AI-Fairness)
+- Week 11: [Neural Networks](11.%20Neural-Networks)
 
